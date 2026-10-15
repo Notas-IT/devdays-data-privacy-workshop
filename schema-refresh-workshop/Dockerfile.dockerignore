@@ -1,0 +1,9 @@
+.git/
+database-workshop/
+log-pipeline-workshop/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+.agents/
+.codex/
+.aws/

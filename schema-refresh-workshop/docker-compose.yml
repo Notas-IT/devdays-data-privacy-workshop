@@ -1,0 +1,68 @@
+name: devdays-schema-refresh-workshop
+
+x-runtime: &runtime
+  image: devdays-schema-refresh-runtime
+  build:
+    context: ..
+    dockerfile: schema-refresh-workshop/Dockerfile
+  environment:
+    SOURCE_DSN: postgresql://production_reader:reader-demo@refresh-prod:5432/production
+    SOURCE_ADMIN_DSN: postgresql://production_admin:production-demo@refresh-prod:5432/production
+    TARGET_DSN: postgresql://preprod_admin:preprod-demo@refresh-preprod:5432/preprod
+  volumes:
+    - refresh_state:/state
+  networks: [refresh_network]
+
+services:
+  refresh-prod:
+    image: postgres:16
+    profiles: ["refresh"]
+    environment:
+      POSTGRES_DB: production
+      POSTGRES_USER: production_admin
+      POSTGRES_PASSWORD: production-demo
+    ports:
+      - "127.0.0.1:15432:5432"
+    volumes:
+      - refresh_production:/var/lib/postgresql/data
+    networks: [refresh_network]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U production_admin -d production"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+  refresh-preprod:
+    image: postgres:16
+    profiles: ["refresh"]
+    environment:
+      POSTGRES_DB: preprod
+      POSTGRES_USER: preprod_admin
+      POSTGRES_PASSWORD: preprod-demo
+    ports:
+      - "127.0.0.1:15433:5432"
+    volumes:
+      - refresh_preproduction:/var/lib/postgresql/data
+    networks: [refresh_network]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U preprod_admin -d preprod"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+  refresh-runner:
+    <<: *runtime
+    profiles: ["refresh-tools"]
+
+  refresh-scheduler:
+    <<: *runtime
+    profiles: ["refresh-scheduled"]
+    command: ["python", "refresh.py", "watch", "--interval", "30"]
+
+networks:
+  refresh_network:
+
+volumes:
+  refresh_production:
+  refresh_preproduction:
+  refresh_state:

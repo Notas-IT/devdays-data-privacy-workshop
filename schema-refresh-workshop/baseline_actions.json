@@ -1,0 +1,16 @@
+{
+  "companies.company_id": {"action": "keep"},
+  "companies.company_name": {"action": "constant", "value": "Synthetic Company"},
+  "companies.annual_profit_eur": {"action": "constant", "value": 0},
+  "people.person_id": {"action": "keep"},
+  "people.first_name": {"action": "constant", "value": "Person"},
+  "people.last_name": {"action": "constant", "value": "Anonymous"},
+  "people.email": {"action": "token_email", "scope": "email"},
+  "people.national_id": {"action": "token_id", "scope": "national_id"},
+  "people.birth_date": {"action": "constant", "value": "2000-01-01"},
+  "employment.contract_id": {"action": "keep"},
+  "employment.employee_email": {"action": "token_email", "scope": "email"},
+  "employment.company_id": {"action": "keep"},
+  "employment.salary_eur": {"action": "constant", "value": 3500},
+  "employment.department": {"action": "keep"}
+}

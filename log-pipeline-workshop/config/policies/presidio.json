@@ -1,0 +1,13 @@
+{
+  "version": "presidio-v1",
+  "message_action": "presidio",
+  "field_actions": {
+    "employee_name": "replace",
+    "national_id": "replace",
+    "email": "replace",
+    "phone": "replace",
+    "address": "replace",
+    "salary_eur": "replace",
+    "company_profit_eur": "drop"
+  }
+}

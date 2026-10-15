@@ -1,0 +1,8 @@
+name: devdays-data-privacy-workshop
+
+include:
+  - ./database-workshop/docker-compose.yml
+  - ./presidio-workshop/docker-compose.yml
+  - ./log-pipeline-workshop/docker-compose.yml
+  - ./schema-refresh-workshop/docker-compose.yml
+

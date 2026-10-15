@@ -1,0 +1,1201 @@
+company_id,registration_number,company_name,industry,headquarters_city,employee_count,annual_revenue_eur,annual_profit_eur
+1,CR00000001,Daukantas Energy UAB,Energy,Vilnius,218,12071096,-724265
+2,CR00000002,Vasiliauskas Construction UAB,Construction,Kaunas,923,146054597,-7302729
+3,CR00000003,Kavaliauskas Manufacturing UAB,Manufacturing,Siauliai,317,67902351,17654611
+4,CR00000004,Kavaliauskas Energy UAB,Energy,Kaunas,2222,196629224,-5898876
+5,CR00000005,Stankevicius Healthcare UAB,Healthcare,Utena,2550,182067450,18206745
+6,CR00000006,Jankauskas Finance UAB,Finance,Marijampole,1886,375072592,48759436
+7,CR00000007,Sakalauskas Healthcare UAB,Healthcare,Vilnius,35,4607610,0
+8,CR00000008,Urbonas Logistics UAB,Logistics,Klaipeda,1693,300544746,-12021789
+9,CR00000009,Jankauskas Construction UAB,Construction,Vilnius,1652,316153152,25292252
+10,CR00000010,Navickas Manufacturing UAB,Manufacturing,Alytus,804,57029328,-1140586
+11,CR00000011,Mikalauskas Energy UAB,Energy,Vilnius,1970,203904850,26507630
+12,CR00000012,Sakalauskas Retail UAB,Retail,Utena,1990,209043530,-6271305
+13,CR00000013,Butkus Finance UAB,Finance,Kaunas,124,17257452,345149
+14,CR00000014,Kazlauskas Retail UAB,Retail,Panevezys,1941,337592307,27007384
+15,CR00000015,Kazlauskas Retail UAB,Retail,Siauliai,1751,110645690,23235594
+16,CR00000016,Paulauskas Manufacturing UAB,Manufacturing,Kaunas,251,24753871,-1732770
+17,CR00000017,Zukauskas Manufacturing UAB,Manufacturing,Marijampole,749,138758991,-11100719
+18,CR00000018,Banys Professional Services UAB,Professional Services,Panevezys,720,178315920,10698955
+19,CR00000019,Daukantas Energy UAB,Energy,Panevezys,1516,261688888,2616888
+20,CR00000020,Zukauskas Logistics UAB,Logistics,Vilnius,410,44000380,-3080026
+21,CR00000021,Mikalauskas Energy UAB,Energy,Utena,671,93990996,26317478
+22,CR00000022,Petrauskas Education UAB,Education,Utena,2383,329099449,55946906
+23,CR00000023,Butkus Logistics UAB,Logistics,Klaipeda,416,70059392,1401187
+24,CR00000024,Jankauskas Education UAB,Education,Vilnius,488,91072512,15482327
+25,CR00000025,Kazlauskas Energy UAB,Energy,Siauliai,415,32891240,2302386
+26,CR00000026,Navickas Retail UAB,Retail,Kaunas,2394,212783508,44684536
+27,CR00000027,Navickas Professional Services UAB,Professional Services,Utena,151,28116804,7872705
+28,CR00000028,Kazlauskas Manufacturing UAB,Manufacturing,Vilnius,1534,249686112,67415250
+29,CR00000029,Vasiliauskas Healthcare UAB,Healthcare,Utena,240,34424880,8950468
+30,CR00000030,Butkus Logistics UAB,Logistics,Klaipeda,2293,443328620,-4433286
+31,CR00000031,Zukauskas Technology UAB,Technology,Alytus,652,84461384,16047662
+32,CR00000032,Kavaliauskas Manufacturing UAB,Manufacturing,Kaunas,2109,450440220,49548424
+33,CR00000033,Vasiliauskas Logistics UAB,Logistics,Kaunas,1045,130647990,-1306479
+34,CR00000034,Paulauskas Finance UAB,Finance,Kaunas,514,88893216,24001168
+35,CR00000035,Balciunas Logistics UAB,Logistics,Marijampole,2387,444289923,106629581
+36,CR00000036,Kavaliauskas Construction UAB,Construction,Panevezys,316,67371200,14821664
+37,CR00000037,Urbonas Education UAB,Education,Marijampole,2013,416266257,0
+38,CR00000038,Vasiliauskas Professional Services UAB,Professional Services,Marijampole,1303,230795178,48466987
+39,CR00000039,Sakalauskas Retail UAB,Retail,Utena,2351,475388657,95077731
+40,CR00000040,Vasiliauskas Healthcare UAB,Healthcare,Alytus,617,117337975,31681253
+41,CR00000041,Butkus Education UAB,Education,Siauliai,506,40674810,6101221
+42,CR00000042,Kavaliauskas Energy UAB,Energy,Kaunas,266,56262458,7314119
+43,CR00000043,Paulauskas Retail UAB,Retail,Alytus,363,82723707,20680926
+44,CR00000044,Jankauskas Technology UAB,Technology,Panevezys,2496,447393024,22369651
+45,CR00000045,Daukantas Healthcare UAB,Healthcare,Utena,2468,624596504,149903160
+46,CR00000046,Kairys Finance UAB,Finance,Klaipeda,1459,131374196,-1313741
+47,CR00000047,Petrauskas Energy UAB,Energy,Kaunas,2505,598993095,155738204
+48,CR00000048,Zukauskas Manufacturing UAB,Manufacturing,Alytus,2063,466487623,0
+49,CR00000049,Vasiliauskas Technology UAB,Technology,Vilnius,679,115046365,29912054
+50,CR00000050,Stankevicius Education UAB,Education,Vilnius,1245,125183505,6259175
+51,CR00000051,Kazlauskas Technology UAB,Technology,Siauliai,2387,620011315,-49600905
+52,CR00000052,Vasiliauskas Healthcare UAB,Healthcare,Klaipeda,407,28742340,7185585
+53,CR00000053,Jankauskas Logistics UAB,Logistics,Siauliai,2447,283888705,-17033322
+54,CR00000054,Jankauskas Manufacturing UAB,Manufacturing,Utena,1048,231982136,13918928
+55,CR00000055,Stankevicius Finance UAB,Finance,Siauliai,1641,321284826,70682661
+56,CR00000056,Petrauskas Energy UAB,Energy,Vilnius,2283,305819265,76454816
+57,CR00000057,Navickas Healthcare UAB,Healthcare,Alytus,224,22339744,-670192
+58,CR00000058,Navickas Finance UAB,Finance,Kaunas,1356,312608172,-12504326
+59,CR00000059,Petrauskas Finance UAB,Finance,Marijampole,267,39681006,-1587240
+60,CR00000060,Paulauskas Education UAB,Education,Vilnius,261,29635506,592710
+61,CR00000061,Daukantas Education UAB,Education,Panevezys,2450,345971850,44976340
+62,CR00000062,Daukantas Healthcare UAB,Healthcare,Klaipeda,61,14833309,3411661
+63,CR00000063,Daukantas Manufacturing UAB,Manufacturing,Siauliai,2417,302294190,15114709
+64,CR00000064,Petrauskas Professional Services UAB,Professional Services,Kaunas,975,172056300,15485067
+65,CR00000065,Daukantas Professional Services UAB,Professional Services,Klaipeda,145,18682815,1494625
+66,CR00000066,Mikalauskas Healthcare UAB,Healthcare,Panevezys,2314,209324440,14652710
+67,CR00000067,Daukantas Professional Services UAB,Professional Services,Panevezys,1427,160427621,32085524
+68,CR00000068,Zukauskas Retail UAB,Retail,Marijampole,871,52713791,13705585
+69,CR00000069,Kazlauskas Finance UAB,Finance,Marijampole,1396,160778716,35371317
+70,CR00000070,Sakalauskas Technology UAB,Technology,Alytus,1460,266400360,39960054
+71,CR00000071,Mikalauskas Technology UAB,Technology,Klaipeda,340,55751500,6132665
+72,CR00000072,Daukantas Energy UAB,Energy,Marijampole,1307,317973495,47696024
+73,CR00000073,Paulauskas Retail UAB,Retail,Utena,1081,280800560,-22464044
+74,CR00000074,Balciunas Retail UAB,Retail,Vilnius,548,44217024,0
+75,CR00000075,Kazlauskas Construction UAB,Construction,Klaipeda,1227,115039839,19556772
+76,CR00000076,Daukantas Technology UAB,Technology,Marijampole,2505,589874895,47189991
+77,CR00000077,Stankevicius Finance UAB,Finance,Panevezys,813,172085271,46463023
+78,CR00000078,Stankevicius Education UAB,Education,Alytus,1559,289906963,78274880
+79,CR00000079,Butkus Manufacturing UAB,Manufacturing,Marijampole,2545,540593630,124336534
+80,CR00000080,Navickas Healthcare UAB,Healthcare,Vilnius,1608,273559392,41033908
+81,CR00000081,Urbonas Energy UAB,Energy,Utena,247,63368097,1901042
+82,CR00000082,Sakalauskas Manufacturing UAB,Manufacturing,Marijampole,2149,420120904,8402418
+83,CR00000083,Kazlauskas Education UAB,Education,Marijampole,604,128405568,8988389
+84,CR00000084,Banys Construction UAB,Construction,Panevezys,1182,88171290,-3526851
+85,CR00000085,Paulauskas Retail UAB,Retail,Alytus,1757,388655428,66071422
+86,CR00000086,Balciunas Healthcare UAB,Healthcare,Panevezys,64,4524416,950127
+87,CR00000087,Urbonas Finance UAB,Finance,Kaunas,1676,401527700,104397202
+88,CR00000088,Stankevicius Technology UAB,Technology,Siauliai,1902,366068430,0
+89,CR00000089,Vasiliauskas Energy UAB,Energy,Siauliai,1405,171539260,30877066
+90,CR00000090,Kazlauskas Finance UAB,Finance,Utena,615,77824560,8560701
+91,CR00000091,Stankevicius Professional Services UAB,Professional Services,Panevezys,1679,198951426,23874171
+92,CR00000092,Paulauskas Healthcare UAB,Healthcare,Marijampole,1132,274668480,-19226793
+93,CR00000093,Zukauskas Retail UAB,Retail,Klaipeda,1575,184385250,12906967
+94,CR00000094,Vasiliauskas Education UAB,Education,Kaunas,2360,189305040,-11358302
+95,CR00000095,Kazlauskas Logistics UAB,Logistics,Klaipeda,840,188645520,7545820
+96,CR00000096,Zukauskas Manufacturing UAB,Manufacturing,Alytus,2343,312347673,62469534
+97,CR00000097,Jankauskas Retail UAB,Retail,Vilnius,98,12063212,603160
+98,CR00000098,Mockus Energy UAB,Energy,Kaunas,1100,254211100,22878999
+99,CR00000099,Mikalauskas Healthcare UAB,Healthcare,Alytus,207,19718406,985920
+100,CR00000100,Stankevicius Construction UAB,Construction,Panevezys,1466,256189364,28180830
+101,CR00000101,Stankevicius Logistics UAB,Logistics,Utena,212,53227688,3725938
+102,CR00000102,Butkus Logistics UAB,Logistics,Vilnius,1003,82950106,-3318004
+103,CR00000103,Mockus Energy UAB,Energy,Marijampole,2256,330925872,36401845
+104,CR00000104,Banys Education UAB,Education,Alytus,499,33200965,-2656077
+105,CR00000105,Zukauskas Professional Services UAB,Professional Services,Kaunas,876,138425520,4152765
+106,CR00000106,Petrauskas Technology UAB,Technology,Utena,2465,499832980,134954904
+107,CR00000107,Vasiliauskas Logistics UAB,Logistics,Klaipeda,2235,450296625,-36023730
+108,CR00000108,Banys Education UAB,Education,Marijampole,344,65404032,15696967
+109,CR00000109,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,1378,287301976,74698513
+110,CR00000110,Mikalauskas Technology UAB,Technology,Panevezys,2442,336717612,40406113
+111,CR00000111,Urbonas Finance UAB,Finance,Alytus,2549,229234119,48139164
+112,CR00000112,Jankauskas Logistics UAB,Logistics,Klaipeda,826,79011030,16592316
+113,CR00000113,Stankevicius Finance UAB,Finance,Siauliai,1047,136083825,27216765
+114,CR00000114,Sakalauskas Technology UAB,Technology,Alytus,1669,191132211,26758509
+115,CR00000115,Jankauskas Retail UAB,Retail,Kaunas,70,13930980,-417929
+116,CR00000116,Navickas Professional Services UAB,Professional Services,Utena,1993,321327404,73905302
+117,CR00000117,Kairys Professional Services UAB,Professional Services,Kaunas,193,24835626,5215481
+118,CR00000118,Petrauskas Finance UAB,Finance,Siauliai,2550,446576400,-26794584
+119,CR00000119,Jankauskas Healthcare UAB,Healthcare,Klaipeda,1797,291550671,55394627
+120,CR00000120,Mikalauskas Professional Services UAB,Professional Services,Panevezys,1566,217150956,36915662
+121,CR00000121,Kavaliauskas Energy UAB,Energy,Siauliai,320,68539520,9595532
+122,CR00000122,Balciunas Retail UAB,Retail,Marijampole,448,29776320,-297763
+123,CR00000123,Petrauskas Retail UAB,Retail,Alytus,296,36843120,3315880
+124,CR00000124,Kazlauskas Education UAB,Education,Panevezys,783,149032305,4470969
+125,CR00000125,Urbonas Finance UAB,Finance,Klaipeda,2381,225464033,54111367
+126,CR00000126,Urbonas Retail UAB,Retail,Utena,1919,200825269,0
+127,CR00000127,Paulauskas Healthcare UAB,Healthcare,Klaipeda,1712,96469488,20258592
+128,CR00000128,Balciunas Education UAB,Education,Vilnius,513,111475413,21180328
+129,CR00000129,Kavaliauskas Logistics UAB,Logistics,Alytus,575,58314775,8747216
+130,CR00000130,Zukauskas Manufacturing UAB,Manufacturing,Marijampole,729,108389907,23845779
+131,CR00000131,Navickas Retail UAB,Retail,Utena,2382,572556576,143139144
+132,CR00000132,Navickas Professional Services UAB,Professional Services,Panevezys,2046,216980346,-2169803
+133,CR00000133,Kazlauskas Finance UAB,Finance,Marijampole,607,61880615,2475224
+134,CR00000134,Urbonas Logistics UAB,Logistics,Vilnius,1988,314117916,34552970
+135,CR00000135,Balciunas Retail UAB,Retail,Marijampole,398,72962156,13862809
+136,CR00000136,Jankauskas Retail UAB,Retail,Klaipeda,91,13007540,780452
+137,CR00000137,Mockus Technology UAB,Technology,Alytus,1079,274343303,5486866
+138,CR00000138,Kavaliauskas Technology UAB,Technology,Marijampole,2445,369234120,22154047
+139,CR00000139,Navickas Finance UAB,Finance,Kaunas,2436,302470812,21172956
+140,CR00000140,Banys Logistics UAB,Logistics,Marijampole,2167,122478840,7348730
+141,CR00000141,Butkus Professional Services UAB,Professional Services,Vilnius,1237,229954589,18396367
+142,CR00000142,Kazlauskas Education UAB,Education,Klaipeda,2395,534295760,5342957
+143,CR00000143,Butkus Logistics UAB,Logistics,Utena,433,101062200,7074354
+144,CR00000144,Kairys Retail UAB,Retail,Klaipeda,2252,577198860,109667783
+145,CR00000145,Balciunas Education UAB,Education,Marijampole,114,9974430,1196931
+146,CR00000146,Jankauskas Retail UAB,Retail,Siauliai,2102,221960690,-17756855
+147,CR00000147,Daukantas Professional Services UAB,Professional Services,Klaipeda,2073,537265629,5372656
+148,CR00000148,Petrauskas Construction UAB,Construction,Vilnius,1530,110143170,20927202
+149,CR00000149,Urbonas Energy UAB,Energy,Marijampole,389,29068803,7557888
+150,CR00000150,Daukantas Logistics UAB,Logistics,Siauliai,1384,241101104,48220220
+151,CR00000151,Balciunas Technology UAB,Technology,Klaipeda,2418,610310454,164783822
+152,CR00000152,Kavaliauskas Manufacturing UAB,Manufacturing,Vilnius,1357,254973515,0
+153,CR00000153,Banys Education UAB,Education,Panevezys,2599,598794006,0
+154,CR00000154,Stankevicius Logistics UAB,Logistics,Siauliai,1429,175008201,1750082
+155,CR00000155,Kazlauskas Finance UAB,Finance,Siauliai,1611,411323742,78151510
+156,CR00000156,Banys Retail UAB,Retail,Siauliai,178,28053334,7293866
+157,CR00000157,Kazlauskas Technology UAB,Technology,Kaunas,2310,505878450,10117569
+158,CR00000158,Mikalauskas Education UAB,Education,Vilnius,1716,169513344,44073469
+159,CR00000159,Kazlauskas Logistics UAB,Logistics,Utena,1826,395297958,-23717877
+160,CR00000160,Stankevicius Construction UAB,Construction,Marijampole,1481,252737093,40437934
+161,CR00000161,Kavaliauskas Manufacturing UAB,Manufacturing,Marijampole,1778,337782662,67556532
+162,CR00000162,Butkus Logistics UAB,Logistics,Utena,123,14961474,4189212
+163,CR00000163,Jankauskas Logistics UAB,Logistics,Klaipeda,1015,253162315,63290578
+164,CR00000164,Urbonas Manufacturing UAB,Manufacturing,Kaunas,1575,126992250,12699225
+165,CR00000165,Kavaliauskas Manufacturing UAB,Manufacturing,Kaunas,1148,293464388,0
+166,CR00000166,Butkus Retail UAB,Retail,Utena,2135,528692185,37008452
+167,CR00000167,Kairys Technology UAB,Technology,Panevezys,1862,472752490,122915647
+168,CR00000168,Kavaliauskas Construction UAB,Construction,Panevezys,124,13344136,2001620
+169,CR00000169,Mockus Manufacturing UAB,Manufacturing,Vilnius,1165,195387975,1953879
+170,CR00000170,Balciunas Finance UAB,Finance,Utena,2531,598857379,41920016
+171,CR00000171,Stankevicius Professional Services UAB,Professional Services,Alytus,2208,340109280,13604371
+172,CR00000172,Mockus Logistics UAB,Logistics,Siauliai,1876,287829052,48930938
+173,CR00000173,Stankevicius Technology UAB,Technology,Siauliai,326,61460128,11677424
+174,CR00000174,Kazlauskas Technology UAB,Technology,Utena,1675,422403175,84480635
+175,CR00000175,Urbonas Education UAB,Education,Alytus,707,154428596,-3088571
+176,CR00000176,Paulauskas Professional Services UAB,Professional Services,Utena,2563,336437321,26914985
+177,CR00000177,Navickas Retail UAB,Retail,Utena,2219,271485774,48867439
+178,CR00000178,Stankevicius Logistics UAB,Logistics,Alytus,2177,468808242,-4688082
+179,CR00000179,Balciunas Retail UAB,Retail,Marijampole,910,169818740,5094562
+180,CR00000180,Banys Finance UAB,Finance,Kaunas,702,117830700,14139684
+181,CR00000181,Kavaliauskas Healthcare UAB,Healthcare,Vilnius,2039,115896760,-5794838
+182,CR00000182,Vasiliauskas Manufacturing UAB,Manufacturing,Marijampole,2052,347095800,0
+183,CR00000183,Balciunas Retail UAB,Retail,Utena,1685,218979230,-17518338
+184,CR00000184,Vasiliauskas Professional Services UAB,Professional Services,Marijampole,2202,267100398,21368031
+185,CR00000185,Banys Finance UAB,Finance,Utena,1707,214564779,-2145647
+186,CR00000186,Kavaliauskas Manufacturing UAB,Manufacturing,Alytus,1707,407377257,101844314
+187,CR00000187,Kairys Education UAB,Education,Siauliai,575,141444825,19802275
+188,CR00000188,Balciunas Construction UAB,Construction,Siauliai,231,27726699,2772669
+189,CR00000189,Zukauskas Logistics UAB,Logistics,Utena,1960,277963280,11118531
+190,CR00000190,Mikalauskas Manufacturing UAB,Manufacturing,Alytus,953,84685486,5081129
+191,CR00000191,Navickas Professional Services UAB,Professional Services,Utena,2512,230405664,32256792
+192,CR00000192,Stankevicius Retail UAB,Retail,Siauliai,161,33078738,-2315511
+193,CR00000193,Petrauskas Education UAB,Education,Alytus,661,91733580,-917335
+194,CR00000194,Mikalauskas Professional Services UAB,Professional Services,Klaipeda,2486,638412258,-38304735
+195,CR00000195,Navickas Finance UAB,Finance,Marijampole,507,91178373,-911783
+196,CR00000196,Paulauskas Technology UAB,Technology,Kaunas,877,98105605,7848448
+197,CR00000197,Banys Healthcare UAB,Healthcare,Panevezys,2454,569193030,91070884
+198,CR00000198,Kairys Logistics UAB,Logistics,Siauliai,233,52247920,-4179833
+199,CR00000199,Vasiliauskas Logistics UAB,Logistics,Utena,137,19364265,-387285
+200,CR00000200,Navickas Logistics UAB,Logistics,Alytus,1574,220281300,46259073
+201,CR00000201,Navickas Healthcare UAB,Healthcare,Panevezys,809,149464368,-11957149
+202,CR00000202,Stankevicius Retail UAB,Retail,Utena,508,80138016,21637264
+203,CR00000203,Sakalauskas Technology UAB,Technology,Marijampole,31,1755220,0
+204,CR00000204,Vasiliauskas Professional Services UAB,Professional Services,Panevezys,2495,494513990,39561119
+205,CR00000205,Mikalauskas Manufacturing UAB,Manufacturing,Alytus,2348,426540028,-21327001
+206,CR00000206,Daukantas Manufacturing UAB,Manufacturing,Klaipeda,754,171201732,47936484
+207,CR00000207,Urbonas Healthcare UAB,Healthcare,Klaipeda,420,92475600,12021828
+208,CR00000208,Mockus Retail UAB,Retail,Alytus,1027,231931518,32470412
+209,CR00000209,Butkus Logistics UAB,Logistics,Alytus,1592,246261704,-17238319
+210,CR00000210,Daukantas Technology UAB,Technology,Kaunas,1866,217808850,60986478
+211,CR00000211,Balciunas Manufacturing UAB,Manufacturing,Kaunas,1062,190809540,17172858
+212,CR00000212,Kavaliauskas Education UAB,Education,Klaipeda,1034,77205678,9264681
+213,CR00000213,Butkus Logistics UAB,Logistics,Alytus,1598,101599242,-2031984
+214,CR00000214,Zukauskas Energy UAB,Energy,Vilnius,1962,412604676,0
+215,CR00000215,Navickas Logistics UAB,Logistics,Marijampole,15,3736995,672659
+216,CR00000216,Jankauskas Manufacturing UAB,Manufacturing,Marijampole,2198,160974926,19316991
+217,CR00000217,Zukauskas Professional Services UAB,Professional Services,Alytus,139,15144606,1363014
+218,CR00000218,Paulauskas Logistics UAB,Logistics,Kaunas,1003,189904008,9495200
+219,CR00000219,Urbonas Technology UAB,Technology,Utena,2463,491343870,88441896
+220,CR00000220,Kairys Technology UAB,Technology,Alytus,1054,260057636,52011527
+221,CR00000221,Navickas Technology UAB,Technology,Siauliai,1369,137547537,1375475
+222,CR00000222,Stankevicius Construction UAB,Construction,Siauliai,107,22602573,3842437
+223,CR00000223,Banys Logistics UAB,Logistics,Utena,694,166163032,-3323260
+224,CR00000224,Daukantas Healthcare UAB,Healthcare,Alytus,2264,392020656,70563718
+225,CR00000225,Mikalauskas Education UAB,Education,Panevezys,2281,476343511,4763435
+226,CR00000226,Zukauskas Healthcare UAB,Healthcare,Vilnius,1292,118033244,10622991
+227,CR00000227,Zukauskas Education UAB,Education,Alytus,1870,320216930,57639047
+228,CR00000228,Sakalauskas Healthcare UAB,Healthcare,Siauliai,1713,326674239,81668559
+229,CR00000229,Banys Retail UAB,Retail,Vilnius,667,151330961,15133096
+230,CR00000230,Urbonas Finance UAB,Finance,Siauliai,1830,393453660,-19672683
+231,CR00000231,Zukauskas Technology UAB,Technology,Marijampole,820,53132720,6907253
+232,CR00000232,Balciunas Education UAB,Education,Utena,148,21905628,5257350
+233,CR00000233,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,1770,252456870,45442236
+234,CR00000234,Petrauskas Finance UAB,Finance,Utena,1612,120603392,1206033
+235,CR00000235,Navickas Professional Services UAB,Professional Services,Vilnius,1076,173760012,43440003
+236,CR00000236,Navickas Construction UAB,Construction,Siauliai,2054,508338298,71167361
+237,CR00000237,Paulauskas Construction UAB,Construction,Vilnius,1187,139299198,8357951
+238,CR00000238,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,526,89313748,8931374
+239,CR00000239,Daukantas Technology UAB,Technology,Alytus,302,47993236,10078579
+240,CR00000240,Paulauskas Energy UAB,Energy,Kaunas,1445,278441385,72394760
+241,CR00000241,Vasiliauskas Finance UAB,Finance,Kaunas,1301,165488501,26478160
+242,CR00000242,Jankauskas Retail UAB,Retail,Alytus,1340,177047500,3540950
+243,CR00000243,Navickas Finance UAB,Finance,Alytus,2361,303808758,24304700
+244,CR00000244,Urbonas Energy UAB,Energy,Siauliai,2026,489252662,73387899
+245,CR00000245,Vasiliauskas Logistics UAB,Logistics,Marijampole,313,39726899,6356303
+246,CR00000246,Daukantas Education UAB,Education,Marijampole,2070,451514610,-27090876
+247,CR00000247,Kairys Healthcare UAB,Healthcare,Vilnius,377,41193659,411936
+248,CR00000248,Butkus Energy UAB,Energy,Alytus,2244,142758792,15703467
+249,CR00000249,Paulauskas Construction UAB,Construction,Klaipeda,1326,274710072,8241302
+250,CR00000250,Kairys Education UAB,Education,Klaipeda,1164,298254048,-11930161
+251,CR00000251,Zukauskas Professional Services UAB,Professional Services,Marijampole,2240,345244480,31072003
+252,CR00000252,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,2289,415561083,112201492
+253,CR00000253,Petrauskas Energy UAB,Energy,Alytus,2231,450586146,-36046891
+254,CR00000254,Vasiliauskas Manufacturing UAB,Manufacturing,Alytus,588,38275272,8420559
+255,CR00000255,Sakalauskas Energy UAB,Energy,Klaipeda,1930,452143030,49735733
+256,CR00000256,Kairys Healthcare UAB,Healthcare,Vilnius,1662,294484794,2944847
+257,CR00000257,Zukauskas Finance UAB,Finance,Panevezys,1095,111018765,23313940
+258,CR00000258,Navickas Technology UAB,Technology,Vilnius,1473,270973080,56904346
+259,CR00000259,Kairys Construction UAB,Construction,Kaunas,486,43302114,6928338
+260,CR00000260,Butkus Energy UAB,Energy,Panevezys,1330,148340220,-2966804
+261,CR00000261,Petrauskas Finance UAB,Finance,Siauliai,76,11328256,679695
+262,CR00000262,Urbonas Education UAB,Education,Panevezys,2289,426584907,-4265849
+263,CR00000263,Paulauskas Energy UAB,Energy,Alytus,1862,238937426,35840613
+264,CR00000264,Banys Construction UAB,Construction,Utena,1296,93606192,25273671
+265,CR00000265,Petrauskas Professional Services UAB,Professional Services,Panevezys,1156,113744620,1137446
+266,CR00000266,Kairys Energy UAB,Energy,Vilnius,2229,208391439,6251743
+267,CR00000267,Stankevicius Manufacturing UAB,Manufacturing,Siauliai,794,44553722,4009834
+268,CR00000268,Zukauskas Energy UAB,Energy,Alytus,594,58694328,13499695
+269,CR00000269,Sakalauskas Manufacturing UAB,Manufacturing,Vilnius,775,180024750,48606682
+270,CR00000270,Petrauskas Professional Services UAB,Professional Services,Vilnius,989,179574708,43097929
+271,CR00000271,Navickas Education UAB,Education,Utena,586,133555846,22704493
+272,CR00000272,Vasiliauskas Healthcare UAB,Healthcare,Marijampole,456,40070088,2404205
+273,CR00000273,Banys Finance UAB,Finance,Panevezys,1236,128637936,18009311
+274,CR00000274,Paulauskas Energy UAB,Energy,Klaipeda,230,30951790,3404696
+275,CR00000275,Mockus Healthcare UAB,Healthcare,Panevezys,1826,331293006,19877580
+276,CR00000276,Paulauskas Healthcare UAB,Healthcare,Siauliai,2266,315542766,-12621710
+277,CR00000277,Zukauskas Logistics UAB,Logistics,Marijampole,833,184553649,46138412
+278,CR00000278,Paulauskas Energy UAB,Energy,Klaipeda,2265,291414900,23313192
+279,CR00000279,Kavaliauskas Energy UAB,Energy,Panevezys,279,33238665,8309666
+280,CR00000280,Jankauskas Manufacturing UAB,Manufacturing,Panevezys,2530,197727090,53386314
+281,CR00000281,Vasiliauskas Healthcare UAB,Healthcare,Siauliai,374,90022922,16204125
+282,CR00000282,Kairys Professional Services UAB,Professional Services,Kaunas,220,47197700,0
+283,CR00000283,Kairys Professional Services UAB,Professional Services,Klaipeda,299,39062257,9765564
+284,CR00000284,Petrauskas Retail UAB,Retail,Marijampole,1574,285060844,54161560
+285,CR00000285,Vasiliauskas Professional Services UAB,Professional Services,Kaunas,941,73394236,16880674
+286,CR00000286,Balciunas Finance UAB,Finance,Vilnius,1180,287449180,57489836
+287,CR00000287,Sakalauskas Education UAB,Education,Kaunas,450,34235100,-342351
+288,CR00000288,Jankauskas Finance UAB,Finance,Klaipeda,594,135595944,35254945
+289,CR00000289,Kairys Finance UAB,Finance,Klaipeda,2082,176193414,21143209
+290,CR00000290,Sakalauskas Healthcare UAB,Healthcare,Alytus,2363,266310100,5326202
+291,CR00000291,Paulauskas Logistics UAB,Logistics,Kaunas,1524,157924500,3158490
+292,CR00000292,Banys Manufacturing UAB,Manufacturing,Klaipeda,923,206381877,-6191456
+293,CR00000293,Daukantas Professional Services UAB,Professional Services,Klaipeda,631,140046033,1400460
+294,CR00000294,Balciunas Healthcare UAB,Healthcare,Siauliai,614,40753022,3667771
+295,CR00000295,Kavaliauskas Professional Services UAB,Professional Services,Vilnius,67,5518187,1434728
+296,CR00000296,Mockus Education UAB,Education,Alytus,990,106598250,20253667
+297,CR00000297,Mikalauskas Finance UAB,Finance,Kaunas,1330,255258920,-15315535
+298,CR00000298,Kairys Logistics UAB,Logistics,Siauliai,398,92614202,23153550
+299,CR00000299,Stankevicius Manufacturing UAB,Manufacturing,Alytus,2355,313177320,34449505
+300,CR00000300,Mikalauskas Energy UAB,Energy,Siauliai,1247,242038959,19363116
+301,CR00000301,Mockus Manufacturing UAB,Manufacturing,Marijampole,678,71079486,-2132384
+302,CR00000302,Kairys Professional Services UAB,Professional Services,Siauliai,1804,462964128,27777847
+303,CR00000303,Kazlauskas Manufacturing UAB,Manufacturing,Vilnius,395,94622250,-7569780
+304,CR00000304,Navickas Manufacturing UAB,Manufacturing,Vilnius,1652,384324584,0
+305,CR00000305,Navickas Construction UAB,Construction,Siauliai,420,81353160,-813531
+306,CR00000306,Kazlauskas Retail UAB,Retail,Panevezys,2373,439220943,96628607
+307,CR00000307,Paulauskas Healthcare UAB,Healthcare,Utena,1396,247745328,-17342172
+308,CR00000308,Zukauskas Finance UAB,Finance,Alytus,1605,367675005,-14707000
+309,CR00000309,Banys Logistics UAB,Logistics,Kaunas,96,12902496,2322449
+310,CR00000310,Vasiliauskas Education UAB,Education,Kaunas,2341,186790731,16811165
+311,CR00000311,Navickas Technology UAB,Technology,Panevezys,2364,432680556,12980416
+312,CR00000312,Jankauskas Education UAB,Education,Vilnius,2152,256075088,2560750
+313,CR00000313,Stankevicius Education UAB,Education,Kaunas,2513,467365227,126188611
+314,CR00000314,Vasiliauskas Logistics UAB,Logistics,Utena,2187,356244804,42749376
+315,CR00000315,Balciunas Energy UAB,Energy,Alytus,1666,298770444,-8963113
+316,CR00000316,Kairys Manufacturing UAB,Manufacturing,Vilnius,1801,307302829,73752678
+317,CR00000317,Banys Technology UAB,Technology,Panevezys,1266,115820010,30113202
+318,CR00000318,Vasiliauskas Logistics UAB,Logistics,Vilnius,2264,269207712,-13460385
+319,CR00000319,Stankevicius Construction UAB,Construction,Alytus,931,146472368,8788342
+320,CR00000320,Kairys Logistics UAB,Logistics,Utena,308,78704780,3148191
+321,CR00000321,Butkus Professional Services UAB,Professional Services,Marijampole,1259,94247481,942474
+322,CR00000322,Stankevicius Technology UAB,Technology,Vilnius,439,77463745,-1549274
+323,CR00000323,Sakalauskas Manufacturing UAB,Manufacturing,Utena,1366,173039416,34607883
+324,CR00000324,Kazlauskas Energy UAB,Energy,Klaipeda,844,205270928,2052709
+325,CR00000325,Petrauskas Manufacturing UAB,Manufacturing,Kaunas,1082,268631386,24176824
+326,CR00000326,Butkus Healthcare UAB,Healthcare,Kaunas,2272,138646528,0
+327,CR00000327,Zukauskas Manufacturing UAB,Manufacturing,Utena,1459,140713255,35178313
+328,CR00000328,Daukantas Manufacturing UAB,Manufacturing,Alytus,1677,100936953,2018739
+329,CR00000329,Jankauskas Retail UAB,Retail,Utena,1291,299388064,59877612
+330,CR00000330,Vasiliauskas Professional Services UAB,Professional Services,Panevezys,15,3893880,661959
+331,CR00000331,Urbonas Construction UAB,Construction,Siauliai,1582,265059354,66264838
+332,CR00000332,Kairys Construction UAB,Construction,Marijampole,1253,128653028,0
+333,CR00000333,Kazlauskas Construction UAB,Construction,Klaipeda,1224,282635064,39568908
+334,CR00000334,Vasiliauskas Logistics UAB,Logistics,Utena,863,75898261,19733547
+335,CR00000335,Urbonas Energy UAB,Energy,Kaunas,2034,207425286,-12445517
+336,CR00000336,Kairys Logistics UAB,Logistics,Vilnius,1698,247408788,66800372
+337,CR00000337,Balciunas Construction UAB,Construction,Siauliai,973,152828137,25980783
+338,CR00000338,Navickas Retail UAB,Retail,Vilnius,1017,188539596,7541583
+339,CR00000339,Navickas Energy UAB,Energy,Alytus,2297,231620292,50956464
+340,CR00000340,Urbonas Education UAB,Education,Kaunas,2296,586499424,0
+341,CR00000341,Stankevicius Professional Services UAB,Professional Services,Siauliai,1452,344685924,55149747
+342,CR00000342,Kavaliauskas Manufacturing UAB,Manufacturing,Klaipeda,751,123084394,-8615907
+343,CR00000343,Mockus Retail UAB,Retail,Siauliai,1633,402590022,32207201
+344,CR00000344,Vasiliauskas Education UAB,Education,Kaunas,2480,229814160,-4596283
+345,CR00000345,Kairys Healthcare UAB,Healthcare,Kaunas,2358,270582858,59528228
+346,CR00000346,Balciunas Manufacturing UAB,Manufacturing,Siauliai,651,125355909,-1253559
+347,CR00000347,Kairys Finance UAB,Finance,Kaunas,2072,356323912,46322108
+348,CR00000348,Kairys Finance UAB,Finance,Klaipeda,1274,122445414,4897816
+349,CR00000349,Butkus Healthcare UAB,Healthcare,Panevezys,1688,272443200,40866480
+350,CR00000350,Daukantas Technology UAB,Technology,Siauliai,2512,142304800,9961336
+351,CR00000351,Paulauskas Manufacturing UAB,Manufacturing,Utena,1918,199439394,7977575
+352,CR00000352,Kavaliauskas Professional Services UAB,Professional Services,Panevezys,379,41223830,5771336
+353,CR00000353,Urbonas Professional Services UAB,Professional Services,Vilnius,1783,255623361,7668700
+354,CR00000354,Kavaliauskas Professional Services UAB,Professional Services,Alytus,1126,251829900,12591495
+355,CR00000355,Stankevicius Finance UAB,Finance,Utena,2226,450744966,49581946
+356,CR00000356,Stankevicius Retail UAB,Retail,Vilnius,1053,240460974,48092194
+357,CR00000357,Zukauskas Technology UAB,Technology,Alytus,1641,416648259,116661512
+358,CR00000358,Zukauskas Retail UAB,Retail,Kaunas,2101,416764865,91688270
+359,CR00000359,Daukantas Manufacturing UAB,Manufacturing,Panevezys,2440,402397480,16095899
+360,CR00000360,Kazlauskas Manufacturing UAB,Manufacturing,Panevezys,1598,153733992,-4612019
+361,CR00000361,Daukantas Logistics UAB,Logistics,Alytus,1279,75565878,9823564
+362,CR00000362,Jankauskas Manufacturing UAB,Manufacturing,Utena,2121,260836338,5216726
+363,CR00000363,Paulauskas Technology UAB,Technology,Kaunas,406,27276704,-1363835
+364,CR00000364,Kazlauskas Manufacturing UAB,Manufacturing,Kaunas,2406,222826878,35652300
+365,CR00000365,Kavaliauskas Energy UAB,Energy,Utena,62,8080212,1616042
+366,CR00000366,Kavaliauskas Finance UAB,Finance,Vilnius,339,30807303,1848438
+367,CR00000367,Butkus Retail UAB,Retail,Utena,1920,316389120,63277824
+368,CR00000368,Urbonas Professional Services UAB,Professional Services,Utena,1358,112526596,3375797
+369,CR00000369,Banys Education UAB,Education,Siauliai,1468,194984164,29247624
+370,CR00000370,Sakalauskas Finance UAB,Finance,Kaunas,2315,306897235,33758695
+371,CR00000371,Balciunas Manufacturing UAB,Manufacturing,Panevezys,713,40956146,10648597
+372,CR00000372,Sakalauskas Retail UAB,Retail,Utena,2086,331732408,69663805
+373,CR00000373,Mikalauskas Professional Services UAB,Professional Services,Kaunas,2461,567201436,39704100
+374,CR00000374,Kavaliauskas Energy UAB,Energy,Utena,1135,80429505,4021475
+375,CR00000375,Banys Technology UAB,Technology,Siauliai,1893,170915184,42728796
+376,CR00000376,Jankauskas Logistics UAB,Logistics,Panevezys,512,132407296,19861094
+377,CR00000377,Mockus Retail UAB,Retail,Klaipeda,157,28588130,5431744
+378,CR00000378,Vasiliauskas Professional Services UAB,Professional Services,Utena,2594,326722082,45741091
+379,CR00000379,Vasiliauskas Construction UAB,Construction,Alytus,1993,126047285,-3781418
+380,CR00000380,Vasiliauskas Construction UAB,Construction,Siauliai,1979,238776245,-11938812
+381,CR00000381,Kazlauskas Logistics UAB,Logistics,Panevezys,2035,217787735,10889386
+382,CR00000382,Kairys Technology UAB,Technology,Marijampole,2556,393690456,-11810713
+383,CR00000383,Balciunas Finance UAB,Finance,Kaunas,1172,86960056,-3478402
+384,CR00000384,Sakalauskas Finance UAB,Finance,Alytus,1788,345924360,17296218
+385,CR00000385,Sakalauskas Energy UAB,Energy,Marijampole,2365,509056790,-20362271
+386,CR00000386,Butkus Logistics UAB,Logistics,Kaunas,384,97836288,19567257
+387,CR00000387,Sakalauskas Education UAB,Education,Alytus,1252,181739068,30895641
+388,CR00000388,Balciunas Energy UAB,Energy,Siauliai,1343,146208381,-1462083
+389,CR00000389,Navickas Healthcare UAB,Healthcare,Panevezys,1667,190274714,1902747
+390,CR00000390,Sakalauskas Professional Services UAB,Professional Services,Klaipeda,1966,229976782,41395820
+391,CR00000391,Banys Finance UAB,Finance,Klaipeda,1234,246286656,61571664
+392,CR00000392,Vasiliauskas Education UAB,Education,Utena,2366,482794130,-14483823
+393,CR00000393,Kairys Technology UAB,Technology,Kaunas,27,4952259,1337109
+394,CR00000394,Sakalauskas Healthcare UAB,Healthcare,Siauliai,1143,223739964,6712198
+395,CR00000395,Mikalauskas Finance UAB,Finance,Marijampole,2591,596064732,137094888
+396,CR00000396,Kazlauskas Logistics UAB,Logistics,Vilnius,1307,226720062,31740808
+397,CR00000397,Kairys Manufacturing UAB,Manufacturing,Marijampole,2241,156769155,-1567691
+398,CR00000398,Zukauskas Healthcare UAB,Healthcare,Panevezys,953,200742779,-12044566
+399,CR00000399,Kavaliauskas Logistics UAB,Logistics,Kaunas,239,41708368,7507506
+400,CR00000400,Navickas Finance UAB,Finance,Panevezys,902,144322706,1443227
+401,CR00000401,Jankauskas Education UAB,Education,Klaipeda,918,100744992,-4029799
+402,CR00000402,Petrauskas Retail UAB,Retail,Siauliai,660,158868600,42894522
+403,CR00000403,Urbonas Logistics UAB,Logistics,Panevezys,363,27182166,2990038
+404,CR00000404,Petrauskas Retail UAB,Retail,Klaipeda,2093,385122465,65470819
+405,CR00000405,Kazlauskas Construction UAB,Construction,Klaipeda,1846,177053552,31869639
+406,CR00000406,Mockus Healthcare UAB,Healthcare,Panevezys,1082,121271642,33956059
+407,CR00000407,Kairys Finance UAB,Finance,Siauliai,1419,226981821,40856727
+408,CR00000408,Banys Logistics UAB,Logistics,Utena,281,30101563,-903046
+409,CR00000409,Vasiliauskas Logistics UAB,Logistics,Utena,2551,171906788,36100425
+410,CR00000410,Stankevicius Professional Services UAB,Professional Services,Klaipeda,2126,214764268,45100496
+411,CR00000411,Paulauskas Logistics UAB,Logistics,Kaunas,1575,192400425,-7696017
+412,CR00000412,Kazlauskas Education UAB,Education,Vilnius,337,61001718,15860446
+413,CR00000413,Urbonas Construction UAB,Construction,Alytus,2130,490289790,68640570
+414,CR00000414,Sakalauskas Logistics UAB,Logistics,Kaunas,938,189995652,-7599826
+415,CR00000415,Kavaliauskas Retail UAB,Retail,Panevezys,166,13122300,1574676
+416,CR00000416,Mockus Professional Services UAB,Professional Services,Utena,621,132164325,-3964929
+417,CR00000417,Urbonas Construction UAB,Construction,Kaunas,1556,251441820,67889291
+418,CR00000418,Kairys Logistics UAB,Logistics,Marijampole,2208,510438816,-35730717
+419,CR00000419,Balciunas Retail UAB,Retail,Utena,1071,118868148,13075496
+420,CR00000420,Kavaliauskas Finance UAB,Finance,Marijampole,1982,430173280,68827724
+421,CR00000421,Balciunas Finance UAB,Finance,Vilnius,294,54094236,8114135
+422,CR00000422,Kavaliauskas Construction UAB,Construction,Marijampole,1940,141943980,1419439
+423,CR00000423,Mikalauskas Finance UAB,Finance,Siauliai,484,43904124,1756164
+424,CR00000424,Vasiliauskas Finance UAB,Finance,Vilnius,938,228181632,38790877
+425,CR00000425,Stankevicius Construction UAB,Construction,Panevezys,1314,79951644,22386460
+426,CR00000426,Kavaliauskas Finance UAB,Finance,Vilnius,931,226990834,45398166
+427,CR00000427,Kavaliauskas Construction UAB,Construction,Marijampole,360,39924360,9182602
+428,CR00000428,Navickas Construction UAB,Construction,Klaipeda,642,158950212,-11126514
+429,CR00000429,Stankevicius Education UAB,Education,Panevezys,826,186984098,22438091
+430,CR00000430,Sakalauskas Construction UAB,Construction,Klaipeda,2309,540883250,-32452995
+431,CR00000431,Jankauskas Logistics UAB,Logistics,Kaunas,524,53345296,7468341
+432,CR00000432,Butkus Education UAB,Education,Klaipeda,1880,145895520,-1458955
+433,CR00000433,Kavaliauskas Healthcare UAB,Healthcare,Klaipeda,1599,302282955,39296784
+434,CR00000434,Daukantas Retail UAB,Retail,Vilnius,968,194297928,5828937
+435,CR00000435,Mikalauskas Finance UAB,Finance,Alytus,2276,358868300,-17943415
+436,CR00000436,Mikalauskas Professional Services UAB,Professional Services,Utena,649,82323054,-1646461
+437,CR00000437,Stankevicius Retail UAB,Retail,Marijampole,1916,467958092,112309942
+438,CR00000438,Sakalauskas Logistics UAB,Logistics,Marijampole,369,76693698,2300810
+439,CR00000439,Balciunas Education UAB,Education,Utena,2287,443028492,70884558
+440,CR00000440,Kazlauskas Logistics UAB,Logistics,Vilnius,340,37476500,4122415
+441,CR00000441,Banys Healthcare UAB,Healthcare,Vilnius,2165,246638965,69058910
+442,CR00000442,Petrauskas Healthcare UAB,Healthcare,Klaipeda,58,6591004,1845481
+443,CR00000443,Kairys Logistics UAB,Logistics,Kaunas,2038,457200844,-4572008
+444,CR00000444,Butkus Manufacturing UAB,Manufacturing,Siauliai,646,107770888,20476468
+445,CR00000445,Banys Construction UAB,Construction,Kaunas,859,88346432,20319679
+446,CR00000446,Butkus Logistics UAB,Logistics,Vilnius,2453,260074419,36410418
+447,CR00000447,Daukantas Logistics UAB,Logistics,Marijampole,894,54539364,5999330
+448,CR00000448,Butkus Healthcare UAB,Healthcare,Alytus,2509,216857888,26022946
+449,CR00000449,Mikalauskas Professional Services UAB,Professional Services,Alytus,508,114143536,-6848612
+450,CR00000450,Kairys Retail UAB,Retail,Panevezys,2354,379224692,-30337975
+451,CR00000451,Urbonas Technology UAB,Technology,Utena,365,83105390,4155269
+452,CR00000452,Urbonas Finance UAB,Finance,Vilnius,1334,340137984,40816558
+453,CR00000453,Stankevicius Construction UAB,Construction,Vilnius,1201,309489293,34043822
+454,CR00000454,Butkus Finance UAB,Finance,Siauliai,704,129087552,15490506
+455,CR00000455,Kazlauskas Finance UAB,Finance,Vilnius,964,155866268,-10910638
+456,CR00000456,Zukauskas Logistics UAB,Logistics,Marijampole,1845,426766950,46944364
+457,CR00000457,Balciunas Manufacturing UAB,Manufacturing,Kaunas,2468,383260656,68986918
+458,CR00000458,Balciunas Healthcare UAB,Healthcare,Alytus,2304,260057088,-13002854
+459,CR00000459,Zukauskas Logistics UAB,Logistics,Utena,629,35769343,5007708
+460,CR00000460,Kavaliauskas Education UAB,Education,Utena,845,78442195,-5490953
+461,CR00000461,Kavaliauskas Education UAB,Education,Panevezys,1496,194456064,38891212
+462,CR00000462,Daukantas Construction UAB,Construction,Kaunas,2141,523423116,41873849
+463,CR00000463,Zukauskas Professional Services UAB,Professional Services,Vilnius,817,164342818,-1643428
+464,CR00000464,Sakalauskas Finance UAB,Finance,Siauliai,2068,257290220,41166435
+465,CR00000465,Jankauskas Healthcare UAB,Healthcare,Panevezys,1486,205365200,22590172
+466,CR00000466,Butkus Finance UAB,Finance,Klaipeda,1085,105871045,22232919
+467,CR00000467,Sakalauskas Finance UAB,Finance,Klaipeda,884,95002596,-3800103
+468,CR00000468,Sakalauskas Professional Services UAB,Professional Services,Klaipeda,2110,276996580,49859384
+469,CR00000469,Jankauskas Education UAB,Education,Kaunas,857,185356245,-3707124
+470,CR00000470,Banys Finance UAB,Finance,Klaipeda,1845,435001185,-13050035
+471,CR00000471,Petrauskas Manufacturing UAB,Manufacturing,Siauliai,1909,399790416,43976945
+472,CR00000472,Kavaliauskas Energy UAB,Energy,Vilnius,183,13988154,3497038
+473,CR00000473,Daukantas Finance UAB,Finance,Marijampole,1877,382999973,45959996
+474,CR00000474,Navickas Manufacturing UAB,Manufacturing,Klaipeda,292,34076400,1363056
+475,CR00000475,Mikalauskas Professional Services UAB,Professional Services,Marijampole,1161,177430986,0
+476,CR00000476,Butkus Healthcare UAB,Healthcare,Klaipeda,1474,243843820,53645640
+477,CR00000477,Kavaliauskas Energy UAB,Energy,Vilnius,729,104430708,9398763
+478,CR00000478,Vasiliauskas Retail UAB,Retail,Panevezys,1653,235965750,-14157945
+479,CR00000479,Mockus Energy UAB,Energy,Kaunas,914,81239062,-3249562
+480,CR00000480,Vasiliauskas Finance UAB,Finance,Panevezys,2264,565094400,158226432
+481,CR00000481,Kairys Professional Services UAB,Professional Services,Alytus,1794,440405472,118909477
+482,CR00000482,Kazlauskas Education UAB,Education,Alytus,2068,347548080,13901923
+483,CR00000483,Zukauskas Technology UAB,Technology,Alytus,1745,369409520,3694095
+484,CR00000484,Kavaliauskas Finance UAB,Finance,Panevezys,503,107330643,22539435
+485,CR00000485,Mikalauskas Education UAB,Education,Klaipeda,1490,270044620,56709370
+486,CR00000486,Vasiliauskas Technology UAB,Technology,Vilnius,2330,524834830,73476876
+487,CR00000487,Sakalauskas Healthcare UAB,Healthcare,Utena,2545,176630635,24728288
+488,CR00000488,Banys Retail UAB,Retail,Marijampole,2470,211283800,57046626
+489,CR00000489,Butkus Technology UAB,Technology,Marijampole,2529,401883390,-32150671
+490,CR00000490,Mockus Manufacturing UAB,Manufacturing,Klaipeda,152,35290448,3529044
+491,CR00000491,Mikalauskas Finance UAB,Finance,Kaunas,2466,231734952,-9269398
+492,CR00000492,Zukauskas Retail UAB,Retail,Utena,1125,141264000,-7063200
+493,CR00000493,Banys Construction UAB,Construction,Marijampole,1671,116370111,26765125
+494,CR00000494,Urbonas Energy UAB,Energy,Siauliai,382,68846714,17211678
+495,CR00000495,Daukantas Healthcare UAB,Healthcare,Marijampole,1831,377803047,3778030
+496,CR00000496,Stankevicius Finance UAB,Finance,Alytus,396,99635184,8967166
+497,CR00000497,Petrauskas Finance UAB,Finance,Vilnius,2282,527324560,121284648
+498,CR00000498,Kazlauskas Manufacturing UAB,Manufacturing,Marijampole,258,25381008,253810
+499,CR00000499,Kavaliauskas Professional Services UAB,Professional Services,Vilnius,575,115617550,12717930
+500,CR00000500,Paulauskas Logistics UAB,Logistics,Klaipeda,1088,263566912,-13178345
+501,CR00000501,Paulauskas Education UAB,Education,Kaunas,2381,197918244,13854277
+502,CR00000502,Sakalauskas Manufacturing UAB,Manufacturing,Alytus,2353,160924023,-8046201
+503,CR00000503,Daukantas Construction UAB,Construction,Klaipeda,1500,82923000,5804610
+504,CR00000504,Zukauskas Healthcare UAB,Healthcare,Panevezys,1979,503170645,130824367
+505,CR00000505,Balciunas Logistics UAB,Logistics,Alytus,1911,483098889,115943733
+506,CR00000506,Mockus Finance UAB,Finance,Vilnius,2216,309572984,61914596
+507,CR00000507,Sakalauskas Construction UAB,Construction,Kaunas,1869,290341674,2903416
+508,CR00000508,Mikalauskas Professional Services UAB,Professional Services,Panevezys,1078,214042290,42808458
+509,CR00000509,Banys Energy UAB,Energy,Klaipeda,2124,202865364,40573072
+510,CR00000510,Balciunas Construction UAB,Construction,Siauliai,602,70523698,9168080
+511,CR00000511,Mockus Healthcare UAB,Healthcare,Siauliai,327,26885613,1344280
+512,CR00000512,Mikalauskas Professional Services UAB,Professional Services,Marijampole,479,110290229,17646436
+513,CR00000513,Daukantas Professional Services UAB,Professional Services,Siauliai,2364,275275980,74324514
+514,CR00000514,Stankevicius Technology UAB,Technology,Kaunas,863,131006852,27511438
+515,CR00000515,Kairys Manufacturing UAB,Manufacturing,Alytus,104,6664528,66645
+516,CR00000516,Zukauskas Logistics UAB,Logistics,Marijampole,2422,364460138,91115034
+517,CR00000517,Kavaliauskas Healthcare UAB,Healthcare,Panevezys,115,25213750,756412
+518,CR00000518,Jankauskas Manufacturing UAB,Manufacturing,Panevezys,1285,101282415,10128241
+519,CR00000519,Kazlauskas Healthcare UAB,Healthcare,Vilnius,2226,432707688,69233230
+520,CR00000520,Paulauskas Technology UAB,Technology,Panevezys,709,48674977,-1460249
+521,CR00000521,Urbonas Professional Services UAB,Professional Services,Marijampole,2468,385918692,46310243
+522,CR00000522,Mockus Professional Services UAB,Professional Services,Alytus,1213,291408694,-17484521
+523,CR00000523,Urbonas Professional Services UAB,Professional Services,Utena,362,25151398,-1509083
+524,CR00000524,Mikalauskas Finance UAB,Finance,Klaipeda,2425,459653900,128703092
+525,CR00000525,Urbonas Manufacturing UAB,Manufacturing,Kaunas,459,73546488,10296508
+526,CR00000526,Paulauskas Healthcare UAB,Healthcare,Vilnius,1096,238172856,-16672099
+527,CR00000527,Urbonas Construction UAB,Construction,Alytus,1145,296551565,-2965515
+528,CR00000528,Daukantas Finance UAB,Finance,Alytus,1994,148419402,-4452582
+529,CR00000529,Mockus Professional Services UAB,Professional Services,Klaipeda,1017,248838543,57232864
+530,CR00000530,Kazlauskas Technology UAB,Technology,Marijampole,328,31898328,-2232882
+531,CR00000531,Daukantas Education UAB,Education,Vilnius,132,21022320,2943124
+532,CR00000532,Kazlauskas Education UAB,Education,Panevezys,1863,473349177,118337294
+533,CR00000533,Navickas Energy UAB,Energy,Siauliai,354,65403624,15042833
+534,CR00000534,Banys Healthcare UAB,Healthcare,Utena,1343,80580000,-3223200
+535,CR00000535,Kairys Retail UAB,Retail,Panevezys,229,43382447,9110313
+536,CR00000536,Mockus Construction UAB,Construction,Siauliai,1762,110489734,7734281
+537,CR00000537,Navickas Construction UAB,Construction,Marijampole,328,81546704,14678406
+538,CR00000538,Kairys Energy UAB,Energy,Klaipeda,1330,112838530,12412238
+539,CR00000539,Kazlauskas Technology UAB,Technology,Utena,1465,103231225,8258498
+540,CR00000540,Paulauskas Finance UAB,Finance,Vilnius,1371,290122794,-8703683
+541,CR00000541,Mockus Technology UAB,Technology,Panevezys,275,17754275,-1420342
+542,CR00000542,Zukauskas Energy UAB,Energy,Alytus,2229,514132224,51413222
+543,CR00000543,Vasiliauskas Professional Services UAB,Professional Services,Vilnius,1384,106473888,15971083
+544,CR00000544,Kairys Construction UAB,Construction,Utena,1736,142277352,14227735
+545,CR00000545,Butkus Logistics UAB,Logistics,Marijampole,238,50487654,12621913
+546,CR00000546,Vasiliauskas Manufacturing UAB,Manufacturing,Kaunas,2253,566073009,56607300
+547,CR00000547,Navickas Education UAB,Education,Kaunas,2175,254475000,38171250
+548,CR00000548,Paulauskas Technology UAB,Technology,Utena,456,60506184,11496174
+549,CR00000549,Mikalauskas Finance UAB,Finance,Utena,2176,264440576,47599303
+550,CR00000550,Petrauskas Finance UAB,Finance,Vilnius,1207,302365570,60473114
+551,CR00000551,Kazlauskas Technology UAB,Technology,Utena,2568,413445432,78554632
+552,CR00000552,Mockus Energy UAB,Energy,Kaunas,361,92185682,10140425
+553,CR00000553,Banys Finance UAB,Finance,Kaunas,2477,617521054,12350421
+554,CR00000554,Zukauskas Logistics UAB,Logistics,Utena,910,148954260,28301309
+555,CR00000555,Butkus Retail UAB,Retail,Marijampole,2074,142821862,9997530
+556,CR00000556,Banys Healthcare UAB,Healthcare,Kaunas,1173,236066250,54295237
+557,CR00000557,Banys Retail UAB,Retail,Siauliai,1154,144364246,2887284
+558,CR00000558,Vasiliauskas Energy UAB,Energy,Kaunas,285,40439790,-2830785
+559,CR00000559,Kairys Retail UAB,Retail,Vilnius,54,4012038,-160481
+560,CR00000560,Kairys Retail UAB,Retail,Utena,1731,214927884,6447836
+561,CR00000561,Sakalauskas Retail UAB,Retail,Siauliai,918,211450284,-4229005
+562,CR00000562,Jankauskas Technology UAB,Technology,Utena,2114,390863802,58629570
+563,CR00000563,Zukauskas Professional Services UAB,Professional Services,Siauliai,1849,102745232,-2054904
+564,CR00000564,Urbonas Energy UAB,Energy,Marijampole,1343,216993882,54248470
+565,CR00000565,Urbonas Finance UAB,Finance,Vilnius,1766,264617440,63508185
+566,CR00000566,Butkus Energy UAB,Energy,Vilnius,1931,220775092,28700761
+567,CR00000567,Mockus Retail UAB,Retail,Utena,1424,95783936,0
+568,CR00000568,Kavaliauskas Logistics UAB,Logistics,Panevezys,207,35935407,9343205
+569,CR00000569,Paulauskas Manufacturing UAB,Manufacturing,Panevezys,928,139096064,0
+570,CR00000570,Kairys Finance UAB,Finance,Alytus,763,161910889,3238217
+571,CR00000571,Balciunas Retail UAB,Retail,Klaipeda,1529,302139574,69492102
+572,CR00000572,Balciunas Retail UAB,Retail,Siauliai,139,19014783,3042365
+573,CR00000573,Kavaliauskas Logistics UAB,Logistics,Marijampole,375,82081500,-4924890
+574,CR00000574,Sakalauskas Healthcare UAB,Healthcare,Marijampole,2049,403505472,36315492
+575,CR00000575,Paulauskas Finance UAB,Finance,Panevezys,2036,302368396,-3023683
+576,CR00000576,Sakalauskas Construction UAB,Construction,Utena,615,101182260,1011822
+577,CR00000577,Kairys Energy UAB,Energy,Alytus,686,163893632,13111490
+578,CR00000578,Daukantas Education UAB,Education,Alytus,2315,555743530,83361529
+579,CR00000579,Kairys Manufacturing UAB,Manufacturing,Utena,2600,547710800,-38339756
+580,CR00000580,Kavaliauskas Construction UAB,Construction,Siauliai,822,146959626,32331117
+581,CR00000581,Sakalauskas Education UAB,Education,Utena,1050,154470750,7723537
+582,CR00000582,Mockus Education UAB,Education,Kaunas,899,218788731,8751549
+583,CR00000583,Mikalauskas Technology UAB,Technology,Vilnius,1590,240180630,-14410837
+584,CR00000584,Sakalauskas Technology UAB,Technology,Siauliai,2471,185337355,9266867
+585,CR00000585,Balciunas Logistics UAB,Logistics,Klaipeda,2136,547452528,-43796202
+586,CR00000586,Mikalauskas Education UAB,Education,Panevezys,1685,246134690,-7384040
+587,CR00000587,Banys Healthcare UAB,Healthcare,Utena,1420,356590400,-17829520
+588,CR00000588,Jankauskas Healthcare UAB,Healthcare,Kaunas,1359,161201862,-6448074
+589,CR00000589,Petrauskas Professional Services UAB,Professional Services,Kaunas,458,94189532,16012220
+590,CR00000590,Jankauskas Manufacturing UAB,Manufacturing,Alytus,457,90661488,23571986
+591,CR00000591,Butkus Retail UAB,Retail,Kaunas,1954,241182220,60295555
+592,CR00000592,Balciunas Construction UAB,Construction,Kaunas,435,47830860,4783086
+593,CR00000593,Mockus Energy UAB,Energy,Marijampole,1801,460951542,78361762
+594,CR00000594,Kavaliauskas Retail UAB,Retail,Klaipeda,2305,388203490,73758663
+595,CR00000595,Mikalauskas Construction UAB,Construction,Kaunas,2203,232068426,-6962052
+596,CR00000596,Petrauskas Energy UAB,Energy,Alytus,330,18703740,5050009
+597,CR00000597,Kavaliauskas Healthcare UAB,Healthcare,Vilnius,678,45527022,8650134
+598,CR00000598,Jankauskas Education UAB,Education,Vilnius,731,150271670,6010866
+599,CR00000599,Mikalauskas Energy UAB,Energy,Vilnius,2415,167968080,5039042
+600,CR00000600,Kazlauskas Professional Services UAB,Professional Services,Vilnius,596,76791024,9214922
+601,CR00000601,Butkus Retail UAB,Retail,Marijampole,160,15857600,2220064
+602,CR00000602,Banys Manufacturing UAB,Manufacturing,Klaipeda,2494,362465490,-21747929
+603,CR00000603,Petrauskas Manufacturing UAB,Manufacturing,Utena,2587,591401135,-23656045
+604,CR00000604,Butkus Education UAB,Education,Marijampole,1943,278410527,-5568210
+605,CR00000605,Daukantas Professional Services UAB,Professional Services,Panevezys,1982,260716244,-2607162
+606,CR00000606,Zukauskas Logistics UAB,Logistics,Kaunas,2073,268598610,8057958
+607,CR00000607,Zukauskas Finance UAB,Finance,Siauliai,902,166859176,30034651
+608,CR00000608,Kavaliauskas Energy UAB,Energy,Vilnius,2423,550995046,33059702
+609,CR00000609,Kazlauskas Healthcare UAB,Healthcare,Siauliai,878,107168680,-1071686
+610,CR00000610,Jankauskas Finance UAB,Finance,Klaipeda,862,157506364,36226463
+611,CR00000611,Banys Construction UAB,Construction,Alytus,785,79422375,-3971118
+612,CR00000612,Navickas Education UAB,Education,Klaipeda,1859,191114495,30578319
+613,CR00000613,Petrauskas Retail UAB,Retail,Marijampole,317,60591380,1817741
+614,CR00000614,Sakalauskas Technology UAB,Technology,Klaipeda,893,52820057,9507610
+615,CR00000615,Jankauskas Energy UAB,Energy,Vilnius,2016,402375456,60356318
+616,CR00000616,Navickas Logistics UAB,Logistics,Vilnius,816,83546976,22557683
+617,CR00000617,Butkus Retail UAB,Retail,Marijampole,1765,194998965,-3899979
+618,CR00000618,Banys Technology UAB,Technology,Klaipeda,2418,325842426,84719030
+619,CR00000619,Butkus Logistics UAB,Logistics,Klaipeda,2547,588581136,129487849
+620,CR00000620,Mikalauskas Education UAB,Education,Marijampole,1492,345283116,82867947
+621,CR00000621,Zukauskas Technology UAB,Technology,Siauliai,504,83654928,7528943
+622,CR00000622,Mikalauskas Construction UAB,Construction,Kaunas,240,42535200,5529576
+623,CR00000623,Kavaliauskas Finance UAB,Finance,Utena,1877,192811071,3856221
+624,CR00000624,Mockus Technology UAB,Technology,Klaipeda,1065,67399590,3369979
+625,CR00000625,Paulauskas Professional Services UAB,Professional Services,Marijampole,330,68438370,-4106302
+626,CR00000626,Balciunas Healthcare UAB,Healthcare,Alytus,1723,290042928,14502146
+627,CR00000627,Kavaliauskas Healthcare UAB,Healthcare,Marijampole,974,113420352,19281459
+628,CR00000628,Mikalauskas Construction UAB,Construction,Vilnius,1651,104237536,2084750
+629,CR00000629,Kazlauskas Construction UAB,Construction,Alytus,1893,202859559,54772080
+630,CR00000630,Kavaliauskas Logistics UAB,Logistics,Kaunas,1526,86600500,6062035
+631,CR00000631,Vasiliauskas Construction UAB,Construction,Alytus,1139,86226856,-6035879
+632,CR00000632,Kairys Professional Services UAB,Professional Services,Alytus,1563,359849490,-7196989
+633,CR00000633,Daukantas Construction UAB,Construction,Klaipeda,2206,296371688,-5927433
+634,CR00000634,Zukauskas Healthcare UAB,Healthcare,Klaipeda,686,64743308,-3884598
+635,CR00000635,Kairys Healthcare UAB,Healthcare,Siauliai,1006,161737638,-6469505
+636,CR00000636,Butkus Healthcare UAB,Healthcare,Marijampole,68,12731096,-127310
+637,CR00000637,Zukauskas Finance UAB,Finance,Utena,2042,524898142,146971479
+638,CR00000638,Kavaliauskas Retail UAB,Retail,Kaunas,2113,199564398,-1995643
+639,CR00000639,Kavaliauskas Technology UAB,Technology,Siauliai,184,34168800,3416880
+640,CR00000640,Mockus Finance UAB,Finance,Siauliai,1980,337112820,-23597897
+641,CR00000641,Balciunas Energy UAB,Energy,Siauliai,1645,145136705,24673239
+642,CR00000642,Stankevicius Healthcare UAB,Healthcare,Utena,2486,562290938,84343640
+643,CR00000643,Mikalauskas Energy UAB,Energy,Panevezys,262,38269292,8801937
+644,CR00000644,Butkus Finance UAB,Finance,Alytus,1447,325731276,52117004
+645,CR00000645,Kairys Education UAB,Education,Siauliai,244,24421472,4884294
+646,CR00000646,Banys Retail UAB,Retail,Panevezys,1507,168083245,13446659
+647,CR00000647,Vasiliauskas Construction UAB,Construction,Klaipeda,960,66431040,-3985862
+648,CR00000648,Stankevicius Logistics UAB,Logistics,Marijampole,2053,397041988,11911259
+649,CR00000649,Kazlauskas Retail UAB,Retail,Panevezys,216,45927000,6429780
+650,CR00000650,Mockus Construction UAB,Construction,Vilnius,1753,148053121,25169030
+651,CR00000651,Petrauskas Professional Services UAB,Professional Services,Klaipeda,1714,138383218,-9686825
+652,CR00000652,Jankauskas Healthcare UAB,Healthcare,Panevezys,2391,229868349,20688151
+653,CR00000653,Daukantas Energy UAB,Energy,Utena,1993,330572931,72726044
+654,CR00000654,Zukauskas Education UAB,Education,Siauliai,526,125824460,21390158
+655,CR00000655,Mikalauskas Energy UAB,Energy,Alytus,535,133518880,17357454
+656,CR00000656,Zukauskas Healthcare UAB,Healthcare,Kaunas,196,41920088,-1257602
+657,CR00000657,Jankauskas Manufacturing UAB,Manufacturing,Alytus,978,162971964,0
+658,CR00000658,Stankevicius Logistics UAB,Logistics,Alytus,2079,437494365,-26249661
+659,CR00000659,Banys Construction UAB,Construction,Utena,2257,424909591,-33992767
+660,CR00000660,Balciunas Finance UAB,Finance,Alytus,1298,295541620,79796237
+661,CR00000661,Kazlauskas Manufacturing UAB,Manufacturing,Klaipeda,545,123229950,27110589
+662,CR00000662,Kazlauskas Finance UAB,Finance,Siauliai,1001,188195007,50812651
+663,CR00000663,Petrauskas Professional Services UAB,Professional Services,Siauliai,933,109537932,24098345
+664,CR00000664,Jankauskas Healthcare UAB,Healthcare,Alytus,1514,96423632,-4821181
+665,CR00000665,Kavaliauskas Construction UAB,Construction,Klaipeda,2232,445134456,13354033
+666,CR00000666,Daukantas Retail UAB,Retail,Siauliai,253,35227973,8454713
+667,CR00000667,Kavaliauskas Finance UAB,Finance,Alytus,1157,246554386,36983157
+668,CR00000668,Daukantas Professional Services UAB,Professional Services,Utena,2557,351372712,0
+669,CR00000669,Navickas Education UAB,Education,Klaipeda,321,43213341,6914134
+670,CR00000670,Mikalauskas Education UAB,Education,Vilnius,1407,362576865,68889604
+671,CR00000671,Kavaliauskas Healthcare UAB,Healthcare,Kaunas,2273,434633968,113004831
+672,CR00000672,Mockus Technology UAB,Technology,Kaunas,1360,180557680,34305959
+673,CR00000673,Navickas Retail UAB,Retail,Utena,1581,192074109,26890375
+674,CR00000674,Navickas Professional Services UAB,Professional Services,Utena,516,92781444,17628474
+675,CR00000675,Balciunas Professional Services UAB,Professional Services,Utena,887,92868013,17644922
+676,CR00000676,Petrauskas Logistics UAB,Logistics,Utena,329,78731016,10235032
+677,CR00000677,Daukantas Technology UAB,Technology,Kaunas,1235,107810560,10781056
+678,CR00000678,Stankevicius Education UAB,Education,Klaipeda,203,31716314,6343262
+679,CR00000679,Stankevicius Finance UAB,Finance,Utena,1213,279651085,-8389532
+680,CR00000680,Petrauskas Education UAB,Education,Utena,1261,158013388,-1580133
+681,CR00000681,Stankevicius Retail UAB,Retail,Siauliai,2003,350370769,59563030
+682,CR00000682,Vasiliauskas Logistics UAB,Logistics,Marijampole,1451,327490700,49123605
+683,CR00000683,Navickas Manufacturing UAB,Manufacturing,Siauliai,1637,349758146,3497581
+684,CR00000684,Kairys Finance UAB,Finance,Kaunas,2027,521040350,98997666
+685,CR00000685,Balciunas Healthcare UAB,Healthcare,Marijampole,768,150147840,-1501478
+686,CR00000686,Zukauskas Professional Services UAB,Professional Services,Utena,1616,295005648,70801355
+687,CR00000687,Mikalauskas Finance UAB,Finance,Vilnius,1909,235398790,-2353987
+688,CR00000688,Urbonas Energy UAB,Energy,Siauliai,593,60634250,-1819027
+689,CR00000689,Mikalauskas Education UAB,Education,Marijampole,1365,301595385,15079769
+690,CR00000690,Banys Education UAB,Education,Panevezys,1347,88779423,22194855
+691,CR00000691,Daukantas Logistics UAB,Logistics,Klaipeda,2312,580892312,-46471384
+692,CR00000692,Mikalauskas Logistics UAB,Logistics,Klaipeda,2079,459579582,96511712
+693,CR00000693,Kairys Professional Services UAB,Professional Services,Vilnius,2555,209101200,-4182024
+694,CR00000694,Vasiliauskas Finance UAB,Finance,Panevezys,2532,153900024,20007003
+695,CR00000695,Sakalauskas Healthcare UAB,Healthcare,Alytus,138,7660518,0
+696,CR00000696,Kairys Construction UAB,Construction,Vilnius,1769,258792317,-10351692
+697,CR00000697,Vasiliauskas Manufacturing UAB,Manufacturing,Klaipeda,808,83931808,4196590
+698,CR00000698,Petrauskas Professional Services UAB,Professional Services,Marijampole,1411,239033277,35854991
+699,CR00000699,Daukantas Construction UAB,Construction,Utena,1743,402735837,60410375
+700,CR00000700,Sakalauskas Finance UAB,Finance,Utena,1547,369541172,3695411
+701,CR00000701,Kavaliauskas Healthcare UAB,Healthcare,Kaunas,1292,185212076,44450898
+702,CR00000702,Navickas Technology UAB,Technology,Panevezys,65,8683350,2084004
+703,CR00000703,Mikalauskas Manufacturing UAB,Manufacturing,Kaunas,435,81562935,7340664
+704,CR00000704,Jankauskas Logistics UAB,Logistics,Siauliai,681,172816689,31107004
+705,CR00000705,Jankauskas Education UAB,Education,Siauliai,2349,243617139,36542570
+706,CR00000706,Balciunas Technology UAB,Technology,Marijampole,2465,417916100,12537483
+707,CR00000707,Zukauskas Construction UAB,Construction,Utena,1278,228107664,13686459
+708,CR00000708,Urbonas Finance UAB,Finance,Kaunas,2342,525120898,147033851
+709,CR00000709,Banys Manufacturing UAB,Manufacturing,Utena,1324,332100244,36531026
+710,CR00000710,Daukantas Healthcare UAB,Healthcare,Siauliai,1117,93728587,23432146
+711,CR00000711,Mikalauskas Construction UAB,Construction,Marijampole,1942,376392614,15055704
+712,CR00000712,Sakalauskas Education UAB,Education,Siauliai,1055,224046130,-13442767
+713,CR00000713,Mikalauskas Construction UAB,Construction,Klaipeda,523,84649642,10157957
+714,CR00000714,Vasiliauskas Retail UAB,Retail,Marijampole,2577,614614500,122922900
+715,CR00000715,Zukauskas Finance UAB,Finance,Klaipeda,1764,330250788,39630094
+716,CR00000716,Sakalauskas Retail UAB,Retail,Panevezys,112,23550016,706500
+717,CR00000717,Navickas Retail UAB,Retail,Utena,2279,228558631,18284690
+718,CR00000718,Kavaliauskas Professional Services UAB,Professional Services,Siauliai,1334,129662132,25932426
+719,CR00000719,Vasiliauskas Energy UAB,Energy,Vilnius,1652,196047796,35288603
+720,CR00000720,Mockus Logistics UAB,Logistics,Vilnius,1312,253138592,68347419
+721,CR00000721,Mikalauskas Construction UAB,Construction,Panevezys,1661,394024081,-15760963
+722,CR00000722,Mikalauskas Energy UAB,Energy,Kaunas,1572,345846288,27667703
+723,CR00000723,Butkus Retail UAB,Retail,Alytus,1333,126732309,24079138
+724,CR00000724,Sakalauskas Retail UAB,Retail,Alytus,178,41769658,-2506179
+725,CR00000725,Vasiliauskas Professional Services UAB,Professional Services,Utena,741,45560385,12756907
+726,CR00000726,Vasiliauskas Retail UAB,Retail,Utena,1293,236364279,18909142
+727,CR00000727,Kavaliauskas Technology UAB,Technology,Alytus,146,11519254,115192
+728,CR00000728,Kairys Manufacturing UAB,Manufacturing,Panevezys,760,162136120,34048585
+729,CR00000729,Kazlauskas Technology UAB,Technology,Utena,2022,297268374,-11890734
+730,CR00000730,Butkus Finance UAB,Finance,Panevezys,134,29361142,-2348891
+731,CR00000731,Mockus Professional Services UAB,Professional Services,Marijampole,689,158999841,9539990
+732,CR00000732,Mikalauskas Manufacturing UAB,Manufacturing,Panevezys,1894,405596312,40559631
+733,CR00000733,Kairys Healthcare UAB,Healthcare,Siauliai,264,59189592,5918959
+734,CR00000734,Daukantas Manufacturing UAB,Manufacturing,Marijampole,763,152073530,21290294
+735,CR00000735,Urbonas Construction UAB,Construction,Utena,2400,389865600,97466400
+736,CR00000736,Kavaliauskas Logistics UAB,Logistics,Klaipeda,1578,90416244,3616649
+737,CR00000737,Butkus Energy UAB,Energy,Klaipeda,2496,367820544,-3678205
+738,CR00000738,Mockus Professional Services UAB,Professional Services,Alytus,2088,157775544,11044288
+739,CR00000739,Butkus Manufacturing UAB,Manufacturing,Marijampole,564,64143156,17318652
+740,CR00000740,Banys Education UAB,Education,Vilnius,2474,234475824,39860890
+741,CR00000741,Urbonas Finance UAB,Finance,Kaunas,1723,346457394,79685200
+742,CR00000742,Petrauskas Construction UAB,Construction,Panevezys,2136,281358192,53458056
+743,CR00000743,Sakalauskas Construction UAB,Construction,Alytus,270,35463960,2127837
+744,CR00000744,Urbonas Retail UAB,Retail,Utena,822,163592796,-6543711
+745,CR00000745,Urbonas Technology UAB,Technology,Marijampole,1808,107049872,27832966
+746,CR00000746,Kazlauskas Healthcare UAB,Healthcare,Kaunas,1485,157389210,39347302
+747,CR00000747,Daukantas Finance UAB,Finance,Marijampole,859,217924005,4358480
+748,CR00000748,Mockus Construction UAB,Construction,Siauliai,1823,315781883,37893825
+749,CR00000749,Paulauskas Manufacturing UAB,Manufacturing,Panevezys,1438,305583628,-3055836
+750,CR00000750,Petrauskas Construction UAB,Construction,Vilnius,1192,114710928,21795076
+751,CR00000751,Kazlauskas Professional Services UAB,Professional Services,Siauliai,1627,138796116,-2775922
+752,CR00000752,Urbonas Finance UAB,Finance,Marijampole,2032,171888912,-3437778
+753,CR00000753,Sakalauskas Construction UAB,Construction,Utena,1050,179599350,39511857
+754,CR00000754,Zukauskas Manufacturing UAB,Manufacturing,Kaunas,2356,164750368,24712555
+755,CR00000755,Jankauskas Finance UAB,Finance,Kaunas,870,217764480,2177644
+756,CR00000756,Vasiliauskas Finance UAB,Finance,Vilnius,988,106232724,26558181
+757,CR00000757,Butkus Professional Services UAB,Professional Services,Klaipeda,2145,154229790,-9253787
+758,CR00000758,Butkus Retail UAB,Retail,Klaipeda,1926,335956032,0
+759,CR00000759,Jankauskas Energy UAB,Energy,Marijampole,312,33247968,-1662398
+760,CR00000760,Kazlauskas Technology UAB,Technology,Siauliai,578,114107026,22821405
+761,CR00000761,Mikalauskas Finance UAB,Finance,Alytus,708,52264560,6271747
+762,CR00000762,Jankauskas Technology UAB,Technology,Alytus,96,12234528,3303322
+763,CR00000763,Banys Technology UAB,Technology,Kaunas,2485,577441935,63518612
+764,CR00000764,Jankauskas Manufacturing UAB,Manufacturing,Klaipeda,2144,249032032,32374164
+765,CR00000765,Butkus Healthcare UAB,Healthcare,Vilnius,1958,424263356,50911602
+766,CR00000766,Mikalauskas Education UAB,Education,Alytus,898,76818512,1536370
+767,CR00000767,Jankauskas Professional Services UAB,Professional Services,Alytus,1086,235323168,11766158
+768,CR00000768,Navickas Energy UAB,Energy,Siauliai,1117,249213870,62303467
+769,CR00000769,Paulauskas Manufacturing UAB,Manufacturing,Klaipeda,2304,131291136,2625822
+770,CR00000770,Kazlauskas Professional Services UAB,Professional Services,Marijampole,585,137604285,22016685
+771,CR00000771,Kavaliauskas Education UAB,Education,Marijampole,2133,181584423,50843638
+772,CR00000772,Mikalauskas Logistics UAB,Logistics,Panevezys,888,124096224,26060207
+773,CR00000773,Kavaliauskas Finance UAB,Finance,Panevezys,1232,224920080,29239610
+774,CR00000774,Vasiliauskas Finance UAB,Finance,Panevezys,1253,139065458,8343927
+775,CR00000775,Balciunas Professional Services UAB,Professional Services,Vilnius,1604,248002460,34720344
+776,CR00000776,Navickas Manufacturing UAB,Manufacturing,Vilnius,1341,232135146,32498920
+777,CR00000777,Balciunas Construction UAB,Construction,Marijampole,408,83766480,20103955
+778,CR00000778,Vasiliauskas Retail UAB,Retail,Panevezys,2578,536120880,26806044
+779,CR00000779,Navickas Finance UAB,Finance,Marijampole,832,120106688,8407468
+780,CR00000780,Kavaliauskas Professional Services UAB,Professional Services,Klaipeda,1242,252607896,-15156473
+781,CR00000781,Kazlauskas Logistics UAB,Logistics,Klaipeda,1049,219621787,17569742
+782,CR00000782,Balciunas Finance UAB,Finance,Siauliai,1394,77997088,-2339912
+783,CR00000783,Kavaliauskas Manufacturing UAB,Manufacturing,Alytus,2301,286971516,31566866
+784,CR00000784,Daukantas Manufacturing UAB,Manufacturing,Alytus,221,27836055,-2226884
+785,CR00000785,Vasiliauskas Construction UAB,Construction,Utena,2102,233515384,53708538
+786,CR00000786,Urbonas Retail UAB,Retail,Panevezys,2527,367011372,22020682
+787,CR00000787,Mockus Technology UAB,Technology,Kaunas,1462,284253736,-19897761
+788,CR00000788,Butkus Manufacturing UAB,Manufacturing,Klaipeda,2272,185742816,-5572284
+789,CR00000789,Banys Construction UAB,Construction,Vilnius,788,79788940,6383115
+790,CR00000790,Kavaliauskas Technology UAB,Technology,Klaipeda,366,43838382,8767676
+791,CR00000791,Petrauskas Professional Services UAB,Professional Services,Klaipeda,215,20467140,3070071
+792,CR00000792,Kavaliauskas Logistics UAB,Logistics,Klaipeda,2084,309926228,0
+793,CR00000793,Daukantas Manufacturing UAB,Manufacturing,Alytus,1341,142604622,35651155
+794,CR00000794,Mockus Finance UAB,Finance,Utena,832,168989184,40557404
+795,CR00000795,Mikalauskas Healthcare UAB,Healthcare,Marijampole,1322,315262628,12610505
+796,CR00000796,Mockus Professional Services UAB,Professional Services,Alytus,705,145998450,33579643
+797,CR00000797,Banys Construction UAB,Construction,Alytus,806,63379004,7605480
+798,CR00000798,Petrauskas Professional Services UAB,Professional Services,Kaunas,1152,127241856,1272418
+799,CR00000799,Petrauskas Energy UAB,Energy,Siauliai,1773,126407808,15168936
+800,CR00000800,Jankauskas Professional Services UAB,Professional Services,Siauliai,2452,532567044,90536397
+801,CR00000801,Kairys Manufacturing UAB,Manufacturing,Marijampole,808,149168920,-5966756
+802,CR00000802,Kairys Professional Services UAB,Professional Services,Panevezys,2589,269895483,-10795819
+803,CR00000803,Stankevicius Manufacturing UAB,Manufacturing,Klaipeda,698,170503252,34100650
+804,CR00000804,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,950,117830400,31814208
+805,CR00000805,Butkus Manufacturing UAB,Manufacturing,Kaunas,1136,194639968,1946399
+806,CR00000806,Petrauskas Energy UAB,Energy,Kaunas,1164,110491536,17678645
+807,CR00000807,Kavaliauskas Logistics UAB,Logistics,Vilnius,1613,283368614,42505292
+808,CR00000808,Zukauskas Manufacturing UAB,Manufacturing,Marijampole,1303,338634064,6772681
+809,CR00000809,Kazlauskas Professional Services UAB,Professional Services,Utena,906,75494262,11324139
+810,CR00000810,Banys Healthcare UAB,Healthcare,Alytus,257,35712206,0
+811,CR00000811,Mockus Healthcare UAB,Healthcare,Kaunas,2345,205344615,-6160338
+812,CR00000812,Sakalauskas Energy UAB,Energy,Siauliai,1286,123404560,14808547
+813,CR00000813,Zukauskas Logistics UAB,Logistics,Alytus,2447,194257542,-5827726
+814,CR00000814,Balciunas Education UAB,Education,Vilnius,1578,246179046,56621180
+815,CR00000815,Navickas Manufacturing UAB,Manufacturing,Panevezys,1803,139860513,12587446
+816,CR00000816,Kavaliauskas Manufacturing UAB,Manufacturing,Siauliai,1736,322920304,6458406
+817,CR00000817,Mikalauskas Construction UAB,Construction,Klaipeda,411,29390610,-881718
+818,CR00000818,Mockus Healthcare UAB,Healthcare,Panevezys,1662,233078880,65262086
+819,CR00000819,Mikalauskas Education UAB,Education,Alytus,2529,495605601,138769568
+820,CR00000820,Stankevicius Manufacturing UAB,Manufacturing,Klaipeda,2091,307883022,3078830
+821,CR00000821,Banys Healthcare UAB,Healthcare,Siauliai,136,22647400,2717688
+822,CR00000822,Daukantas Manufacturing UAB,Manufacturing,Panevezys,718,73237436,13915112
+823,CR00000823,Vasiliauskas Professional Services UAB,Professional Services,Marijampole,1040,175658080,38644777
+824,CR00000824,Navickas Manufacturing UAB,Manufacturing,Kaunas,1194,235004274,-2350042
+825,CR00000825,Jankauskas Healthcare UAB,Healthcare,Panevezys,2359,354696881,53204532
+826,CR00000826,Mockus Manufacturing UAB,Manufacturing,Utena,2540,316532260,-3165322
+827,CR00000827,Mikalauskas Retail UAB,Retail,Utena,2108,388770008,66090901
+828,CR00000828,Paulauskas Finance UAB,Finance,Alytus,1800,193624200,52278534
+829,CR00000829,Kairys Retail UAB,Retail,Vilnius,39,6099054,1036839
+830,CR00000830,Mockus Manufacturing UAB,Manufacturing,Vilnius,1811,186073006,35353871
+831,CR00000831,Navickas Professional Services UAB,Professional Services,Kaunas,735,73116330,-4386979
+832,CR00000832,Daukantas Manufacturing UAB,Manufacturing,Kaunas,162,23177664,3244872
+833,CR00000833,Kairys Finance UAB,Finance,Kaunas,693,142496739,21374510
+834,CR00000834,Kairys Energy UAB,Energy,Utena,1592,89167920,11591829
+835,CR00000835,Vasiliauskas Energy UAB,Energy,Alytus,1015,262240475,60315309
+836,CR00000836,Banys Technology UAB,Technology,Vilnius,283,41561663,5818632
+837,CR00000837,Urbonas Manufacturing UAB,Manufacturing,Klaipeda,2367,145982358,-11678588
+838,CR00000838,Daukantas Logistics UAB,Logistics,Utena,2372,293542116,26418790
+839,CR00000839,Jankauskas Technology UAB,Technology,Kaunas,2067,437823672,13134710
+840,CR00000840,Paulauskas Retail UAB,Retail,Kaunas,628,137088004,24675840
+841,CR00000841,Kairys Manufacturing UAB,Manufacturing,Utena,445,50802535,7112354
+842,CR00000842,Sakalauskas Retail UAB,Retail,Utena,151,25546029,1277301
+843,CR00000843,Jankauskas Finance UAB,Finance,Marijampole,43,3800254,38002
+844,CR00000844,Paulauskas Healthcare UAB,Healthcare,Klaipeda,1473,367525284,-11025758
+845,CR00000845,Mockus Finance UAB,Finance,Vilnius,2146,296757464,83092089
+846,CR00000846,Kairys Retail UAB,Retail,Marijampole,597,49302051,2958123
+847,CR00000847,Mockus Healthcare UAB,Healthcare,Marijampole,1345,150041475,21005806
+848,CR00000848,Navickas Manufacturing UAB,Manufacturing,Marijampole,1824,446259840,124952755
+849,CR00000849,Zukauskas Retail UAB,Retail,Marijampole,1037,227802975,-13668178
+850,CR00000850,Kazlauskas Energy UAB,Energy,Utena,86,6318936,695082
+851,CR00000851,Daukantas Technology UAB,Technology,Klaipeda,1589,233619547,30370541
+852,CR00000852,Urbonas Education UAB,Education,Klaipeda,218,38793318,-1551732
+853,CR00000853,Butkus Manufacturing UAB,Manufacturing,Utena,1121,289897326,2898973
+854,CR00000854,Banys Education UAB,Education,Vilnius,672,106520736,5326036
+855,CR00000855,Butkus Energy UAB,Energy,Vilnius,854,73614800,-4416888
+856,CR00000856,Jankauskas Manufacturing UAB,Manufacturing,Alytus,155,21569025,647070
+857,CR00000857,Kazlauskas Construction UAB,Construction,Marijampole,455,109194085,-5459704
+858,CR00000858,Balciunas Technology UAB,Technology,Siauliai,1932,349123992,52368598
+859,CR00000859,Daukantas Healthcare UAB,Healthcare,Alytus,1271,196350435,5890513
+860,CR00000860,Urbonas Healthcare UAB,Healthcare,Kaunas,189,31098060,-621961
+861,CR00000861,Paulauskas Manufacturing UAB,Manufacturing,Siauliai,2042,438833968,109708492
+862,CR00000862,Stankevicius Energy UAB,Energy,Utena,2271,284036241,36924711
+863,CR00000863,Vasiliauskas Manufacturing UAB,Manufacturing,Marijampole,1693,430861728,-25851703
+864,CR00000864,Kazlauskas Construction UAB,Construction,Panevezys,193,36482211,8026086
+865,CR00000865,Jankauskas Professional Services UAB,Professional Services,Utena,1314,132940008,31905601
+866,CR00000866,Kavaliauskas Professional Services UAB,Professional Services,Alytus,1972,208781556,-10439077
+867,CR00000867,Navickas Retail UAB,Retail,Marijampole,498,42989850,5158782
+868,CR00000868,Mikalauskas Finance UAB,Finance,Vilnius,454,64792610,1295852
+869,CR00000869,Paulauskas Retail UAB,Retail,Klaipeda,1597,216377530,-6491325
+870,CR00000870,Urbonas Technology UAB,Technology,Klaipeda,2244,445175940,53421112
+871,CR00000871,Mockus Finance UAB,Finance,Panevezys,2423,444024442,124326843
+872,CR00000872,Urbonas Professional Services UAB,Professional Services,Panevezys,1334,321874190,35406160
+873,CR00000873,Petrauskas Manufacturing UAB,Manufacturing,Alytus,721,131922091,5276883
+874,CR00000874,Vasiliauskas Healthcare UAB,Healthcare,Utena,1347,139992363,-2799847
+875,CR00000875,Navickas Professional Services UAB,Professional Services,Panevezys,1067,262482000,62995680
+876,CR00000876,Jankauskas Logistics UAB,Logistics,Panevezys,345,55079250,-3855547
+877,CR00000877,Banys Healthcare UAB,Healthcare,Alytus,904,70592456,14118491
+878,CR00000878,Banys Professional Services UAB,Professional Services,Siauliai,1161,270734751,40610212
+879,CR00000879,Kazlauskas Education UAB,Education,Vilnius,2104,469625424,28177525
+880,CR00000880,Balciunas Construction UAB,Construction,Siauliai,1909,337217214,77559959
+881,CR00000881,Jankauskas Manufacturing UAB,Manufacturing,Alytus,165,33654390,8750141
+882,CR00000882,Paulauskas Finance UAB,Finance,Kaunas,878,135945130,-5437805
+883,CR00000883,Petrauskas Professional Services UAB,Professional Services,Marijampole,673,133883255,5355330
+884,CR00000884,Paulauskas Finance UAB,Finance,Klaipeda,2585,497485835,0
+885,CR00000885,Daukantas Retail UAB,Retail,Utena,1579,379203166,0
+886,CR00000886,Zukauskas Retail UAB,Retail,Alytus,453,53584917,9109435
+887,CR00000887,Sakalauskas Finance UAB,Finance,Panevezys,2235,316022295,15801114
+888,CR00000888,Butkus Manufacturing UAB,Manufacturing,Vilnius,41,6002318,900347
+889,CR00000889,Daukantas Technology UAB,Technology,Vilnius,1017,186138459,13029692
+890,CR00000890,Daukantas Logistics UAB,Logistics,Utena,2114,532575792,31954547
+891,CR00000891,Navickas Energy UAB,Energy,Utena,401,91917621,-6434233
+892,CR00000892,Zukauskas Professional Services UAB,Professional Services,Vilnius,682,132147730,31715455
+893,CR00000893,Zukauskas Professional Services UAB,Professional Services,Panevezys,1980,497589840,-34831288
+894,CR00000894,Mockus Professional Services UAB,Professional Services,Klaipeda,13,1364272,245568
+895,CR00000895,Paulauskas Finance UAB,Finance,Siauliai,66,8261286,-82612
+896,CR00000896,Butkus Construction UAB,Construction,Panevezys,514,105399812,2107996
+897,CR00000897,Butkus Manufacturing UAB,Manufacturing,Klaipeda,108,19211472,2305376
+898,CR00000898,Kavaliauskas Technology UAB,Technology,Utena,1958,326191052,55452478
+899,CR00000899,Kazlauskas Technology UAB,Technology,Alytus,1798,207232086,10361604
+900,CR00000900,Zukauskas Education UAB,Education,Vilnius,1028,93756684,5625401
+901,CR00000901,Balciunas Logistics UAB,Logistics,Siauliai,2438,405809976,73045795
+902,CR00000902,Kairys Construction UAB,Construction,Alytus,573,111188931,7783225
+903,CR00000903,Balciunas Professional Services UAB,Professional Services,Siauliai,1565,97486980,12673307
+904,CR00000904,Kavaliauskas Professional Services UAB,Professional Services,Utena,1425,309435900,-6188718
+905,CR00000905,Balciunas Healthcare UAB,Healthcare,Klaipeda,1170,199098900,-5972967
+906,CR00000906,Kairys Technology UAB,Technology,Klaipeda,1515,299907885,-14995394
+907,CR00000907,Vasiliauskas Construction UAB,Construction,Klaipeda,1104,263116320,63147916
+908,CR00000908,Mockus Energy UAB,Energy,Kaunas,1211,176202922,35240584
+909,CR00000909,Navickas Energy UAB,Energy,Alytus,474,96096864,24985184
+910,CR00000910,Navickas Logistics UAB,Logistics,Vilnius,671,102573086,-3077192
+911,CR00000911,Kairys Manufacturing UAB,Manufacturing,Kaunas,1193,124119720,-2482394
+912,CR00000912,Jankauskas Logistics UAB,Logistics,Vilnius,138,20010552,4402321
+913,CR00000913,Mockus Professional Services UAB,Professional Services,Alytus,570,101450880,17246649
+914,CR00000914,Daukantas Professional Services UAB,Professional Services,Alytus,1082,87049064,11316378
+915,CR00000915,Banys Finance UAB,Finance,Vilnius,1644,240507336,40886247
+916,CR00000916,Navickas Professional Services UAB,Professional Services,Marijampole,866,160345096,27258666
+917,CR00000917,Jankauskas Technology UAB,Technology,Klaipeda,1261,300816594,-24065327
+918,CR00000918,Jankauskas Education UAB,Education,Siauliai,2219,352077635,84498632
+919,CR00000919,Zukauskas Technology UAB,Technology,Panevezys,1834,428242668,68518826
+920,CR00000920,Daukantas Energy UAB,Energy,Siauliai,2550,279617700,58719717
+921,CR00000921,Daukantas Professional Services UAB,Professional Services,Vilnius,1619,229651912,9186076
+922,CR00000922,Sakalauskas Professional Services UAB,Professional Services,Utena,1592,322263784,32226378
+923,CR00000923,Kairys Logistics UAB,Logistics,Utena,1755,152455095,0
+924,CR00000924,Kavaliauskas Construction UAB,Construction,Marijampole,1289,289786535,55059441
+925,CR00000925,Sakalauskas Construction UAB,Construction,Marijampole,2140,323940360,42112246
+926,CR00000926,Paulauskas Technology UAB,Technology,Vilnius,1168,224526976,11226348
+927,CR00000927,Vasiliauskas Energy UAB,Energy,Panevezys,1781,316033107,-6320662
+928,CR00000928,Zukauskas Construction UAB,Construction,Alytus,1877,207609339,37369681
+929,CR00000929,Navickas Energy UAB,Energy,Utena,1602,300754674,18045280
+930,CR00000930,Banys Technology UAB,Technology,Vilnius,2495,535576700,117826874
+931,CR00000931,Daukantas Finance UAB,Finance,Siauliai,1542,364612068,3646120
+932,CR00000932,Petrauskas Manufacturing UAB,Manufacturing,Klaipeda,2242,368246258,-11047387
+933,CR00000933,Butkus Finance UAB,Finance,Klaipeda,2460,205481340,-8219253
+934,CR00000934,Sakalauskas Construction UAB,Construction,Marijampole,1898,158735434,34921795
+935,CR00000935,Paulauskas Energy UAB,Energy,Marijampole,899,111037288,27759322
+936,CR00000936,Mikalauskas Logistics UAB,Logistics,Kaunas,2115,138494430,9694610
+937,CR00000937,Urbonas Healthcare UAB,Healthcare,Vilnius,1649,99174158,23801797
+938,CR00000938,Navickas Construction UAB,Construction,Klaipeda,1246,156627184,-7831359
+939,CR00000939,Banys Energy UAB,Energy,Vilnius,2321,568178479,130681050
+940,CR00000940,Urbonas Professional Services UAB,Professional Services,Klaipeda,2297,164977431,13198194
+941,CR00000941,Balciunas Healthcare UAB,Healthcare,Klaipeda,936,129480624,22011706
+942,CR00000942,Banys Professional Services UAB,Professional Services,Utena,2286,496304316,124076079
+943,CR00000943,Mikalauskas Healthcare UAB,Healthcare,Marijampole,1206,214640262,21464026
+944,CR00000944,Petrauskas Finance UAB,Finance,Klaipeda,1041,107780976,14011526
+945,CR00000945,Banys Manufacturing UAB,Manufacturing,Siauliai,958,128946800,9026276
+946,CR00000946,Navickas Technology UAB,Technology,Siauliai,943,95944592,10553905
+947,CR00000947,Stankevicius Finance UAB,Finance,Marijampole,1968,490659792,44159381
+948,CR00000948,Daukantas Professional Services UAB,Professional Services,Alytus,803,150917426,-7545871
+949,CR00000949,Daukantas Energy UAB,Energy,Panevezys,1987,405405623,36486506
+950,CR00000950,Navickas Construction UAB,Construction,Panevezys,1893,412386264,90724978
+951,CR00000951,Stankevicius Education UAB,Education,Utena,918,80203824,20050956
+952,CR00000952,Vasiliauskas Logistics UAB,Logistics,Alytus,1069,227644619,36423139
+953,CR00000953,Kazlauskas Energy UAB,Energy,Vilnius,716,118719960,13059195
+954,CR00000954,Jankauskas Retail UAB,Retail,Siauliai,1929,397973919,-19898695
+955,CR00000955,Daukantas Technology UAB,Technology,Klaipeda,1469,83571410,-4178570
+956,CR00000956,Petrauskas Education UAB,Education,Kaunas,1944,164411856,-1644118
+957,CR00000957,Sakalauskas Finance UAB,Finance,Klaipeda,68,5895736,412701
+958,CR00000958,Zukauskas Education UAB,Education,Alytus,1519,236956405,35543460
+959,CR00000959,Mockus Finance UAB,Finance,Klaipeda,420,100681140,-5034057
+960,CR00000960,Navickas Professional Services UAB,Professional Services,Panevezys,1686,170931738,0
+961,CR00000961,Jankauskas Finance UAB,Finance,Klaipeda,313,74001025,-2960041
+962,CR00000962,Kairys Finance UAB,Finance,Utena,1431,198720108,0
+963,CR00000963,Kazlauskas Manufacturing UAB,Manufacturing,Siauliai,489,112390782,6743446
+964,CR00000964,Sakalauskas Finance UAB,Finance,Marijampole,262,51362742,1027254
+965,CR00000965,Balciunas Logistics UAB,Logistics,Alytus,2471,455874790,54704974
+966,CR00000966,Daukantas Manufacturing UAB,Manufacturing,Marijampole,221,42200392,0
+967,CR00000967,Kairys Energy UAB,Energy,Utena,1193,305188488,-6103769
+968,CR00000968,Kavaliauskas Logistics UAB,Logistics,Siauliai,375,96968625,26181528
+969,CR00000969,Sakalauskas Retail UAB,Retail,Alytus,1416,329540016,92271204
+970,CR00000970,Kazlauskas Professional Services UAB,Professional Services,Kaunas,143,19228924,1538313
+971,CR00000971,Urbonas Professional Services UAB,Professional Services,Siauliai,2417,474171894,23708594
+972,CR00000972,Kairys Professional Services UAB,Professional Services,Utena,518,97955872,11754704
+973,CR00000973,Petrauskas Retail UAB,Retail,Klaipeda,695,136058065,12245225
+974,CR00000974,Mockus Education UAB,Education,Kaunas,272,63518256,-1270365
+975,CR00000975,Kairys Manufacturing UAB,Manufacturing,Kaunas,1240,265901880,-10636075
+976,CR00000976,Kazlauskas Construction UAB,Construction,Klaipeda,1309,271944750,0
+977,CR00000977,Daukantas Energy UAB,Energy,Klaipeda,2302,549844210,153956378
+978,CR00000978,Jankauskas Healthcare UAB,Healthcare,Panevezys,918,150847596,-1508475
+979,CR00000979,Mikalauskas Technology UAB,Technology,Alytus,2262,138352968,8301178
+980,CR00000980,Mikalauskas Logistics UAB,Logistics,Vilnius,1231,87707519,15787353
+981,CR00000981,Jankauskas Professional Services UAB,Professional Services,Alytus,282,22043094,2424740
+982,CR00000982,Urbonas Healthcare UAB,Healthcare,Siauliai,588,90891864,12724860
+983,CR00000983,Sakalauskas Construction UAB,Construction,Utena,318,30894336,5560980
+984,CR00000984,Kazlauskas Retail UAB,Retail,Vilnius,2006,170652426,29010912
+985,CR00000985,Butkus Finance UAB,Finance,Utena,397,78615528,13364639
+986,CR00000986,Sakalauskas Construction UAB,Construction,Marijampole,1906,214764268,25771712
+987,CR00000987,Mockus Healthcare UAB,Healthcare,Klaipeda,2029,284790440,31326948
+988,CR00000988,Banys Professional Services UAB,Professional Services,Utena,358,83923434,18463155
+989,CR00000989,Paulauskas Logistics UAB,Logistics,Vilnius,2562,380070138,106419638
+990,CR00000990,Butkus Technology UAB,Technology,Vilnius,1184,199025664,-1990256
+991,CR00000991,Zukauskas Logistics UAB,Logistics,Kaunas,2120,271658920,16299535
+992,CR00000992,Balciunas Manufacturing UAB,Manufacturing,Vilnius,332,57057188,5705718
+993,CR00000993,Kairys Education UAB,Education,Vilnius,728,116230296,18596847
+994,CR00000994,Navickas Manufacturing UAB,Manufacturing,Vilnius,1030,171785460,36074946
+995,CR00000995,Paulauskas Professional Services UAB,Professional Services,Panevezys,505,98925965,7914077
+996,CR00000996,Kairys Finance UAB,Finance,Kaunas,2594,233216164,-13992969
+997,CR00000997,Zukauskas Finance UAB,Finance,Panevezys,1144,176357896,14108631
+998,CR00000998,Butkus Education UAB,Education,Alytus,1167,233089578,60603290
+999,CR00000999,Zukauskas Education UAB,Education,Panevezys,899,209102905,0
+1000,CR00001000,Petrauskas Manufacturing UAB,Manufacturing,Marijampole,1148,130611404,33958965
+1001,CR00001001,Sakalauskas Retail UAB,Retail,Vilnius,1467,118405971,4736238
+1002,CR00001002,Balciunas Technology UAB,Technology,Marijampole,625,123204375,32033137
+1003,CR00001003,Kazlauskas Education UAB,Education,Vilnius,1834,456378062,-4563780
+1004,CR00001004,Kazlauskas Technology UAB,Technology,Vilnius,215,35021995,700439
+1005,CR00001005,Kairys Logistics UAB,Logistics,Panevezys,1560,159719040,4791571
+1006,CR00001006,Banys Professional Services UAB,Professional Services,Vilnius,2333,348907149,-17445357
+1007,CR00001007,Sakalauskas Energy UAB,Energy,Siauliai,1556,115509660,19636642
+1008,CR00001008,Mikalauskas Retail UAB,Retail,Klaipeda,1717,413268164,0
+1009,CR00001009,Paulauskas Technology UAB,Technology,Panevezys,830,195081540,3901630
+1010,CR00001010,Mikalauskas Education UAB,Education,Klaipeda,734,170523614,11936652
+1011,CR00001011,Balciunas Finance UAB,Finance,Siauliai,1699,152289865,-6091594
+1012,CR00001012,Jankauskas Professional Services UAB,Professional Services,Kaunas,115,25254115,4040658
+1013,CR00001013,Petrauskas Logistics UAB,Logistics,Utena,544,33626816,3362681
+1014,CR00001014,Petrauskas Education UAB,Education,Panevezys,1549,368081125,29446490
+1015,CR00001015,Vasiliauskas Professional Services UAB,Professional Services,Alytus,1902,434726826,99987169
+1016,CR00001016,Kavaliauskas Energy UAB,Energy,Utena,1255,105495300,14769342
+1017,CR00001017,Balciunas Manufacturing UAB,Manufacturing,Utena,267,18146655,1451732
+1018,CR00001018,Zukauskas Retail UAB,Retail,Kaunas,2212,399690704,-15987628
+1019,CR00001019,Kavaliauskas Construction UAB,Construction,Marijampole,1564,384697080,7693941
+1020,CR00001020,Kazlauskas Education UAB,Education,Alytus,508,106545380,15981807
+1021,CR00001021,Kazlauskas Manufacturing UAB,Manufacturing,Klaipeda,2206,471889872,56626784
+1022,CR00001022,Petrauskas Construction UAB,Construction,Klaipeda,446,92949522,-6506466
+1023,CR00001023,Jankauskas Retail UAB,Retail,Siauliai,309,75032307,1500646
+1024,CR00001024,Sakalauskas Construction UAB,Construction,Klaipeda,1372,274891176,38484764
+1025,CR00001025,Navickas Construction UAB,Construction,Siauliai,2266,303408336,39443083
+1026,CR00001026,Banys Energy UAB,Energy,Kaunas,2184,257126688,59139138
+1027,CR00001027,Jankauskas Education UAB,Education,Klaipeda,449,113381031,4535241
+1028,CR00001028,Banys Finance UAB,Finance,Siauliai,1471,105292709,28429031
+1029,CR00001029,Mockus Manufacturing UAB,Manufacturing,Utena,2039,502183271,-10043665
+1030,CR00001030,Kavaliauskas Finance UAB,Finance,Panevezys,2271,363866433,7277328
+1031,CR00001031,Balciunas Finance UAB,Finance,Klaipeda,212,11775540,1295309
+1032,CR00001032,Paulauskas Retail UAB,Retail,Panevezys,2514,369133134,0
+1033,CR00001033,Kavaliauskas Finance UAB,Finance,Vilnius,1845,330900750,33090075
+1034,CR00001034,Mockus Construction UAB,Construction,Marijampole,369,93186522,2795595
+1035,CR00001035,Mockus Construction UAB,Construction,Panevezys,753,75602706,9828351
+1036,CR00001036,Stankevicius Technology UAB,Technology,Kaunas,1233,304790202,21335314
+1037,CR00001037,Mikalauskas Retail UAB,Retail,Panevezys,1575,329986125,62697363
+1038,CR00001038,Jankauskas Healthcare UAB,Healthcare,Utena,2218,427459614,115414095
+1039,CR00001039,Butkus Education UAB,Education,Vilnius,1696,388015968,93123832
+1040,CR00001040,Stankevicius Retail UAB,Retail,Vilnius,1862,388428096,11652842
+1041,CR00001041,Balciunas Healthcare UAB,Healthcare,Panevezys,2082,224866410,51719274
+1042,CR00001042,Urbonas Healthcare UAB,Healthcare,Kaunas,2140,503657560,141024116
+1043,CR00001043,Sakalauskas Retail UAB,Retail,Vilnius,251,37713503,-1508540
+1044,CR00001044,Banys Retail UAB,Retail,Kaunas,1439,318331263,79582815
+1045,CR00001045,Urbonas Energy UAB,Energy,Siauliai,2004,364942428,25545969
+1046,CR00001046,Kairys Construction UAB,Construction,Siauliai,422,51629590,10842213
+1047,CR00001047,Banys Healthcare UAB,Healthcare,Utena,353,88805975,7992537
+1048,CR00001048,Mockus Education UAB,Education,Siauliai,1461,80780151,2423404
+1049,CR00001049,Urbonas Retail UAB,Retail,Utena,118,18993870,1519509
+1050,CR00001050,Navickas Education UAB,Education,Klaipeda,1641,322750239,6455004
+1051,CR00001051,Navickas Logistics UAB,Logistics,Klaipeda,1514,86927824,21731956
+1052,CR00001052,Sakalauskas Healthcare UAB,Healthcare,Vilnius,2375,328837750,-6576755
+1053,CR00001053,Vasiliauskas Construction UAB,Construction,Utena,2562,303023112,33332542
+1054,CR00001054,Zukauskas Education UAB,Education,Alytus,2445,428694075,-4286940
+1055,CR00001055,Vasiliauskas Healthcare UAB,Healthcare,Klaipeda,647,54082730,12979855
+1056,CR00001056,Kavaliauskas Finance UAB,Finance,Kaunas,458,70068962,19619309
+1057,CR00001057,Jankauskas Finance UAB,Finance,Marijampole,640,56971520,-1139430
+1058,CR00001058,Kazlauskas Construction UAB,Construction,Alytus,1582,238910476,23891047
+1059,CR00001059,Petrauskas Construction UAB,Construction,Kaunas,1746,344023110,17201155
+1060,CR00001060,Banys Retail UAB,Retail,Vilnius,16,2149584,429916
+1061,CR00001061,Navickas Education UAB,Education,Panevezys,995,147588350,17710602
+1062,CR00001062,Banys Education UAB,Education,Alytus,883,154270696,23140604
+1063,CR00001063,Kazlauskas Professional Services UAB,Professional Services,Vilnius,2223,135438498,33859624
+1064,CR00001064,Navickas Education UAB,Education,Alytus,293,66203936,3310196
+1065,CR00001065,Daukantas Professional Services UAB,Professional Services,Marijampole,2266,562674992,28133749
+1066,CR00001066,Kavaliauskas Technology UAB,Technology,Klaipeda,42,5332572,319954
+1067,CR00001067,Mockus Construction UAB,Construction,Utena,90,20812050,3954289
+1068,CR00001068,Kairys Finance UAB,Finance,Marijampole,456,107883672,-6473020
+1069,CR00001069,Balciunas Healthcare UAB,Healthcare,Marijampole,203,25846569,0
+1070,CR00001070,Daukantas Finance UAB,Finance,Siauliai,2195,206571450,10328572
+1071,CR00001071,Navickas Energy UAB,Energy,Marijampole,1306,126527892,35427809
+1072,CR00001072,Urbonas Technology UAB,Technology,Utena,650,121849000,-4873960
+1073,CR00001073,Kavaliauskas Retail UAB,Retail,Siauliai,1596,370236888,85154484
+1074,CR00001074,Balciunas Finance UAB,Finance,Kaunas,1061,143572398,22971583
+1075,CR00001075,Mikalauskas Finance UAB,Finance,Utena,2468,502855000,60342600
+1076,CR00001076,Navickas Logistics UAB,Logistics,Alytus,131,18581564,1114893
+1077,CR00001077,Petrauskas Retail UAB,Retail,Alytus,2097,463019697,87973742
+1078,CR00001078,Kazlauskas Healthcare UAB,Healthcare,Alytus,17,2070005,186300
+1079,CR00001079,Vasiliauskas Retail UAB,Retail,Vilnius,1884,461184360,36894748
+1080,CR00001080,Kairys Healthcare UAB,Healthcare,Siauliai,1983,495991926,84318627
+1081,CR00001081,Kairys Construction UAB,Construction,Alytus,1152,247796352,27257598
+1082,CR00001082,Vasiliauskas Manufacturing UAB,Manufacturing,Klaipeda,1106,150028900,-7501445
+1083,CR00001083,Kavaliauskas Logistics UAB,Logistics,Kaunas,2354,147162664,16187893
+1084,CR00001084,Navickas Finance UAB,Finance,Utena,1179,195385059,17584655
+1085,CR00001085,Mikalauskas Finance UAB,Finance,Utena,2236,472057612,51926337
+1086,CR00001086,Kairys Finance UAB,Finance,Vilnius,1028,102630380,16420860
+1087,CR00001087,Mikalauskas Energy UAB,Energy,Utena,1238,222899424,-13373965
+1088,CR00001088,Balciunas Logistics UAB,Logistics,Vilnius,262,38973286,-2338397
+1089,CR00001089,Jankauskas Technology UAB,Technology,Utena,1755,318911580,41458505
+1090,CR00001090,Balciunas Healthcare UAB,Healthcare,Panevezys,1954,162441882,22741863
+1091,CR00001091,Jankauskas Construction UAB,Construction,Alytus,1301,304950497,67089109
+1092,CR00001092,Balciunas Finance UAB,Finance,Marijampole,242,51848016,11406563
+1093,CR00001093,Kairys Retail UAB,Retail,Vilnius,893,176784531,-12374917
+1094,CR00001094,Kavaliauskas Manufacturing UAB,Manufacturing,Kaunas,728,49554232,10901931
+1095,CR00001095,Vasiliauskas Finance UAB,Finance,Kaunas,2455,547847980,60263277
+1096,CR00001096,Kairys Finance UAB,Finance,Marijampole,2106,267291414,13364570
+1097,CR00001097,Kairys Finance UAB,Finance,Kaunas,675,111235275,28921171
+1098,CR00001098,Kairys Energy UAB,Energy,Kaunas,1871,201358891,16108711
+1099,CR00001099,Stankevicius Manufacturing UAB,Manufacturing,Alytus,304,40119488,7221507
+1100,CR00001100,Daukantas Construction UAB,Construction,Klaipeda,1717,193576297,23229155
+1101,CR00001101,Kavaliauskas Healthcare UAB,Healthcare,Klaipeda,2066,191588444,49812995
+1102,CR00001102,Urbonas Healthcare UAB,Healthcare,Klaipeda,2524,290684032,-2906840
+1103,CR00001103,Petrauskas Energy UAB,Energy,Siauliai,488,103718544,12446225
+1104,CR00001104,Petrauskas Technology UAB,Technology,Klaipeda,1358,192029348,28804402
+1105,CR00001105,Petrauskas Technology UAB,Technology,Siauliai,616,128047304,30731352
+1106,CR00001106,Banys Logistics UAB,Logistics,Siauliai,1288,268300704,29513077
+1107,CR00001107,Kavaliauskas Construction UAB,Construction,Vilnius,2133,257608809,5152176
+1108,CR00001108,Daukantas Finance UAB,Finance,Kaunas,1837,124010359,33482796
+1109,CR00001109,Jankauskas Professional Services UAB,Professional Services,Utena,337,38971691,8184055
+1110,CR00001110,Navickas Logistics UAB,Logistics,Alytus,2008,266863200,8005896
+1111,CR00001111,Petrauskas Healthcare UAB,Healthcare,Alytus,1959,293467995,38150839
+1112,CR00001112,Paulauskas Manufacturing UAB,Manufacturing,Siauliai,940,89053720,22263430
+1113,CR00001113,Balciunas Construction UAB,Construction,Panevezys,1749,442274877,44227487
+1114,CR00001114,Vasiliauskas Finance UAB,Finance,Siauliai,642,151732206,40967695
+1115,CR00001115,Zukauskas Education UAB,Education,Panevezys,892,225345068,-15774154
+1116,CR00001116,Daukantas Energy UAB,Energy,Kaunas,1618,233980598,35097089
+1117,CR00001117,Stankevicius Professional Services UAB,Professional Services,Alytus,1239,157006080,26691033
+1118,CR00001118,Navickas Manufacturing UAB,Manufacturing,Marijampole,1504,204255232,28595732
+1119,CR00001119,Jankauskas Logistics UAB,Logistics,Kaunas,101,17083847,4100123
+1120,CR00001120,Navickas Manufacturing UAB,Manufacturing,Utena,2374,507698892,121847734
+1121,CR00001121,Butkus Retail UAB,Retail,Kaunas,1328,135880960,-8152857
+1122,CR00001122,Zukauskas Logistics UAB,Logistics,Kaunas,2192,218616928,-8744677
+1123,CR00001123,Butkus Manufacturing UAB,Manufacturing,Kaunas,902,146815834,32299483
+1124,CR00001124,Paulauskas Education UAB,Education,Marijampole,1947,418022847,91965026
+1125,CR00001125,Navickas Professional Services UAB,Professional Services,Vilnius,1615,192110710,13447749
+1126,CR00001126,Vasiliauskas Manufacturing UAB,Manufacturing,Marijampole,598,132163980,19824597
+1127,CR00001127,Petrauskas Logistics UAB,Logistics,Utena,1160,67819400,-678194
+1128,CR00001128,Daukantas Finance UAB,Finance,Vilnius,2398,602300864,-48184069
+1129,CR00001129,Mikalauskas Technology UAB,Technology,Marijampole,1834,237994512,52358792
+1130,CR00001130,Banys Energy UAB,Energy,Vilnius,972,154166976,-1541669
+1131,CR00001131,Jankauskas Technology UAB,Technology,Klaipeda,819,60809931,16418681
+1132,CR00001132,Petrauskas Retail UAB,Retail,Alytus,916,89194584,2675837
+1133,CR00001133,Mockus Finance UAB,Finance,Klaipeda,873,206934174,8277366
+1134,CR00001134,Banys Logistics UAB,Logistics,Siauliai,2544,447894096,40310468
+1135,CR00001135,Mikalauskas Healthcare UAB,Healthcare,Utena,737,146517811,35164274
+1136,CR00001136,Sakalauskas Energy UAB,Energy,Alytus,1563,251438247,-2514382
+1137,CR00001137,Balciunas Energy UAB,Energy,Siauliai,1565,301431520,84400825
+1138,CR00001138,Navickas Finance UAB,Finance,Utena,1767,337820361,-27025628
+1139,CR00001139,Paulauskas Education UAB,Education,Vilnius,2035,498674715,64827712
+1140,CR00001140,Petrauskas Construction UAB,Construction,Vilnius,2524,201299096,50324774
+1141,CR00001141,Banys Construction UAB,Construction,Vilnius,2137,198503793,49625948
+1142,CR00001142,Petrauskas Technology UAB,Technology,Panevezys,459,57846393,16196990
+1143,CR00001143,Mikalauskas Education UAB,Education,Utena,778,104816828,-4192673
+1144,CR00001144,Balciunas Retail UAB,Retail,Siauliai,598,93677896,16862021
+1145,CR00001145,Daukantas Finance UAB,Finance,Alytus,2357,141104162,2822083
+1146,CR00001146,Mikalauskas Healthcare UAB,Healthcare,Kaunas,2444,371734844,40890832
+1147,CR00001147,Kairys Retail UAB,Retail,Alytus,1016,164638736,8231936
+1148,CR00001148,Kairys Technology UAB,Technology,Vilnius,163,42364841,5507429
+1149,CR00001149,Kairys Retail UAB,Retail,Marijampole,58,10460532,2092106
+1150,CR00001150,Mockus Energy UAB,Energy,Utena,2173,298822268,-20917558
+1151,CR00001151,Urbonas Education UAB,Education,Klaipeda,2431,568112545,5681125
+1152,CR00001152,Butkus Logistics UAB,Logistics,Alytus,2052,375994116,82718705
+1153,CR00001153,Kazlauskas Technology UAB,Technology,Utena,1091,76482373,-3059294
+1154,CR00001154,Butkus Education UAB,Education,Marijampole,1565,133921745,21427479
+1155,CR00001155,Kavaliauskas Technology UAB,Technology,Panevezys,778,106960996,2139219
+1156,CR00001156,Balciunas Finance UAB,Finance,Kaunas,178,9832186,2261402
+1157,CR00001157,Vasiliauskas Finance UAB,Finance,Panevezys,603,155841129,-10908879
+1158,CR00001158,Banys Manufacturing UAB,Manufacturing,Vilnius,1804,314619404,72362462
+1159,CR00001159,Mikalauskas Manufacturing UAB,Manufacturing,Utena,415,69844500,6984450
+1160,CR00001160,Banys Finance UAB,Finance,Kaunas,1841,108733142,18484634
+1161,CR00001161,Sakalauskas Manufacturing UAB,Manufacturing,Panevezys,1754,233808200,4676164
+1162,CR00001162,Petrauskas Finance UAB,Finance,Siauliai,315,60964155,11583189
+1163,CR00001163,Mikalauskas Professional Services UAB,Professional Services,Vilnius,1866,132004572,34321188
+1164,CR00001164,Balciunas Education UAB,Education,Marijampole,693,46421298,-3713703
+1165,CR00001165,Butkus Construction UAB,Construction,Utena,440,54514240,10902848
+1166,CR00001166,Zukauskas Education UAB,Education,Alytus,1789,348032060,80047373
+1167,CR00001167,Zukauskas Technology UAB,Technology,Klaipeda,226,29516278,2066139
+1168,CR00001168,Vasiliauskas Technology UAB,Technology,Klaipeda,1097,284181141,-2841811
+1169,CR00001169,Kavaliauskas Retail UAB,Retail,Vilnius,1219,224024163,26882899
+1170,CR00001170,Kairys Healthcare UAB,Healthcare,Utena,2512,242857648,26714341
+1171,CR00001171,Daukantas Technology UAB,Technology,Alytus,2222,420053546,-8401070
+1172,CR00001172,Banys Energy UAB,Energy,Marijampole,597,81765120,5723558
+1173,CR00001173,Daukantas Healthcare UAB,Healthcare,Kaunas,505,40633310,8939328
+1174,CR00001174,Kairys Manufacturing UAB,Manufacturing,Siauliai,451,102822137,23649091
+1175,CR00001175,Mikalauskas Education UAB,Education,Panevezys,761,118959520,2379190
+1176,CR00001176,Banys Technology UAB,Technology,Siauliai,301,25779747,257797
+1177,CR00001177,Kavaliauskas Retail UAB,Retail,Alytus,1093,181384443,29021510
+1178,CR00001178,Stankevicius Professional Services UAB,Professional Services,Alytus,2345,549768835,-32986130
+1179,CR00001179,Urbonas Construction UAB,Construction,Utena,1414,293450248,64559054
+1180,CR00001180,Kairys Logistics UAB,Logistics,Kaunas,2060,431914020,82063663
+1181,CR00001181,Jankauskas Construction UAB,Construction,Marijampole,1362,288833892,63543456
+1182,CR00001182,Kavaliauskas Retail UAB,Retail,Utena,2351,209648074,-16771845
+1183,CR00001183,Sakalauskas Energy UAB,Energy,Kaunas,2578,515966076,-41277286
+1184,CR00001184,Sakalauskas Healthcare UAB,Healthcare,Utena,556,115324408,3459732
+1185,CR00001185,Kazlauskas Retail UAB,Retail,Kaunas,2077,355854487,-28468358
+1186,CR00001186,Navickas Finance UAB,Finance,Kaunas,167,32551640,4557229
+1187,CR00001187,Urbonas Healthcare UAB,Healthcare,Alytus,2163,391338612,-3913386
+1188,CR00001188,Mockus Retail UAB,Retail,Kaunas,1933,106618481,5330924
+1189,CR00001189,Butkus Logistics UAB,Logistics,Kaunas,2271,525520755,141890603
+1190,CR00001190,Kavaliauskas Education UAB,Education,Vilnius,2108,280418808,50475385
+1191,CR00001191,Petrauskas Technology UAB,Technology,Utena,43,5433523,-54335
+1192,CR00001192,Vasiliauskas Manufacturing UAB,Manufacturing,Kaunas,1249,252795102,-5055902
+1193,CR00001193,Balciunas Retail UAB,Retail,Utena,1086,117771270,25909679
+1194,CR00001194,Stankevicius Manufacturing UAB,Manufacturing,Utena,1047,87193113,2615793
+1195,CR00001195,Zukauskas Logistics UAB,Logistics,Vilnius,1665,305107920,-3051079
+1196,CR00001196,Kazlauskas Logistics UAB,Logistics,Panevezys,940,135111840,35129078
+1197,CR00001197,Jankauskas Energy UAB,Energy,Vilnius,2265,401446335,20072316
+1198,CR00001198,Butkus Logistics UAB,Logistics,Kaunas,1738,405967254,-12179017
+1199,CR00001199,Paulauskas Construction UAB,Construction,Kaunas,1823,386829662,23209779
+1200,CR00001200,Mockus Retail UAB,Retail,Marijampole,1287,317551806,69861397

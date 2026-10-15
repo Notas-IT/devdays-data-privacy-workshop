@@ -1,0 +1,1201 @@
+registry_id,registration_number,company_name,industry,city,employee_count_band,revenue_band,profit_band
+1,CR00000001,Daukantas Energy UAB,Energy,Vilnius,100_499,over_120k,under_25k
+2,CR00000002,Vasiliauskas Construction UAB,Construction,Kaunas,500_999,over_120k,under_25k
+3,CR00000003,Kavaliauskas Manufacturing UAB,Manufacturing,Siauliai,100_499,over_120k,over_120k
+4,CR00000004,Kavaliauskas Energy UAB,Energy,Kaunas,1000_plus,over_120k,under_25k
+5,CR00000005,Stankevicius Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,over_120k
+6,CR00000006,Jankauskas Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+7,CR00000007,Sakalauskas Healthcare UAB,Healthcare,Vilnius,20_99,over_120k,under_25k
+8,CR00000008,Urbonas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+9,CR00000009,Jankauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+10,CR00000010,Navickas Manufacturing UAB,Manufacturing,Alytus,500_999,over_120k,under_25k
+11,CR00000011,Mikalauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+12,CR00000012,Sakalauskas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+13,CR00000013,Butkus Finance UAB,Finance,Kaunas,100_499,over_120k,over_120k
+14,CR00000014,Kazlauskas Retail UAB,Retail,Panevezys,1000_plus,over_120k,over_120k
+15,CR00000015,Kazlauskas Retail UAB,Retail,Siauliai,1000_plus,over_120k,over_120k
+16,CR00000016,Paulauskas Manufacturing UAB,Manufacturing,Kaunas,100_499,over_120k,under_25k
+17,CR00000017,Zukauskas Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,under_25k
+18,CR00000018,Banys Professional Services UAB,Professional Services,Panevezys,500_999,over_120k,over_120k
+19,CR00000019,Daukantas Energy UAB,Energy,Panevezys,1000_plus,over_120k,over_120k
+20,CR00000020,Zukauskas Logistics UAB,Logistics,Vilnius,100_499,over_120k,under_25k
+21,CR00000021,Mikalauskas Energy UAB,Energy,Utena,500_999,over_120k,over_120k
+22,CR00000022,Petrauskas Education UAB,Education,Utena,1000_plus,over_120k,over_120k
+23,CR00000023,Butkus Logistics UAB,Logistics,Klaipeda,100_499,over_120k,over_120k
+24,CR00000024,Jankauskas Education UAB,Education,Vilnius,100_499,over_120k,over_120k
+25,CR00000025,Kazlauskas Energy UAB,Energy,Siauliai,100_499,over_120k,over_120k
+26,CR00000026,Navickas Retail UAB,Retail,Kaunas,1000_plus,over_120k,over_120k
+27,CR00000027,Navickas Professional Services UAB,Professional Services,Utena,100_499,over_120k,over_120k
+28,CR00000028,Kazlauskas Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+29,CR00000029,Vasiliauskas Healthcare UAB,Healthcare,Utena,100_499,over_120k,over_120k
+30,CR00000030,Butkus Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+31,CR00000031,Zukauskas Technology UAB,Technology,Alytus,500_999,over_120k,over_120k
+32,CR00000032,Kavaliauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+33,CR00000033,Vasiliauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,under_25k
+34,CR00000034,Paulauskas Finance UAB,Finance,Kaunas,500_999,over_120k,over_120k
+35,CR00000035,Balciunas Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,over_120k
+36,CR00000036,Kavaliauskas Construction UAB,Construction,Panevezys,100_499,over_120k,over_120k
+37,CR00000037,Urbonas Education UAB,Education,Marijampole,1000_plus,over_120k,under_25k
+38,CR00000038,Vasiliauskas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+39,CR00000039,Sakalauskas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+40,CR00000040,Vasiliauskas Healthcare UAB,Healthcare,Alytus,500_999,over_120k,over_120k
+41,CR00000041,Butkus Education UAB,Education,Siauliai,500_999,over_120k,over_120k
+42,CR00000042,Kavaliauskas Energy UAB,Energy,Kaunas,100_499,over_120k,over_120k
+43,CR00000043,Paulauskas Retail UAB,Retail,Alytus,100_499,over_120k,over_120k
+44,CR00000044,Jankauskas Technology UAB,Technology,Panevezys,1000_plus,over_120k,over_120k
+45,CR00000045,Daukantas Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,over_120k
+46,CR00000046,Kairys Finance UAB,Finance,Klaipeda,1000_plus,over_120k,under_25k
+47,CR00000047,Petrauskas Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+48,CR00000048,Zukauskas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,under_25k
+49,CR00000049,Vasiliauskas Technology UAB,Technology,Vilnius,500_999,over_120k,over_120k
+50,CR00000050,Stankevicius Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+51,CR00000051,Kazlauskas Technology UAB,Technology,Siauliai,1000_plus,over_120k,under_25k
+52,CR00000052,Vasiliauskas Healthcare UAB,Healthcare,Klaipeda,100_499,over_120k,over_120k
+53,CR00000053,Jankauskas Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,under_25k
+54,CR00000054,Jankauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+55,CR00000055,Stankevicius Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+56,CR00000056,Petrauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+57,CR00000057,Navickas Healthcare UAB,Healthcare,Alytus,100_499,over_120k,under_25k
+58,CR00000058,Navickas Finance UAB,Finance,Kaunas,1000_plus,over_120k,under_25k
+59,CR00000059,Petrauskas Finance UAB,Finance,Marijampole,100_499,over_120k,under_25k
+60,CR00000060,Paulauskas Education UAB,Education,Vilnius,100_499,over_120k,over_120k
+61,CR00000061,Daukantas Education UAB,Education,Panevezys,1000_plus,over_120k,over_120k
+62,CR00000062,Daukantas Healthcare UAB,Healthcare,Klaipeda,20_99,over_120k,over_120k
+63,CR00000063,Daukantas Manufacturing UAB,Manufacturing,Siauliai,1000_plus,over_120k,over_120k
+64,CR00000064,Petrauskas Professional Services UAB,Professional Services,Kaunas,500_999,over_120k,over_120k
+65,CR00000065,Daukantas Professional Services UAB,Professional Services,Klaipeda,100_499,over_120k,over_120k
+66,CR00000066,Mikalauskas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+67,CR00000067,Daukantas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+68,CR00000068,Zukauskas Retail UAB,Retail,Marijampole,500_999,over_120k,over_120k
+69,CR00000069,Kazlauskas Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+70,CR00000070,Sakalauskas Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+71,CR00000071,Mikalauskas Technology UAB,Technology,Klaipeda,100_499,over_120k,over_120k
+72,CR00000072,Daukantas Energy UAB,Energy,Marijampole,1000_plus,over_120k,over_120k
+73,CR00000073,Paulauskas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+74,CR00000074,Balciunas Retail UAB,Retail,Vilnius,500_999,over_120k,under_25k
+75,CR00000075,Kazlauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+76,CR00000076,Daukantas Technology UAB,Technology,Marijampole,1000_plus,over_120k,over_120k
+77,CR00000077,Stankevicius Finance UAB,Finance,Panevezys,500_999,over_120k,over_120k
+78,CR00000078,Stankevicius Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+79,CR00000079,Butkus Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+80,CR00000080,Navickas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+81,CR00000081,Urbonas Energy UAB,Energy,Utena,100_499,over_120k,over_120k
+82,CR00000082,Sakalauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+83,CR00000083,Kazlauskas Education UAB,Education,Marijampole,500_999,over_120k,over_120k
+84,CR00000084,Banys Construction UAB,Construction,Panevezys,1000_plus,over_120k,under_25k
+85,CR00000085,Paulauskas Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+86,CR00000086,Balciunas Healthcare UAB,Healthcare,Panevezys,20_99,over_120k,over_120k
+87,CR00000087,Urbonas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+88,CR00000088,Stankevicius Technology UAB,Technology,Siauliai,1000_plus,over_120k,under_25k
+89,CR00000089,Vasiliauskas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+90,CR00000090,Kazlauskas Finance UAB,Finance,Utena,500_999,over_120k,over_120k
+91,CR00000091,Stankevicius Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+92,CR00000092,Paulauskas Healthcare UAB,Healthcare,Marijampole,1000_plus,over_120k,under_25k
+93,CR00000093,Zukauskas Retail UAB,Retail,Klaipeda,1000_plus,over_120k,over_120k
+94,CR00000094,Vasiliauskas Education UAB,Education,Kaunas,1000_plus,over_120k,under_25k
+95,CR00000095,Kazlauskas Logistics UAB,Logistics,Klaipeda,500_999,over_120k,over_120k
+96,CR00000096,Zukauskas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,over_120k
+97,CR00000097,Jankauskas Retail UAB,Retail,Vilnius,20_99,over_120k,over_120k
+98,CR00000098,Mockus Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+99,CR00000099,Mikalauskas Healthcare UAB,Healthcare,Alytus,100_499,over_120k,over_120k
+100,CR00000100,Stankevicius Construction UAB,Construction,Panevezys,1000_plus,over_120k,over_120k
+101,CR00000101,Stankevicius Logistics UAB,Logistics,Utena,100_499,over_120k,over_120k
+102,CR00000102,Butkus Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,under_25k
+103,CR00000103,Mockus Energy UAB,Energy,Marijampole,1000_plus,over_120k,over_120k
+104,CR00000104,Banys Education UAB,Education,Alytus,100_499,over_120k,under_25k
+105,CR00000105,Zukauskas Professional Services UAB,Professional Services,Kaunas,500_999,over_120k,over_120k
+106,CR00000106,Petrauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+107,CR00000107,Vasiliauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+108,CR00000108,Banys Education UAB,Education,Marijampole,100_499,over_120k,over_120k
+109,CR00000109,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+110,CR00000110,Mikalauskas Technology UAB,Technology,Panevezys,1000_plus,over_120k,over_120k
+111,CR00000111,Urbonas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+112,CR00000112,Jankauskas Logistics UAB,Logistics,Klaipeda,500_999,over_120k,over_120k
+113,CR00000113,Stankevicius Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+114,CR00000114,Sakalauskas Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+115,CR00000115,Jankauskas Retail UAB,Retail,Kaunas,20_99,over_120k,under_25k
+116,CR00000116,Navickas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+117,CR00000117,Kairys Professional Services UAB,Professional Services,Kaunas,100_499,over_120k,over_120k
+118,CR00000118,Petrauskas Finance UAB,Finance,Siauliai,1000_plus,over_120k,under_25k
+119,CR00000119,Jankauskas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,over_120k
+120,CR00000120,Mikalauskas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+121,CR00000121,Kavaliauskas Energy UAB,Energy,Siauliai,100_499,over_120k,over_120k
+122,CR00000122,Balciunas Retail UAB,Retail,Marijampole,100_499,over_120k,under_25k
+123,CR00000123,Petrauskas Retail UAB,Retail,Alytus,100_499,over_120k,over_120k
+124,CR00000124,Kazlauskas Education UAB,Education,Panevezys,500_999,over_120k,over_120k
+125,CR00000125,Urbonas Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+126,CR00000126,Urbonas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+127,CR00000127,Paulauskas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,over_120k
+128,CR00000128,Balciunas Education UAB,Education,Vilnius,500_999,over_120k,over_120k
+129,CR00000129,Kavaliauskas Logistics UAB,Logistics,Alytus,500_999,over_120k,over_120k
+130,CR00000130,Zukauskas Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,over_120k
+131,CR00000131,Navickas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+132,CR00000132,Navickas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,under_25k
+133,CR00000133,Kazlauskas Finance UAB,Finance,Marijampole,500_999,over_120k,over_120k
+134,CR00000134,Urbonas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+135,CR00000135,Balciunas Retail UAB,Retail,Marijampole,100_499,over_120k,over_120k
+136,CR00000136,Jankauskas Retail UAB,Retail,Klaipeda,20_99,over_120k,over_120k
+137,CR00000137,Mockus Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+138,CR00000138,Kavaliauskas Technology UAB,Technology,Marijampole,1000_plus,over_120k,over_120k
+139,CR00000139,Navickas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+140,CR00000140,Banys Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,over_120k
+141,CR00000141,Butkus Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+142,CR00000142,Kazlauskas Education UAB,Education,Klaipeda,1000_plus,over_120k,over_120k
+143,CR00000143,Butkus Logistics UAB,Logistics,Utena,100_499,over_120k,over_120k
+144,CR00000144,Kairys Retail UAB,Retail,Klaipeda,1000_plus,over_120k,over_120k
+145,CR00000145,Balciunas Education UAB,Education,Marijampole,100_499,over_120k,over_120k
+146,CR00000146,Jankauskas Retail UAB,Retail,Siauliai,1000_plus,over_120k,under_25k
+147,CR00000147,Daukantas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,over_120k
+148,CR00000148,Petrauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+149,CR00000149,Urbonas Energy UAB,Energy,Marijampole,100_499,over_120k,over_120k
+150,CR00000150,Daukantas Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,over_120k
+151,CR00000151,Balciunas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,over_120k
+152,CR00000152,Kavaliauskas Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,under_25k
+153,CR00000153,Banys Education UAB,Education,Panevezys,1000_plus,over_120k,under_25k
+154,CR00000154,Stankevicius Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,over_120k
+155,CR00000155,Kazlauskas Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+156,CR00000156,Banys Retail UAB,Retail,Siauliai,100_499,over_120k,over_120k
+157,CR00000157,Kazlauskas Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+158,CR00000158,Mikalauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+159,CR00000159,Kazlauskas Logistics UAB,Logistics,Utena,1000_plus,over_120k,under_25k
+160,CR00000160,Stankevicius Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+161,CR00000161,Kavaliauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+162,CR00000162,Butkus Logistics UAB,Logistics,Utena,100_499,over_120k,over_120k
+163,CR00000163,Jankauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,over_120k
+164,CR00000164,Urbonas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+165,CR00000165,Kavaliauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,under_25k
+166,CR00000166,Butkus Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+167,CR00000167,Kairys Technology UAB,Technology,Panevezys,1000_plus,over_120k,over_120k
+168,CR00000168,Kavaliauskas Construction UAB,Construction,Panevezys,100_499,over_120k,over_120k
+169,CR00000169,Mockus Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+170,CR00000170,Balciunas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+171,CR00000171,Stankevicius Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+172,CR00000172,Mockus Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,over_120k
+173,CR00000173,Stankevicius Technology UAB,Technology,Siauliai,100_499,over_120k,over_120k
+174,CR00000174,Kazlauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+175,CR00000175,Urbonas Education UAB,Education,Alytus,500_999,over_120k,under_25k
+176,CR00000176,Paulauskas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+177,CR00000177,Navickas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+178,CR00000178,Stankevicius Logistics UAB,Logistics,Alytus,1000_plus,over_120k,under_25k
+179,CR00000179,Balciunas Retail UAB,Retail,Marijampole,500_999,over_120k,over_120k
+180,CR00000180,Banys Finance UAB,Finance,Kaunas,500_999,over_120k,over_120k
+181,CR00000181,Kavaliauskas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,under_25k
+182,CR00000182,Vasiliauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,under_25k
+183,CR00000183,Balciunas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+184,CR00000184,Vasiliauskas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+185,CR00000185,Banys Finance UAB,Finance,Utena,1000_plus,over_120k,under_25k
+186,CR00000186,Kavaliauskas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,over_120k
+187,CR00000187,Kairys Education UAB,Education,Siauliai,500_999,over_120k,over_120k
+188,CR00000188,Balciunas Construction UAB,Construction,Siauliai,100_499,over_120k,over_120k
+189,CR00000189,Zukauskas Logistics UAB,Logistics,Utena,1000_plus,over_120k,over_120k
+190,CR00000190,Mikalauskas Manufacturing UAB,Manufacturing,Alytus,500_999,over_120k,over_120k
+191,CR00000191,Navickas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+192,CR00000192,Stankevicius Retail UAB,Retail,Siauliai,100_499,over_120k,under_25k
+193,CR00000193,Petrauskas Education UAB,Education,Alytus,500_999,over_120k,under_25k
+194,CR00000194,Mikalauskas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,under_25k
+195,CR00000195,Navickas Finance UAB,Finance,Marijampole,500_999,over_120k,under_25k
+196,CR00000196,Paulauskas Technology UAB,Technology,Kaunas,500_999,over_120k,over_120k
+197,CR00000197,Banys Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+198,CR00000198,Kairys Logistics UAB,Logistics,Siauliai,100_499,over_120k,under_25k
+199,CR00000199,Vasiliauskas Logistics UAB,Logistics,Utena,100_499,over_120k,under_25k
+200,CR00000200,Navickas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+201,CR00000201,Navickas Healthcare UAB,Healthcare,Panevezys,500_999,over_120k,under_25k
+202,CR00000202,Stankevicius Retail UAB,Retail,Utena,500_999,over_120k,over_120k
+203,CR00000203,Sakalauskas Technology UAB,Technology,Marijampole,20_99,over_120k,under_25k
+204,CR00000204,Vasiliauskas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+205,CR00000205,Mikalauskas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,under_25k
+206,CR00000206,Daukantas Manufacturing UAB,Manufacturing,Klaipeda,500_999,over_120k,over_120k
+207,CR00000207,Urbonas Healthcare UAB,Healthcare,Klaipeda,100_499,over_120k,over_120k
+208,CR00000208,Mockus Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+209,CR00000209,Butkus Logistics UAB,Logistics,Alytus,1000_plus,over_120k,under_25k
+210,CR00000210,Daukantas Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+211,CR00000211,Balciunas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+212,CR00000212,Kavaliauskas Education UAB,Education,Klaipeda,1000_plus,over_120k,over_120k
+213,CR00000213,Butkus Logistics UAB,Logistics,Alytus,1000_plus,over_120k,under_25k
+214,CR00000214,Zukauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,under_25k
+215,CR00000215,Navickas Logistics UAB,Logistics,Marijampole,1_19,over_120k,over_120k
+216,CR00000216,Jankauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+217,CR00000217,Zukauskas Professional Services UAB,Professional Services,Alytus,100_499,over_120k,over_120k
+218,CR00000218,Paulauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+219,CR00000219,Urbonas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+220,CR00000220,Kairys Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+221,CR00000221,Navickas Technology UAB,Technology,Siauliai,1000_plus,over_120k,over_120k
+222,CR00000222,Stankevicius Construction UAB,Construction,Siauliai,100_499,over_120k,over_120k
+223,CR00000223,Banys Logistics UAB,Logistics,Utena,500_999,over_120k,under_25k
+224,CR00000224,Daukantas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,over_120k
+225,CR00000225,Mikalauskas Education UAB,Education,Panevezys,1000_plus,over_120k,over_120k
+226,CR00000226,Zukauskas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+227,CR00000227,Zukauskas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+228,CR00000228,Sakalauskas Healthcare UAB,Healthcare,Siauliai,1000_plus,over_120k,over_120k
+229,CR00000229,Banys Retail UAB,Retail,Vilnius,500_999,over_120k,over_120k
+230,CR00000230,Urbonas Finance UAB,Finance,Siauliai,1000_plus,over_120k,under_25k
+231,CR00000231,Zukauskas Technology UAB,Technology,Marijampole,500_999,over_120k,over_120k
+232,CR00000232,Balciunas Education UAB,Education,Utena,100_499,over_120k,over_120k
+233,CR00000233,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+234,CR00000234,Petrauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+235,CR00000235,Navickas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+236,CR00000236,Navickas Construction UAB,Construction,Siauliai,1000_plus,over_120k,over_120k
+237,CR00000237,Paulauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+238,CR00000238,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,500_999,over_120k,over_120k
+239,CR00000239,Daukantas Technology UAB,Technology,Alytus,100_499,over_120k,over_120k
+240,CR00000240,Paulauskas Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+241,CR00000241,Vasiliauskas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+242,CR00000242,Jankauskas Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+243,CR00000243,Navickas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+244,CR00000244,Urbonas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+245,CR00000245,Vasiliauskas Logistics UAB,Logistics,Marijampole,100_499,over_120k,over_120k
+246,CR00000246,Daukantas Education UAB,Education,Marijampole,1000_plus,over_120k,under_25k
+247,CR00000247,Kairys Healthcare UAB,Healthcare,Vilnius,100_499,over_120k,over_120k
+248,CR00000248,Butkus Energy UAB,Energy,Alytus,1000_plus,over_120k,over_120k
+249,CR00000249,Paulauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+250,CR00000250,Kairys Education UAB,Education,Klaipeda,1000_plus,over_120k,under_25k
+251,CR00000251,Zukauskas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+252,CR00000252,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+253,CR00000253,Petrauskas Energy UAB,Energy,Alytus,1000_plus,over_120k,under_25k
+254,CR00000254,Vasiliauskas Manufacturing UAB,Manufacturing,Alytus,500_999,over_120k,over_120k
+255,CR00000255,Sakalauskas Energy UAB,Energy,Klaipeda,1000_plus,over_120k,over_120k
+256,CR00000256,Kairys Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+257,CR00000257,Zukauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+258,CR00000258,Navickas Technology UAB,Technology,Vilnius,1000_plus,over_120k,over_120k
+259,CR00000259,Kairys Construction UAB,Construction,Kaunas,100_499,over_120k,over_120k
+260,CR00000260,Butkus Energy UAB,Energy,Panevezys,1000_plus,over_120k,under_25k
+261,CR00000261,Petrauskas Finance UAB,Finance,Siauliai,20_99,over_120k,over_120k
+262,CR00000262,Urbonas Education UAB,Education,Panevezys,1000_plus,over_120k,under_25k
+263,CR00000263,Paulauskas Energy UAB,Energy,Alytus,1000_plus,over_120k,over_120k
+264,CR00000264,Banys Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+265,CR00000265,Petrauskas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+266,CR00000266,Kairys Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+267,CR00000267,Stankevicius Manufacturing UAB,Manufacturing,Siauliai,500_999,over_120k,over_120k
+268,CR00000268,Zukauskas Energy UAB,Energy,Alytus,500_999,over_120k,over_120k
+269,CR00000269,Sakalauskas Manufacturing UAB,Manufacturing,Vilnius,500_999,over_120k,over_120k
+270,CR00000270,Petrauskas Professional Services UAB,Professional Services,Vilnius,500_999,over_120k,over_120k
+271,CR00000271,Navickas Education UAB,Education,Utena,500_999,over_120k,over_120k
+272,CR00000272,Vasiliauskas Healthcare UAB,Healthcare,Marijampole,100_499,over_120k,over_120k
+273,CR00000273,Banys Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+274,CR00000274,Paulauskas Energy UAB,Energy,Klaipeda,100_499,over_120k,over_120k
+275,CR00000275,Mockus Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+276,CR00000276,Paulauskas Healthcare UAB,Healthcare,Siauliai,1000_plus,over_120k,under_25k
+277,CR00000277,Zukauskas Logistics UAB,Logistics,Marijampole,500_999,over_120k,over_120k
+278,CR00000278,Paulauskas Energy UAB,Energy,Klaipeda,1000_plus,over_120k,over_120k
+279,CR00000279,Kavaliauskas Energy UAB,Energy,Panevezys,100_499,over_120k,over_120k
+280,CR00000280,Jankauskas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,over_120k
+281,CR00000281,Vasiliauskas Healthcare UAB,Healthcare,Siauliai,100_499,over_120k,over_120k
+282,CR00000282,Kairys Professional Services UAB,Professional Services,Kaunas,100_499,over_120k,under_25k
+283,CR00000283,Kairys Professional Services UAB,Professional Services,Klaipeda,100_499,over_120k,over_120k
+284,CR00000284,Petrauskas Retail UAB,Retail,Marijampole,1000_plus,over_120k,over_120k
+285,CR00000285,Vasiliauskas Professional Services UAB,Professional Services,Kaunas,500_999,over_120k,over_120k
+286,CR00000286,Balciunas Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+287,CR00000287,Sakalauskas Education UAB,Education,Kaunas,100_499,over_120k,under_25k
+288,CR00000288,Jankauskas Finance UAB,Finance,Klaipeda,500_999,over_120k,over_120k
+289,CR00000289,Kairys Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+290,CR00000290,Sakalauskas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,over_120k
+291,CR00000291,Paulauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+292,CR00000292,Banys Manufacturing UAB,Manufacturing,Klaipeda,500_999,over_120k,under_25k
+293,CR00000293,Daukantas Professional Services UAB,Professional Services,Klaipeda,500_999,over_120k,over_120k
+294,CR00000294,Balciunas Healthcare UAB,Healthcare,Siauliai,500_999,over_120k,over_120k
+295,CR00000295,Kavaliauskas Professional Services UAB,Professional Services,Vilnius,20_99,over_120k,over_120k
+296,CR00000296,Mockus Education UAB,Education,Alytus,500_999,over_120k,over_120k
+297,CR00000297,Mikalauskas Finance UAB,Finance,Kaunas,1000_plus,over_120k,under_25k
+298,CR00000298,Kairys Logistics UAB,Logistics,Siauliai,100_499,over_120k,over_120k
+299,CR00000299,Stankevicius Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,over_120k
+300,CR00000300,Mikalauskas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+301,CR00000301,Mockus Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,under_25k
+302,CR00000302,Kairys Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+303,CR00000303,Kazlauskas Manufacturing UAB,Manufacturing,Vilnius,100_499,over_120k,under_25k
+304,CR00000304,Navickas Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,under_25k
+305,CR00000305,Navickas Construction UAB,Construction,Siauliai,100_499,over_120k,under_25k
+306,CR00000306,Kazlauskas Retail UAB,Retail,Panevezys,1000_plus,over_120k,over_120k
+307,CR00000307,Paulauskas Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,under_25k
+308,CR00000308,Zukauskas Finance UAB,Finance,Alytus,1000_plus,over_120k,under_25k
+309,CR00000309,Banys Logistics UAB,Logistics,Kaunas,20_99,over_120k,over_120k
+310,CR00000310,Vasiliauskas Education UAB,Education,Kaunas,1000_plus,over_120k,over_120k
+311,CR00000311,Navickas Technology UAB,Technology,Panevezys,1000_plus,over_120k,over_120k
+312,CR00000312,Jankauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+313,CR00000313,Stankevicius Education UAB,Education,Kaunas,1000_plus,over_120k,over_120k
+314,CR00000314,Vasiliauskas Logistics UAB,Logistics,Utena,1000_plus,over_120k,over_120k
+315,CR00000315,Balciunas Energy UAB,Energy,Alytus,1000_plus,over_120k,under_25k
+316,CR00000316,Kairys Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+317,CR00000317,Banys Technology UAB,Technology,Panevezys,1000_plus,over_120k,over_120k
+318,CR00000318,Vasiliauskas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,under_25k
+319,CR00000319,Stankevicius Construction UAB,Construction,Alytus,500_999,over_120k,over_120k
+320,CR00000320,Kairys Logistics UAB,Logistics,Utena,100_499,over_120k,over_120k
+321,CR00000321,Butkus Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+322,CR00000322,Stankevicius Technology UAB,Technology,Vilnius,100_499,over_120k,under_25k
+323,CR00000323,Sakalauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+324,CR00000324,Kazlauskas Energy UAB,Energy,Klaipeda,500_999,over_120k,over_120k
+325,CR00000325,Petrauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+326,CR00000326,Butkus Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,under_25k
+327,CR00000327,Zukauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+328,CR00000328,Daukantas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,over_120k
+329,CR00000329,Jankauskas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+330,CR00000330,Vasiliauskas Professional Services UAB,Professional Services,Panevezys,1_19,over_120k,over_120k
+331,CR00000331,Urbonas Construction UAB,Construction,Siauliai,1000_plus,over_120k,over_120k
+332,CR00000332,Kairys Construction UAB,Construction,Marijampole,1000_plus,over_120k,under_25k
+333,CR00000333,Kazlauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+334,CR00000334,Vasiliauskas Logistics UAB,Logistics,Utena,500_999,over_120k,over_120k
+335,CR00000335,Urbonas Energy UAB,Energy,Kaunas,1000_plus,over_120k,under_25k
+336,CR00000336,Kairys Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+337,CR00000337,Balciunas Construction UAB,Construction,Siauliai,500_999,over_120k,over_120k
+338,CR00000338,Navickas Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+339,CR00000339,Navickas Energy UAB,Energy,Alytus,1000_plus,over_120k,over_120k
+340,CR00000340,Urbonas Education UAB,Education,Kaunas,1000_plus,over_120k,under_25k
+341,CR00000341,Stankevicius Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+342,CR00000342,Kavaliauskas Manufacturing UAB,Manufacturing,Klaipeda,500_999,over_120k,under_25k
+343,CR00000343,Mockus Retail UAB,Retail,Siauliai,1000_plus,over_120k,over_120k
+344,CR00000344,Vasiliauskas Education UAB,Education,Kaunas,1000_plus,over_120k,under_25k
+345,CR00000345,Kairys Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+346,CR00000346,Balciunas Manufacturing UAB,Manufacturing,Siauliai,500_999,over_120k,under_25k
+347,CR00000347,Kairys Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+348,CR00000348,Kairys Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+349,CR00000349,Butkus Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+350,CR00000350,Daukantas Technology UAB,Technology,Siauliai,1000_plus,over_120k,over_120k
+351,CR00000351,Paulauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+352,CR00000352,Kavaliauskas Professional Services UAB,Professional Services,Panevezys,100_499,over_120k,over_120k
+353,CR00000353,Urbonas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+354,CR00000354,Kavaliauskas Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+355,CR00000355,Stankevicius Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+356,CR00000356,Stankevicius Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+357,CR00000357,Zukauskas Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+358,CR00000358,Zukauskas Retail UAB,Retail,Kaunas,1000_plus,over_120k,over_120k
+359,CR00000359,Daukantas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,over_120k
+360,CR00000360,Kazlauskas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,under_25k
+361,CR00000361,Daukantas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+362,CR00000362,Jankauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+363,CR00000363,Paulauskas Technology UAB,Technology,Kaunas,100_499,over_120k,under_25k
+364,CR00000364,Kazlauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+365,CR00000365,Kavaliauskas Energy UAB,Energy,Utena,20_99,over_120k,over_120k
+366,CR00000366,Kavaliauskas Finance UAB,Finance,Vilnius,100_499,over_120k,over_120k
+367,CR00000367,Butkus Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+368,CR00000368,Urbonas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+369,CR00000369,Banys Education UAB,Education,Siauliai,1000_plus,over_120k,over_120k
+370,CR00000370,Sakalauskas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+371,CR00000371,Balciunas Manufacturing UAB,Manufacturing,Panevezys,500_999,over_120k,over_120k
+372,CR00000372,Sakalauskas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+373,CR00000373,Mikalauskas Professional Services UAB,Professional Services,Kaunas,1000_plus,over_120k,over_120k
+374,CR00000374,Kavaliauskas Energy UAB,Energy,Utena,1000_plus,over_120k,over_120k
+375,CR00000375,Banys Technology UAB,Technology,Siauliai,1000_plus,over_120k,over_120k
+376,CR00000376,Jankauskas Logistics UAB,Logistics,Panevezys,500_999,over_120k,over_120k
+377,CR00000377,Mockus Retail UAB,Retail,Klaipeda,100_499,over_120k,over_120k
+378,CR00000378,Vasiliauskas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+379,CR00000379,Vasiliauskas Construction UAB,Construction,Alytus,1000_plus,over_120k,under_25k
+380,CR00000380,Vasiliauskas Construction UAB,Construction,Siauliai,1000_plus,over_120k,under_25k
+381,CR00000381,Kazlauskas Logistics UAB,Logistics,Panevezys,1000_plus,over_120k,over_120k
+382,CR00000382,Kairys Technology UAB,Technology,Marijampole,1000_plus,over_120k,under_25k
+383,CR00000383,Balciunas Finance UAB,Finance,Kaunas,1000_plus,over_120k,under_25k
+384,CR00000384,Sakalauskas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+385,CR00000385,Sakalauskas Energy UAB,Energy,Marijampole,1000_plus,over_120k,under_25k
+386,CR00000386,Butkus Logistics UAB,Logistics,Kaunas,100_499,over_120k,over_120k
+387,CR00000387,Sakalauskas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+388,CR00000388,Balciunas Energy UAB,Energy,Siauliai,1000_plus,over_120k,under_25k
+389,CR00000389,Navickas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+390,CR00000390,Sakalauskas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,over_120k
+391,CR00000391,Banys Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+392,CR00000392,Vasiliauskas Education UAB,Education,Utena,1000_plus,over_120k,under_25k
+393,CR00000393,Kairys Technology UAB,Technology,Kaunas,20_99,over_120k,over_120k
+394,CR00000394,Sakalauskas Healthcare UAB,Healthcare,Siauliai,1000_plus,over_120k,over_120k
+395,CR00000395,Mikalauskas Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+396,CR00000396,Kazlauskas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+397,CR00000397,Kairys Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,under_25k
+398,CR00000398,Zukauskas Healthcare UAB,Healthcare,Panevezys,500_999,over_120k,under_25k
+399,CR00000399,Kavaliauskas Logistics UAB,Logistics,Kaunas,100_499,over_120k,over_120k
+400,CR00000400,Navickas Finance UAB,Finance,Panevezys,500_999,over_120k,over_120k
+401,CR00000401,Jankauskas Education UAB,Education,Klaipeda,500_999,over_120k,under_25k
+402,CR00000402,Petrauskas Retail UAB,Retail,Siauliai,500_999,over_120k,over_120k
+403,CR00000403,Urbonas Logistics UAB,Logistics,Panevezys,100_499,over_120k,over_120k
+404,CR00000404,Petrauskas Retail UAB,Retail,Klaipeda,1000_plus,over_120k,over_120k
+405,CR00000405,Kazlauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+406,CR00000406,Mockus Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+407,CR00000407,Kairys Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+408,CR00000408,Banys Logistics UAB,Logistics,Utena,100_499,over_120k,under_25k
+409,CR00000409,Vasiliauskas Logistics UAB,Logistics,Utena,1000_plus,over_120k,over_120k
+410,CR00000410,Stankevicius Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,over_120k
+411,CR00000411,Paulauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,under_25k
+412,CR00000412,Kazlauskas Education UAB,Education,Vilnius,100_499,over_120k,over_120k
+413,CR00000413,Urbonas Construction UAB,Construction,Alytus,1000_plus,over_120k,over_120k
+414,CR00000414,Sakalauskas Logistics UAB,Logistics,Kaunas,500_999,over_120k,under_25k
+415,CR00000415,Kavaliauskas Retail UAB,Retail,Panevezys,100_499,over_120k,over_120k
+416,CR00000416,Mockus Professional Services UAB,Professional Services,Utena,500_999,over_120k,under_25k
+417,CR00000417,Urbonas Construction UAB,Construction,Kaunas,1000_plus,over_120k,over_120k
+418,CR00000418,Kairys Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,under_25k
+419,CR00000419,Balciunas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+420,CR00000420,Kavaliauskas Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+421,CR00000421,Balciunas Finance UAB,Finance,Vilnius,100_499,over_120k,over_120k
+422,CR00000422,Kavaliauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+423,CR00000423,Mikalauskas Finance UAB,Finance,Siauliai,100_499,over_120k,over_120k
+424,CR00000424,Vasiliauskas Finance UAB,Finance,Vilnius,500_999,over_120k,over_120k
+425,CR00000425,Stankevicius Construction UAB,Construction,Panevezys,1000_plus,over_120k,over_120k
+426,CR00000426,Kavaliauskas Finance UAB,Finance,Vilnius,500_999,over_120k,over_120k
+427,CR00000427,Kavaliauskas Construction UAB,Construction,Marijampole,100_499,over_120k,over_120k
+428,CR00000428,Navickas Construction UAB,Construction,Klaipeda,500_999,over_120k,under_25k
+429,CR00000429,Stankevicius Education UAB,Education,Panevezys,500_999,over_120k,over_120k
+430,CR00000430,Sakalauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,under_25k
+431,CR00000431,Jankauskas Logistics UAB,Logistics,Kaunas,500_999,over_120k,over_120k
+432,CR00000432,Butkus Education UAB,Education,Klaipeda,1000_plus,over_120k,under_25k
+433,CR00000433,Kavaliauskas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,over_120k
+434,CR00000434,Daukantas Retail UAB,Retail,Vilnius,500_999,over_120k,over_120k
+435,CR00000435,Mikalauskas Finance UAB,Finance,Alytus,1000_plus,over_120k,under_25k
+436,CR00000436,Mikalauskas Professional Services UAB,Professional Services,Utena,500_999,over_120k,under_25k
+437,CR00000437,Stankevicius Retail UAB,Retail,Marijampole,1000_plus,over_120k,over_120k
+438,CR00000438,Sakalauskas Logistics UAB,Logistics,Marijampole,100_499,over_120k,over_120k
+439,CR00000439,Balciunas Education UAB,Education,Utena,1000_plus,over_120k,over_120k
+440,CR00000440,Kazlauskas Logistics UAB,Logistics,Vilnius,100_499,over_120k,over_120k
+441,CR00000441,Banys Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+442,CR00000442,Petrauskas Healthcare UAB,Healthcare,Klaipeda,20_99,over_120k,over_120k
+443,CR00000443,Kairys Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,under_25k
+444,CR00000444,Butkus Manufacturing UAB,Manufacturing,Siauliai,500_999,over_120k,over_120k
+445,CR00000445,Banys Construction UAB,Construction,Kaunas,500_999,over_120k,over_120k
+446,CR00000446,Butkus Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+447,CR00000447,Daukantas Logistics UAB,Logistics,Marijampole,500_999,over_120k,over_120k
+448,CR00000448,Butkus Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,over_120k
+449,CR00000449,Mikalauskas Professional Services UAB,Professional Services,Alytus,500_999,over_120k,under_25k
+450,CR00000450,Kairys Retail UAB,Retail,Panevezys,1000_plus,over_120k,under_25k
+451,CR00000451,Urbonas Technology UAB,Technology,Utena,100_499,over_120k,over_120k
+452,CR00000452,Urbonas Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+453,CR00000453,Stankevicius Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+454,CR00000454,Butkus Finance UAB,Finance,Siauliai,500_999,over_120k,over_120k
+455,CR00000455,Kazlauskas Finance UAB,Finance,Vilnius,500_999,over_120k,under_25k
+456,CR00000456,Zukauskas Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,over_120k
+457,CR00000457,Balciunas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+458,CR00000458,Balciunas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,under_25k
+459,CR00000459,Zukauskas Logistics UAB,Logistics,Utena,500_999,over_120k,over_120k
+460,CR00000460,Kavaliauskas Education UAB,Education,Utena,500_999,over_120k,under_25k
+461,CR00000461,Kavaliauskas Education UAB,Education,Panevezys,1000_plus,over_120k,over_120k
+462,CR00000462,Daukantas Construction UAB,Construction,Kaunas,1000_plus,over_120k,over_120k
+463,CR00000463,Zukauskas Professional Services UAB,Professional Services,Vilnius,500_999,over_120k,under_25k
+464,CR00000464,Sakalauskas Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+465,CR00000465,Jankauskas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+466,CR00000466,Butkus Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+467,CR00000467,Sakalauskas Finance UAB,Finance,Klaipeda,500_999,over_120k,under_25k
+468,CR00000468,Sakalauskas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,over_120k
+469,CR00000469,Jankauskas Education UAB,Education,Kaunas,500_999,over_120k,under_25k
+470,CR00000470,Banys Finance UAB,Finance,Klaipeda,1000_plus,over_120k,under_25k
+471,CR00000471,Petrauskas Manufacturing UAB,Manufacturing,Siauliai,1000_plus,over_120k,over_120k
+472,CR00000472,Kavaliauskas Energy UAB,Energy,Vilnius,100_499,over_120k,over_120k
+473,CR00000473,Daukantas Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+474,CR00000474,Navickas Manufacturing UAB,Manufacturing,Klaipeda,100_499,over_120k,over_120k
+475,CR00000475,Mikalauskas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,under_25k
+476,CR00000476,Butkus Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,over_120k
+477,CR00000477,Kavaliauskas Energy UAB,Energy,Vilnius,500_999,over_120k,over_120k
+478,CR00000478,Vasiliauskas Retail UAB,Retail,Panevezys,1000_plus,over_120k,under_25k
+479,CR00000479,Mockus Energy UAB,Energy,Kaunas,500_999,over_120k,under_25k
+480,CR00000480,Vasiliauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+481,CR00000481,Kairys Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+482,CR00000482,Kazlauskas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+483,CR00000483,Zukauskas Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+484,CR00000484,Kavaliauskas Finance UAB,Finance,Panevezys,500_999,over_120k,over_120k
+485,CR00000485,Mikalauskas Education UAB,Education,Klaipeda,1000_plus,over_120k,over_120k
+486,CR00000486,Vasiliauskas Technology UAB,Technology,Vilnius,1000_plus,over_120k,over_120k
+487,CR00000487,Sakalauskas Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,over_120k
+488,CR00000488,Banys Retail UAB,Retail,Marijampole,1000_plus,over_120k,over_120k
+489,CR00000489,Butkus Technology UAB,Technology,Marijampole,1000_plus,over_120k,under_25k
+490,CR00000490,Mockus Manufacturing UAB,Manufacturing,Klaipeda,100_499,over_120k,over_120k
+491,CR00000491,Mikalauskas Finance UAB,Finance,Kaunas,1000_plus,over_120k,under_25k
+492,CR00000492,Zukauskas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+493,CR00000493,Banys Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+494,CR00000494,Urbonas Energy UAB,Energy,Siauliai,100_499,over_120k,over_120k
+495,CR00000495,Daukantas Healthcare UAB,Healthcare,Marijampole,1000_plus,over_120k,over_120k
+496,CR00000496,Stankevicius Finance UAB,Finance,Alytus,100_499,over_120k,over_120k
+497,CR00000497,Petrauskas Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+498,CR00000498,Kazlauskas Manufacturing UAB,Manufacturing,Marijampole,100_499,over_120k,over_120k
+499,CR00000499,Kavaliauskas Professional Services UAB,Professional Services,Vilnius,500_999,over_120k,over_120k
+500,CR00000500,Paulauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+501,CR00000501,Paulauskas Education UAB,Education,Kaunas,1000_plus,over_120k,over_120k
+502,CR00000502,Sakalauskas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,under_25k
+503,CR00000503,Daukantas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+504,CR00000504,Zukauskas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+505,CR00000505,Balciunas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+506,CR00000506,Mockus Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+507,CR00000507,Sakalauskas Construction UAB,Construction,Kaunas,1000_plus,over_120k,over_120k
+508,CR00000508,Mikalauskas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+509,CR00000509,Banys Energy UAB,Energy,Klaipeda,1000_plus,over_120k,over_120k
+510,CR00000510,Balciunas Construction UAB,Construction,Siauliai,500_999,over_120k,over_120k
+511,CR00000511,Mockus Healthcare UAB,Healthcare,Siauliai,100_499,over_120k,over_120k
+512,CR00000512,Mikalauskas Professional Services UAB,Professional Services,Marijampole,100_499,over_120k,over_120k
+513,CR00000513,Daukantas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+514,CR00000514,Stankevicius Technology UAB,Technology,Kaunas,500_999,over_120k,over_120k
+515,CR00000515,Kairys Manufacturing UAB,Manufacturing,Alytus,100_499,over_120k,60k_80k
+516,CR00000516,Zukauskas Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,over_120k
+517,CR00000517,Kavaliauskas Healthcare UAB,Healthcare,Panevezys,100_499,over_120k,over_120k
+518,CR00000518,Jankauskas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,over_120k
+519,CR00000519,Kazlauskas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+520,CR00000520,Paulauskas Technology UAB,Technology,Panevezys,500_999,over_120k,under_25k
+521,CR00000521,Urbonas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+522,CR00000522,Mockus Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,under_25k
+523,CR00000523,Urbonas Professional Services UAB,Professional Services,Utena,100_499,over_120k,under_25k
+524,CR00000524,Mikalauskas Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+525,CR00000525,Urbonas Manufacturing UAB,Manufacturing,Kaunas,100_499,over_120k,over_120k
+526,CR00000526,Paulauskas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,under_25k
+527,CR00000527,Urbonas Construction UAB,Construction,Alytus,1000_plus,over_120k,under_25k
+528,CR00000528,Daukantas Finance UAB,Finance,Alytus,1000_plus,over_120k,under_25k
+529,CR00000529,Mockus Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,over_120k
+530,CR00000530,Kazlauskas Technology UAB,Technology,Marijampole,100_499,over_120k,under_25k
+531,CR00000531,Daukantas Education UAB,Education,Vilnius,100_499,over_120k,over_120k
+532,CR00000532,Kazlauskas Education UAB,Education,Panevezys,1000_plus,over_120k,over_120k
+533,CR00000533,Navickas Energy UAB,Energy,Siauliai,100_499,over_120k,over_120k
+534,CR00000534,Banys Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,under_25k
+535,CR00000535,Kairys Retail UAB,Retail,Panevezys,100_499,over_120k,over_120k
+536,CR00000536,Mockus Construction UAB,Construction,Siauliai,1000_plus,over_120k,over_120k
+537,CR00000537,Navickas Construction UAB,Construction,Marijampole,100_499,over_120k,over_120k
+538,CR00000538,Kairys Energy UAB,Energy,Klaipeda,1000_plus,over_120k,over_120k
+539,CR00000539,Kazlauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+540,CR00000540,Paulauskas Finance UAB,Finance,Vilnius,1000_plus,over_120k,under_25k
+541,CR00000541,Mockus Technology UAB,Technology,Panevezys,100_499,over_120k,under_25k
+542,CR00000542,Zukauskas Energy UAB,Energy,Alytus,1000_plus,over_120k,over_120k
+543,CR00000543,Vasiliauskas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+544,CR00000544,Kairys Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+545,CR00000545,Butkus Logistics UAB,Logistics,Marijampole,100_499,over_120k,over_120k
+546,CR00000546,Vasiliauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+547,CR00000547,Navickas Education UAB,Education,Kaunas,1000_plus,over_120k,over_120k
+548,CR00000548,Paulauskas Technology UAB,Technology,Utena,100_499,over_120k,over_120k
+549,CR00000549,Mikalauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+550,CR00000550,Petrauskas Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+551,CR00000551,Kazlauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+552,CR00000552,Mockus Energy UAB,Energy,Kaunas,100_499,over_120k,over_120k
+553,CR00000553,Banys Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+554,CR00000554,Zukauskas Logistics UAB,Logistics,Utena,500_999,over_120k,over_120k
+555,CR00000555,Butkus Retail UAB,Retail,Marijampole,1000_plus,over_120k,over_120k
+556,CR00000556,Banys Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+557,CR00000557,Banys Retail UAB,Retail,Siauliai,1000_plus,over_120k,over_120k
+558,CR00000558,Vasiliauskas Energy UAB,Energy,Kaunas,100_499,over_120k,under_25k
+559,CR00000559,Kairys Retail UAB,Retail,Vilnius,20_99,over_120k,under_25k
+560,CR00000560,Kairys Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+561,CR00000561,Sakalauskas Retail UAB,Retail,Siauliai,500_999,over_120k,under_25k
+562,CR00000562,Jankauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+563,CR00000563,Zukauskas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,under_25k
+564,CR00000564,Urbonas Energy UAB,Energy,Marijampole,1000_plus,over_120k,over_120k
+565,CR00000565,Urbonas Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+566,CR00000566,Butkus Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+567,CR00000567,Mockus Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+568,CR00000568,Kavaliauskas Logistics UAB,Logistics,Panevezys,100_499,over_120k,over_120k
+569,CR00000569,Paulauskas Manufacturing UAB,Manufacturing,Panevezys,500_999,over_120k,under_25k
+570,CR00000570,Kairys Finance UAB,Finance,Alytus,500_999,over_120k,over_120k
+571,CR00000571,Balciunas Retail UAB,Retail,Klaipeda,1000_plus,over_120k,over_120k
+572,CR00000572,Balciunas Retail UAB,Retail,Siauliai,100_499,over_120k,over_120k
+573,CR00000573,Kavaliauskas Logistics UAB,Logistics,Marijampole,100_499,over_120k,under_25k
+574,CR00000574,Sakalauskas Healthcare UAB,Healthcare,Marijampole,1000_plus,over_120k,over_120k
+575,CR00000575,Paulauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,under_25k
+576,CR00000576,Sakalauskas Construction UAB,Construction,Utena,500_999,over_120k,over_120k
+577,CR00000577,Kairys Energy UAB,Energy,Alytus,500_999,over_120k,over_120k
+578,CR00000578,Daukantas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+579,CR00000579,Kairys Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,under_25k
+580,CR00000580,Kavaliauskas Construction UAB,Construction,Siauliai,500_999,over_120k,over_120k
+581,CR00000581,Sakalauskas Education UAB,Education,Utena,1000_plus,over_120k,over_120k
+582,CR00000582,Mockus Education UAB,Education,Kaunas,500_999,over_120k,over_120k
+583,CR00000583,Mikalauskas Technology UAB,Technology,Vilnius,1000_plus,over_120k,under_25k
+584,CR00000584,Sakalauskas Technology UAB,Technology,Siauliai,1000_plus,over_120k,over_120k
+585,CR00000585,Balciunas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+586,CR00000586,Mikalauskas Education UAB,Education,Panevezys,1000_plus,over_120k,under_25k
+587,CR00000587,Banys Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,under_25k
+588,CR00000588,Jankauskas Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,under_25k
+589,CR00000589,Petrauskas Professional Services UAB,Professional Services,Kaunas,100_499,over_120k,over_120k
+590,CR00000590,Jankauskas Manufacturing UAB,Manufacturing,Alytus,100_499,over_120k,over_120k
+591,CR00000591,Butkus Retail UAB,Retail,Kaunas,1000_plus,over_120k,over_120k
+592,CR00000592,Balciunas Construction UAB,Construction,Kaunas,100_499,over_120k,over_120k
+593,CR00000593,Mockus Energy UAB,Energy,Marijampole,1000_plus,over_120k,over_120k
+594,CR00000594,Kavaliauskas Retail UAB,Retail,Klaipeda,1000_plus,over_120k,over_120k
+595,CR00000595,Mikalauskas Construction UAB,Construction,Kaunas,1000_plus,over_120k,under_25k
+596,CR00000596,Petrauskas Energy UAB,Energy,Alytus,100_499,over_120k,over_120k
+597,CR00000597,Kavaliauskas Healthcare UAB,Healthcare,Vilnius,500_999,over_120k,over_120k
+598,CR00000598,Jankauskas Education UAB,Education,Vilnius,500_999,over_120k,over_120k
+599,CR00000599,Mikalauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+600,CR00000600,Kazlauskas Professional Services UAB,Professional Services,Vilnius,500_999,over_120k,over_120k
+601,CR00000601,Butkus Retail UAB,Retail,Marijampole,100_499,over_120k,over_120k
+602,CR00000602,Banys Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,under_25k
+603,CR00000603,Petrauskas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,under_25k
+604,CR00000604,Butkus Education UAB,Education,Marijampole,1000_plus,over_120k,under_25k
+605,CR00000605,Daukantas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,under_25k
+606,CR00000606,Zukauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+607,CR00000607,Zukauskas Finance UAB,Finance,Siauliai,500_999,over_120k,over_120k
+608,CR00000608,Kavaliauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+609,CR00000609,Kazlauskas Healthcare UAB,Healthcare,Siauliai,500_999,over_120k,under_25k
+610,CR00000610,Jankauskas Finance UAB,Finance,Klaipeda,500_999,over_120k,over_120k
+611,CR00000611,Banys Construction UAB,Construction,Alytus,500_999,over_120k,under_25k
+612,CR00000612,Navickas Education UAB,Education,Klaipeda,1000_plus,over_120k,over_120k
+613,CR00000613,Petrauskas Retail UAB,Retail,Marijampole,100_499,over_120k,over_120k
+614,CR00000614,Sakalauskas Technology UAB,Technology,Klaipeda,500_999,over_120k,over_120k
+615,CR00000615,Jankauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+616,CR00000616,Navickas Logistics UAB,Logistics,Vilnius,500_999,over_120k,over_120k
+617,CR00000617,Butkus Retail UAB,Retail,Marijampole,1000_plus,over_120k,under_25k
+618,CR00000618,Banys Technology UAB,Technology,Klaipeda,1000_plus,over_120k,over_120k
+619,CR00000619,Butkus Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,over_120k
+620,CR00000620,Mikalauskas Education UAB,Education,Marijampole,1000_plus,over_120k,over_120k
+621,CR00000621,Zukauskas Technology UAB,Technology,Siauliai,500_999,over_120k,over_120k
+622,CR00000622,Mikalauskas Construction UAB,Construction,Kaunas,100_499,over_120k,over_120k
+623,CR00000623,Kavaliauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+624,CR00000624,Mockus Technology UAB,Technology,Klaipeda,1000_plus,over_120k,over_120k
+625,CR00000625,Paulauskas Professional Services UAB,Professional Services,Marijampole,100_499,over_120k,under_25k
+626,CR00000626,Balciunas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,over_120k
+627,CR00000627,Kavaliauskas Healthcare UAB,Healthcare,Marijampole,500_999,over_120k,over_120k
+628,CR00000628,Mikalauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+629,CR00000629,Kazlauskas Construction UAB,Construction,Alytus,1000_plus,over_120k,over_120k
+630,CR00000630,Kavaliauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+631,CR00000631,Vasiliauskas Construction UAB,Construction,Alytus,1000_plus,over_120k,under_25k
+632,CR00000632,Kairys Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,under_25k
+633,CR00000633,Daukantas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,under_25k
+634,CR00000634,Zukauskas Healthcare UAB,Healthcare,Klaipeda,500_999,over_120k,under_25k
+635,CR00000635,Kairys Healthcare UAB,Healthcare,Siauliai,1000_plus,over_120k,under_25k
+636,CR00000636,Butkus Healthcare UAB,Healthcare,Marijampole,20_99,over_120k,under_25k
+637,CR00000637,Zukauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+638,CR00000638,Kavaliauskas Retail UAB,Retail,Kaunas,1000_plus,over_120k,under_25k
+639,CR00000639,Kavaliauskas Technology UAB,Technology,Siauliai,100_499,over_120k,over_120k
+640,CR00000640,Mockus Finance UAB,Finance,Siauliai,1000_plus,over_120k,under_25k
+641,CR00000641,Balciunas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+642,CR00000642,Stankevicius Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,over_120k
+643,CR00000643,Mikalauskas Energy UAB,Energy,Panevezys,100_499,over_120k,over_120k
+644,CR00000644,Butkus Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+645,CR00000645,Kairys Education UAB,Education,Siauliai,100_499,over_120k,over_120k
+646,CR00000646,Banys Retail UAB,Retail,Panevezys,1000_plus,over_120k,over_120k
+647,CR00000647,Vasiliauskas Construction UAB,Construction,Klaipeda,500_999,over_120k,under_25k
+648,CR00000648,Stankevicius Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,over_120k
+649,CR00000649,Kazlauskas Retail UAB,Retail,Panevezys,100_499,over_120k,over_120k
+650,CR00000650,Mockus Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+651,CR00000651,Petrauskas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,under_25k
+652,CR00000652,Jankauskas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+653,CR00000653,Daukantas Energy UAB,Energy,Utena,1000_plus,over_120k,over_120k
+654,CR00000654,Zukauskas Education UAB,Education,Siauliai,500_999,over_120k,over_120k
+655,CR00000655,Mikalauskas Energy UAB,Energy,Alytus,500_999,over_120k,over_120k
+656,CR00000656,Zukauskas Healthcare UAB,Healthcare,Kaunas,100_499,over_120k,under_25k
+657,CR00000657,Jankauskas Manufacturing UAB,Manufacturing,Alytus,500_999,over_120k,under_25k
+658,CR00000658,Stankevicius Logistics UAB,Logistics,Alytus,1000_plus,over_120k,under_25k
+659,CR00000659,Banys Construction UAB,Construction,Utena,1000_plus,over_120k,under_25k
+660,CR00000660,Balciunas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+661,CR00000661,Kazlauskas Manufacturing UAB,Manufacturing,Klaipeda,500_999,over_120k,over_120k
+662,CR00000662,Kazlauskas Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+663,CR00000663,Petrauskas Professional Services UAB,Professional Services,Siauliai,500_999,over_120k,over_120k
+664,CR00000664,Jankauskas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,under_25k
+665,CR00000665,Kavaliauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+666,CR00000666,Daukantas Retail UAB,Retail,Siauliai,100_499,over_120k,over_120k
+667,CR00000667,Kavaliauskas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+668,CR00000668,Daukantas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,under_25k
+669,CR00000669,Navickas Education UAB,Education,Klaipeda,100_499,over_120k,over_120k
+670,CR00000670,Mikalauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+671,CR00000671,Kavaliauskas Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+672,CR00000672,Mockus Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+673,CR00000673,Navickas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+674,CR00000674,Navickas Professional Services UAB,Professional Services,Utena,500_999,over_120k,over_120k
+675,CR00000675,Balciunas Professional Services UAB,Professional Services,Utena,500_999,over_120k,over_120k
+676,CR00000676,Petrauskas Logistics UAB,Logistics,Utena,100_499,over_120k,over_120k
+677,CR00000677,Daukantas Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+678,CR00000678,Stankevicius Education UAB,Education,Klaipeda,100_499,over_120k,over_120k
+679,CR00000679,Stankevicius Finance UAB,Finance,Utena,1000_plus,over_120k,under_25k
+680,CR00000680,Petrauskas Education UAB,Education,Utena,1000_plus,over_120k,under_25k
+681,CR00000681,Stankevicius Retail UAB,Retail,Siauliai,1000_plus,over_120k,over_120k
+682,CR00000682,Vasiliauskas Logistics UAB,Logistics,Marijampole,1000_plus,over_120k,over_120k
+683,CR00000683,Navickas Manufacturing UAB,Manufacturing,Siauliai,1000_plus,over_120k,over_120k
+684,CR00000684,Kairys Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+685,CR00000685,Balciunas Healthcare UAB,Healthcare,Marijampole,500_999,over_120k,under_25k
+686,CR00000686,Zukauskas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+687,CR00000687,Mikalauskas Finance UAB,Finance,Vilnius,1000_plus,over_120k,under_25k
+688,CR00000688,Urbonas Energy UAB,Energy,Siauliai,500_999,over_120k,under_25k
+689,CR00000689,Mikalauskas Education UAB,Education,Marijampole,1000_plus,over_120k,over_120k
+690,CR00000690,Banys Education UAB,Education,Panevezys,1000_plus,over_120k,over_120k
+691,CR00000691,Daukantas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+692,CR00000692,Mikalauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,over_120k
+693,CR00000693,Kairys Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,under_25k
+694,CR00000694,Vasiliauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+695,CR00000695,Sakalauskas Healthcare UAB,Healthcare,Alytus,100_499,over_120k,under_25k
+696,CR00000696,Kairys Construction UAB,Construction,Vilnius,1000_plus,over_120k,under_25k
+697,CR00000697,Vasiliauskas Manufacturing UAB,Manufacturing,Klaipeda,500_999,over_120k,over_120k
+698,CR00000698,Petrauskas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+699,CR00000699,Daukantas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+700,CR00000700,Sakalauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+701,CR00000701,Kavaliauskas Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+702,CR00000702,Navickas Technology UAB,Technology,Panevezys,20_99,over_120k,over_120k
+703,CR00000703,Mikalauskas Manufacturing UAB,Manufacturing,Kaunas,100_499,over_120k,over_120k
+704,CR00000704,Jankauskas Logistics UAB,Logistics,Siauliai,500_999,over_120k,over_120k
+705,CR00000705,Jankauskas Education UAB,Education,Siauliai,1000_plus,over_120k,over_120k
+706,CR00000706,Balciunas Technology UAB,Technology,Marijampole,1000_plus,over_120k,over_120k
+707,CR00000707,Zukauskas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+708,CR00000708,Urbonas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+709,CR00000709,Banys Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+710,CR00000710,Daukantas Healthcare UAB,Healthcare,Siauliai,1000_plus,over_120k,over_120k
+711,CR00000711,Mikalauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+712,CR00000712,Sakalauskas Education UAB,Education,Siauliai,1000_plus,over_120k,under_25k
+713,CR00000713,Mikalauskas Construction UAB,Construction,Klaipeda,500_999,over_120k,over_120k
+714,CR00000714,Vasiliauskas Retail UAB,Retail,Marijampole,1000_plus,over_120k,over_120k
+715,CR00000715,Zukauskas Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+716,CR00000716,Sakalauskas Retail UAB,Retail,Panevezys,100_499,over_120k,over_120k
+717,CR00000717,Navickas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+718,CR00000718,Kavaliauskas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+719,CR00000719,Vasiliauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+720,CR00000720,Mockus Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+721,CR00000721,Mikalauskas Construction UAB,Construction,Panevezys,1000_plus,over_120k,under_25k
+722,CR00000722,Mikalauskas Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+723,CR00000723,Butkus Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+724,CR00000724,Sakalauskas Retail UAB,Retail,Alytus,100_499,over_120k,under_25k
+725,CR00000725,Vasiliauskas Professional Services UAB,Professional Services,Utena,500_999,over_120k,over_120k
+726,CR00000726,Vasiliauskas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+727,CR00000727,Kavaliauskas Technology UAB,Technology,Alytus,100_499,over_120k,80k_120k
+728,CR00000728,Kairys Manufacturing UAB,Manufacturing,Panevezys,500_999,over_120k,over_120k
+729,CR00000729,Kazlauskas Technology UAB,Technology,Utena,1000_plus,over_120k,under_25k
+730,CR00000730,Butkus Finance UAB,Finance,Panevezys,100_499,over_120k,under_25k
+731,CR00000731,Mockus Professional Services UAB,Professional Services,Marijampole,500_999,over_120k,over_120k
+732,CR00000732,Mikalauskas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,over_120k
+733,CR00000733,Kairys Healthcare UAB,Healthcare,Siauliai,100_499,over_120k,over_120k
+734,CR00000734,Daukantas Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,over_120k
+735,CR00000735,Urbonas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+736,CR00000736,Kavaliauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,over_120k
+737,CR00000737,Butkus Energy UAB,Energy,Klaipeda,1000_plus,over_120k,under_25k
+738,CR00000738,Mockus Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+739,CR00000739,Butkus Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,over_120k
+740,CR00000740,Banys Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+741,CR00000741,Urbonas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+742,CR00000742,Petrauskas Construction UAB,Construction,Panevezys,1000_plus,over_120k,over_120k
+743,CR00000743,Sakalauskas Construction UAB,Construction,Alytus,100_499,over_120k,over_120k
+744,CR00000744,Urbonas Retail UAB,Retail,Utena,500_999,over_120k,under_25k
+745,CR00000745,Urbonas Technology UAB,Technology,Marijampole,1000_plus,over_120k,over_120k
+746,CR00000746,Kazlauskas Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+747,CR00000747,Daukantas Finance UAB,Finance,Marijampole,500_999,over_120k,over_120k
+748,CR00000748,Mockus Construction UAB,Construction,Siauliai,1000_plus,over_120k,over_120k
+749,CR00000749,Paulauskas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,under_25k
+750,CR00000750,Petrauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+751,CR00000751,Kazlauskas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,under_25k
+752,CR00000752,Urbonas Finance UAB,Finance,Marijampole,1000_plus,over_120k,under_25k
+753,CR00000753,Sakalauskas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+754,CR00000754,Zukauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+755,CR00000755,Jankauskas Finance UAB,Finance,Kaunas,500_999,over_120k,over_120k
+756,CR00000756,Vasiliauskas Finance UAB,Finance,Vilnius,500_999,over_120k,over_120k
+757,CR00000757,Butkus Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,under_25k
+758,CR00000758,Butkus Retail UAB,Retail,Klaipeda,1000_plus,over_120k,under_25k
+759,CR00000759,Jankauskas Energy UAB,Energy,Marijampole,100_499,over_120k,under_25k
+760,CR00000760,Kazlauskas Technology UAB,Technology,Siauliai,500_999,over_120k,over_120k
+761,CR00000761,Mikalauskas Finance UAB,Finance,Alytus,500_999,over_120k,over_120k
+762,CR00000762,Jankauskas Technology UAB,Technology,Alytus,20_99,over_120k,over_120k
+763,CR00000763,Banys Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+764,CR00000764,Jankauskas Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,over_120k
+765,CR00000765,Butkus Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+766,CR00000766,Mikalauskas Education UAB,Education,Alytus,500_999,over_120k,over_120k
+767,CR00000767,Jankauskas Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+768,CR00000768,Navickas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+769,CR00000769,Paulauskas Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,over_120k
+770,CR00000770,Kazlauskas Professional Services UAB,Professional Services,Marijampole,500_999,over_120k,over_120k
+771,CR00000771,Kavaliauskas Education UAB,Education,Marijampole,1000_plus,over_120k,over_120k
+772,CR00000772,Mikalauskas Logistics UAB,Logistics,Panevezys,500_999,over_120k,over_120k
+773,CR00000773,Kavaliauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+774,CR00000774,Vasiliauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+775,CR00000775,Balciunas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+776,CR00000776,Navickas Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+777,CR00000777,Balciunas Construction UAB,Construction,Marijampole,100_499,over_120k,over_120k
+778,CR00000778,Vasiliauskas Retail UAB,Retail,Panevezys,1000_plus,over_120k,over_120k
+779,CR00000779,Navickas Finance UAB,Finance,Marijampole,500_999,over_120k,over_120k
+780,CR00000780,Kavaliauskas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,under_25k
+781,CR00000781,Kazlauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,over_120k
+782,CR00000782,Balciunas Finance UAB,Finance,Siauliai,1000_plus,over_120k,under_25k
+783,CR00000783,Kavaliauskas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,over_120k
+784,CR00000784,Daukantas Manufacturing UAB,Manufacturing,Alytus,100_499,over_120k,under_25k
+785,CR00000785,Vasiliauskas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+786,CR00000786,Urbonas Retail UAB,Retail,Panevezys,1000_plus,over_120k,over_120k
+787,CR00000787,Mockus Technology UAB,Technology,Kaunas,1000_plus,over_120k,under_25k
+788,CR00000788,Butkus Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,under_25k
+789,CR00000789,Banys Construction UAB,Construction,Vilnius,500_999,over_120k,over_120k
+790,CR00000790,Kavaliauskas Technology UAB,Technology,Klaipeda,100_499,over_120k,over_120k
+791,CR00000791,Petrauskas Professional Services UAB,Professional Services,Klaipeda,100_499,over_120k,over_120k
+792,CR00000792,Kavaliauskas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,under_25k
+793,CR00000793,Daukantas Manufacturing UAB,Manufacturing,Alytus,1000_plus,over_120k,over_120k
+794,CR00000794,Mockus Finance UAB,Finance,Utena,500_999,over_120k,over_120k
+795,CR00000795,Mikalauskas Healthcare UAB,Healthcare,Marijampole,1000_plus,over_120k,over_120k
+796,CR00000796,Mockus Professional Services UAB,Professional Services,Alytus,500_999,over_120k,over_120k
+797,CR00000797,Banys Construction UAB,Construction,Alytus,500_999,over_120k,over_120k
+798,CR00000798,Petrauskas Professional Services UAB,Professional Services,Kaunas,1000_plus,over_120k,over_120k
+799,CR00000799,Petrauskas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+800,CR00000800,Jankauskas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+801,CR00000801,Kairys Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,under_25k
+802,CR00000802,Kairys Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,under_25k
+803,CR00000803,Stankevicius Manufacturing UAB,Manufacturing,Klaipeda,500_999,over_120k,over_120k
+804,CR00000804,Kavaliauskas Manufacturing UAB,Manufacturing,Utena,500_999,over_120k,over_120k
+805,CR00000805,Butkus Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,over_120k
+806,CR00000806,Petrauskas Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+807,CR00000807,Kavaliauskas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+808,CR00000808,Zukauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+809,CR00000809,Kazlauskas Professional Services UAB,Professional Services,Utena,500_999,over_120k,over_120k
+810,CR00000810,Banys Healthcare UAB,Healthcare,Alytus,100_499,over_120k,under_25k
+811,CR00000811,Mockus Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,under_25k
+812,CR00000812,Sakalauskas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+813,CR00000813,Zukauskas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,under_25k
+814,CR00000814,Balciunas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+815,CR00000815,Navickas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,over_120k
+816,CR00000816,Kavaliauskas Manufacturing UAB,Manufacturing,Siauliai,1000_plus,over_120k,over_120k
+817,CR00000817,Mikalauskas Construction UAB,Construction,Klaipeda,100_499,over_120k,under_25k
+818,CR00000818,Mockus Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+819,CR00000819,Mikalauskas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+820,CR00000820,Stankevicius Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,over_120k
+821,CR00000821,Banys Healthcare UAB,Healthcare,Siauliai,100_499,over_120k,over_120k
+822,CR00000822,Daukantas Manufacturing UAB,Manufacturing,Panevezys,500_999,over_120k,over_120k
+823,CR00000823,Vasiliauskas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+824,CR00000824,Navickas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,under_25k
+825,CR00000825,Jankauskas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+826,CR00000826,Mockus Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,under_25k
+827,CR00000827,Mikalauskas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+828,CR00000828,Paulauskas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+829,CR00000829,Kairys Retail UAB,Retail,Vilnius,20_99,over_120k,over_120k
+830,CR00000830,Mockus Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+831,CR00000831,Navickas Professional Services UAB,Professional Services,Kaunas,500_999,over_120k,under_25k
+832,CR00000832,Daukantas Manufacturing UAB,Manufacturing,Kaunas,100_499,over_120k,over_120k
+833,CR00000833,Kairys Finance UAB,Finance,Kaunas,500_999,over_120k,over_120k
+834,CR00000834,Kairys Energy UAB,Energy,Utena,1000_plus,over_120k,over_120k
+835,CR00000835,Vasiliauskas Energy UAB,Energy,Alytus,1000_plus,over_120k,over_120k
+836,CR00000836,Banys Technology UAB,Technology,Vilnius,100_499,over_120k,over_120k
+837,CR00000837,Urbonas Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,under_25k
+838,CR00000838,Daukantas Logistics UAB,Logistics,Utena,1000_plus,over_120k,over_120k
+839,CR00000839,Jankauskas Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+840,CR00000840,Paulauskas Retail UAB,Retail,Kaunas,500_999,over_120k,over_120k
+841,CR00000841,Kairys Manufacturing UAB,Manufacturing,Utena,100_499,over_120k,over_120k
+842,CR00000842,Sakalauskas Retail UAB,Retail,Utena,100_499,over_120k,over_120k
+843,CR00000843,Jankauskas Finance UAB,Finance,Marijampole,20_99,over_120k,25k_40k
+844,CR00000844,Paulauskas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,under_25k
+845,CR00000845,Mockus Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+846,CR00000846,Kairys Retail UAB,Retail,Marijampole,500_999,over_120k,over_120k
+847,CR00000847,Mockus Healthcare UAB,Healthcare,Marijampole,1000_plus,over_120k,over_120k
+848,CR00000848,Navickas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+849,CR00000849,Zukauskas Retail UAB,Retail,Marijampole,1000_plus,over_120k,under_25k
+850,CR00000850,Kazlauskas Energy UAB,Energy,Utena,20_99,over_120k,over_120k
+851,CR00000851,Daukantas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,over_120k
+852,CR00000852,Urbonas Education UAB,Education,Klaipeda,100_499,over_120k,under_25k
+853,CR00000853,Butkus Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+854,CR00000854,Banys Education UAB,Education,Vilnius,500_999,over_120k,over_120k
+855,CR00000855,Butkus Energy UAB,Energy,Vilnius,500_999,over_120k,under_25k
+856,CR00000856,Jankauskas Manufacturing UAB,Manufacturing,Alytus,100_499,over_120k,over_120k
+857,CR00000857,Kazlauskas Construction UAB,Construction,Marijampole,100_499,over_120k,under_25k
+858,CR00000858,Balciunas Technology UAB,Technology,Siauliai,1000_plus,over_120k,over_120k
+859,CR00000859,Daukantas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,over_120k
+860,CR00000860,Urbonas Healthcare UAB,Healthcare,Kaunas,100_499,over_120k,under_25k
+861,CR00000861,Paulauskas Manufacturing UAB,Manufacturing,Siauliai,1000_plus,over_120k,over_120k
+862,CR00000862,Stankevicius Energy UAB,Energy,Utena,1000_plus,over_120k,over_120k
+863,CR00000863,Vasiliauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,under_25k
+864,CR00000864,Kazlauskas Construction UAB,Construction,Panevezys,100_499,over_120k,over_120k
+865,CR00000865,Jankauskas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+866,CR00000866,Kavaliauskas Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,under_25k
+867,CR00000867,Navickas Retail UAB,Retail,Marijampole,100_499,over_120k,over_120k
+868,CR00000868,Mikalauskas Finance UAB,Finance,Vilnius,100_499,over_120k,over_120k
+869,CR00000869,Paulauskas Retail UAB,Retail,Klaipeda,1000_plus,over_120k,under_25k
+870,CR00000870,Urbonas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,over_120k
+871,CR00000871,Mockus Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+872,CR00000872,Urbonas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+873,CR00000873,Petrauskas Manufacturing UAB,Manufacturing,Alytus,500_999,over_120k,over_120k
+874,CR00000874,Vasiliauskas Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,under_25k
+875,CR00000875,Navickas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,over_120k
+876,CR00000876,Jankauskas Logistics UAB,Logistics,Panevezys,100_499,over_120k,under_25k
+877,CR00000877,Banys Healthcare UAB,Healthcare,Alytus,500_999,over_120k,over_120k
+878,CR00000878,Banys Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+879,CR00000879,Kazlauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+880,CR00000880,Balciunas Construction UAB,Construction,Siauliai,1000_plus,over_120k,over_120k
+881,CR00000881,Jankauskas Manufacturing UAB,Manufacturing,Alytus,100_499,over_120k,over_120k
+882,CR00000882,Paulauskas Finance UAB,Finance,Kaunas,500_999,over_120k,under_25k
+883,CR00000883,Petrauskas Professional Services UAB,Professional Services,Marijampole,500_999,over_120k,over_120k
+884,CR00000884,Paulauskas Finance UAB,Finance,Klaipeda,1000_plus,over_120k,under_25k
+885,CR00000885,Daukantas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+886,CR00000886,Zukauskas Retail UAB,Retail,Alytus,100_499,over_120k,over_120k
+887,CR00000887,Sakalauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+888,CR00000888,Butkus Manufacturing UAB,Manufacturing,Vilnius,20_99,over_120k,over_120k
+889,CR00000889,Daukantas Technology UAB,Technology,Vilnius,1000_plus,over_120k,over_120k
+890,CR00000890,Daukantas Logistics UAB,Logistics,Utena,1000_plus,over_120k,over_120k
+891,CR00000891,Navickas Energy UAB,Energy,Utena,100_499,over_120k,under_25k
+892,CR00000892,Zukauskas Professional Services UAB,Professional Services,Vilnius,500_999,over_120k,over_120k
+893,CR00000893,Zukauskas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,under_25k
+894,CR00000894,Mockus Professional Services UAB,Professional Services,Klaipeda,1_19,over_120k,over_120k
+895,CR00000895,Paulauskas Finance UAB,Finance,Siauliai,20_99,over_120k,under_25k
+896,CR00000896,Butkus Construction UAB,Construction,Panevezys,500_999,over_120k,over_120k
+897,CR00000897,Butkus Manufacturing UAB,Manufacturing,Klaipeda,100_499,over_120k,over_120k
+898,CR00000898,Kavaliauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+899,CR00000899,Kazlauskas Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+900,CR00000900,Zukauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+901,CR00000901,Balciunas Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,over_120k
+902,CR00000902,Kairys Construction UAB,Construction,Alytus,500_999,over_120k,over_120k
+903,CR00000903,Balciunas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+904,CR00000904,Kavaliauskas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,under_25k
+905,CR00000905,Balciunas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,under_25k
+906,CR00000906,Kairys Technology UAB,Technology,Klaipeda,1000_plus,over_120k,under_25k
+907,CR00000907,Vasiliauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+908,CR00000908,Mockus Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+909,CR00000909,Navickas Energy UAB,Energy,Alytus,100_499,over_120k,over_120k
+910,CR00000910,Navickas Logistics UAB,Logistics,Vilnius,500_999,over_120k,under_25k
+911,CR00000911,Kairys Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,under_25k
+912,CR00000912,Jankauskas Logistics UAB,Logistics,Vilnius,100_499,over_120k,over_120k
+913,CR00000913,Mockus Professional Services UAB,Professional Services,Alytus,500_999,over_120k,over_120k
+914,CR00000914,Daukantas Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+915,CR00000915,Banys Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+916,CR00000916,Navickas Professional Services UAB,Professional Services,Marijampole,500_999,over_120k,over_120k
+917,CR00000917,Jankauskas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,under_25k
+918,CR00000918,Jankauskas Education UAB,Education,Siauliai,1000_plus,over_120k,over_120k
+919,CR00000919,Zukauskas Technology UAB,Technology,Panevezys,1000_plus,over_120k,over_120k
+920,CR00000920,Daukantas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+921,CR00000921,Daukantas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+922,CR00000922,Sakalauskas Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+923,CR00000923,Kairys Logistics UAB,Logistics,Utena,1000_plus,over_120k,under_25k
+924,CR00000924,Kavaliauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+925,CR00000925,Sakalauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+926,CR00000926,Paulauskas Technology UAB,Technology,Vilnius,1000_plus,over_120k,over_120k
+927,CR00000927,Vasiliauskas Energy UAB,Energy,Panevezys,1000_plus,over_120k,under_25k
+928,CR00000928,Zukauskas Construction UAB,Construction,Alytus,1000_plus,over_120k,over_120k
+929,CR00000929,Navickas Energy UAB,Energy,Utena,1000_plus,over_120k,over_120k
+930,CR00000930,Banys Technology UAB,Technology,Vilnius,1000_plus,over_120k,over_120k
+931,CR00000931,Daukantas Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+932,CR00000932,Petrauskas Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,under_25k
+933,CR00000933,Butkus Finance UAB,Finance,Klaipeda,1000_plus,over_120k,under_25k
+934,CR00000934,Sakalauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+935,CR00000935,Paulauskas Energy UAB,Energy,Marijampole,500_999,over_120k,over_120k
+936,CR00000936,Mikalauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+937,CR00000937,Urbonas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,over_120k
+938,CR00000938,Navickas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,under_25k
+939,CR00000939,Banys Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+940,CR00000940,Urbonas Professional Services UAB,Professional Services,Klaipeda,1000_plus,over_120k,over_120k
+941,CR00000941,Balciunas Healthcare UAB,Healthcare,Klaipeda,500_999,over_120k,over_120k
+942,CR00000942,Banys Professional Services UAB,Professional Services,Utena,1000_plus,over_120k,over_120k
+943,CR00000943,Mikalauskas Healthcare UAB,Healthcare,Marijampole,1000_plus,over_120k,over_120k
+944,CR00000944,Petrauskas Finance UAB,Finance,Klaipeda,1000_plus,over_120k,over_120k
+945,CR00000945,Banys Manufacturing UAB,Manufacturing,Siauliai,500_999,over_120k,over_120k
+946,CR00000946,Navickas Technology UAB,Technology,Siauliai,500_999,over_120k,over_120k
+947,CR00000947,Stankevicius Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+948,CR00000948,Daukantas Professional Services UAB,Professional Services,Alytus,500_999,over_120k,under_25k
+949,CR00000949,Daukantas Energy UAB,Energy,Panevezys,1000_plus,over_120k,over_120k
+950,CR00000950,Navickas Construction UAB,Construction,Panevezys,1000_plus,over_120k,over_120k
+951,CR00000951,Stankevicius Education UAB,Education,Utena,500_999,over_120k,over_120k
+952,CR00000952,Vasiliauskas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+953,CR00000953,Kazlauskas Energy UAB,Energy,Vilnius,500_999,over_120k,over_120k
+954,CR00000954,Jankauskas Retail UAB,Retail,Siauliai,1000_plus,over_120k,under_25k
+955,CR00000955,Daukantas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,under_25k
+956,CR00000956,Petrauskas Education UAB,Education,Kaunas,1000_plus,over_120k,under_25k
+957,CR00000957,Sakalauskas Finance UAB,Finance,Klaipeda,20_99,over_120k,over_120k
+958,CR00000958,Zukauskas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+959,CR00000959,Mockus Finance UAB,Finance,Klaipeda,100_499,over_120k,under_25k
+960,CR00000960,Navickas Professional Services UAB,Professional Services,Panevezys,1000_plus,over_120k,under_25k
+961,CR00000961,Jankauskas Finance UAB,Finance,Klaipeda,100_499,over_120k,under_25k
+962,CR00000962,Kairys Finance UAB,Finance,Utena,1000_plus,over_120k,under_25k
+963,CR00000963,Kazlauskas Manufacturing UAB,Manufacturing,Siauliai,100_499,over_120k,over_120k
+964,CR00000964,Sakalauskas Finance UAB,Finance,Marijampole,100_499,over_120k,over_120k
+965,CR00000965,Balciunas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+966,CR00000966,Daukantas Manufacturing UAB,Manufacturing,Marijampole,100_499,over_120k,under_25k
+967,CR00000967,Kairys Energy UAB,Energy,Utena,1000_plus,over_120k,under_25k
+968,CR00000968,Kavaliauskas Logistics UAB,Logistics,Siauliai,100_499,over_120k,over_120k
+969,CR00000969,Sakalauskas Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+970,CR00000970,Kazlauskas Professional Services UAB,Professional Services,Kaunas,100_499,over_120k,over_120k
+971,CR00000971,Urbonas Professional Services UAB,Professional Services,Siauliai,1000_plus,over_120k,over_120k
+972,CR00000972,Kairys Professional Services UAB,Professional Services,Utena,500_999,over_120k,over_120k
+973,CR00000973,Petrauskas Retail UAB,Retail,Klaipeda,500_999,over_120k,over_120k
+974,CR00000974,Mockus Education UAB,Education,Kaunas,100_499,over_120k,under_25k
+975,CR00000975,Kairys Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,under_25k
+976,CR00000976,Kazlauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,under_25k
+977,CR00000977,Daukantas Energy UAB,Energy,Klaipeda,1000_plus,over_120k,over_120k
+978,CR00000978,Jankauskas Healthcare UAB,Healthcare,Panevezys,500_999,over_120k,under_25k
+979,CR00000979,Mikalauskas Technology UAB,Technology,Alytus,1000_plus,over_120k,over_120k
+980,CR00000980,Mikalauskas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+981,CR00000981,Jankauskas Professional Services UAB,Professional Services,Alytus,100_499,over_120k,over_120k
+982,CR00000982,Urbonas Healthcare UAB,Healthcare,Siauliai,500_999,over_120k,over_120k
+983,CR00000983,Sakalauskas Construction UAB,Construction,Utena,100_499,over_120k,over_120k
+984,CR00000984,Kazlauskas Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+985,CR00000985,Butkus Finance UAB,Finance,Utena,100_499,over_120k,over_120k
+986,CR00000986,Sakalauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+987,CR00000987,Mockus Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,over_120k
+988,CR00000988,Banys Professional Services UAB,Professional Services,Utena,100_499,over_120k,over_120k
+989,CR00000989,Paulauskas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,over_120k
+990,CR00000990,Butkus Technology UAB,Technology,Vilnius,1000_plus,over_120k,under_25k
+991,CR00000991,Zukauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+992,CR00000992,Balciunas Manufacturing UAB,Manufacturing,Vilnius,100_499,over_120k,over_120k
+993,CR00000993,Kairys Education UAB,Education,Vilnius,500_999,over_120k,over_120k
+994,CR00000994,Navickas Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+995,CR00000995,Paulauskas Professional Services UAB,Professional Services,Panevezys,500_999,over_120k,over_120k
+996,CR00000996,Kairys Finance UAB,Finance,Kaunas,1000_plus,over_120k,under_25k
+997,CR00000997,Zukauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+998,CR00000998,Butkus Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+999,CR00000999,Zukauskas Education UAB,Education,Panevezys,500_999,over_120k,under_25k
+1000,CR00001000,Petrauskas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+1001,CR00001001,Sakalauskas Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+1002,CR00001002,Balciunas Technology UAB,Technology,Marijampole,500_999,over_120k,over_120k
+1003,CR00001003,Kazlauskas Education UAB,Education,Vilnius,1000_plus,over_120k,under_25k
+1004,CR00001004,Kazlauskas Technology UAB,Technology,Vilnius,100_499,over_120k,over_120k
+1005,CR00001005,Kairys Logistics UAB,Logistics,Panevezys,1000_plus,over_120k,over_120k
+1006,CR00001006,Banys Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,under_25k
+1007,CR00001007,Sakalauskas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+1008,CR00001008,Mikalauskas Retail UAB,Retail,Klaipeda,1000_plus,over_120k,under_25k
+1009,CR00001009,Paulauskas Technology UAB,Technology,Panevezys,500_999,over_120k,over_120k
+1010,CR00001010,Mikalauskas Education UAB,Education,Klaipeda,500_999,over_120k,over_120k
+1011,CR00001011,Balciunas Finance UAB,Finance,Siauliai,1000_plus,over_120k,under_25k
+1012,CR00001012,Jankauskas Professional Services UAB,Professional Services,Kaunas,100_499,over_120k,over_120k
+1013,CR00001013,Petrauskas Logistics UAB,Logistics,Utena,500_999,over_120k,over_120k
+1014,CR00001014,Petrauskas Education UAB,Education,Panevezys,1000_plus,over_120k,over_120k
+1015,CR00001015,Vasiliauskas Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+1016,CR00001016,Kavaliauskas Energy UAB,Energy,Utena,1000_plus,over_120k,over_120k
+1017,CR00001017,Balciunas Manufacturing UAB,Manufacturing,Utena,100_499,over_120k,over_120k
+1018,CR00001018,Zukauskas Retail UAB,Retail,Kaunas,1000_plus,over_120k,under_25k
+1019,CR00001019,Kavaliauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+1020,CR00001020,Kazlauskas Education UAB,Education,Alytus,500_999,over_120k,over_120k
+1021,CR00001021,Kazlauskas Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,over_120k
+1022,CR00001022,Petrauskas Construction UAB,Construction,Klaipeda,100_499,over_120k,under_25k
+1023,CR00001023,Jankauskas Retail UAB,Retail,Siauliai,100_499,over_120k,over_120k
+1024,CR00001024,Sakalauskas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+1025,CR00001025,Navickas Construction UAB,Construction,Siauliai,1000_plus,over_120k,over_120k
+1026,CR00001026,Banys Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+1027,CR00001027,Jankauskas Education UAB,Education,Klaipeda,100_499,over_120k,over_120k
+1028,CR00001028,Banys Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+1029,CR00001029,Mockus Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,under_25k
+1030,CR00001030,Kavaliauskas Finance UAB,Finance,Panevezys,1000_plus,over_120k,over_120k
+1031,CR00001031,Balciunas Finance UAB,Finance,Klaipeda,100_499,over_120k,over_120k
+1032,CR00001032,Paulauskas Retail UAB,Retail,Panevezys,1000_plus,over_120k,under_25k
+1033,CR00001033,Kavaliauskas Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+1034,CR00001034,Mockus Construction UAB,Construction,Marijampole,100_499,over_120k,over_120k
+1035,CR00001035,Mockus Construction UAB,Construction,Panevezys,500_999,over_120k,over_120k
+1036,CR00001036,Stankevicius Technology UAB,Technology,Kaunas,1000_plus,over_120k,over_120k
+1037,CR00001037,Mikalauskas Retail UAB,Retail,Panevezys,1000_plus,over_120k,over_120k
+1038,CR00001038,Jankauskas Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,over_120k
+1039,CR00001039,Butkus Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+1040,CR00001040,Stankevicius Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+1041,CR00001041,Balciunas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+1042,CR00001042,Urbonas Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+1043,CR00001043,Sakalauskas Retail UAB,Retail,Vilnius,100_499,over_120k,under_25k
+1044,CR00001044,Banys Retail UAB,Retail,Kaunas,1000_plus,over_120k,over_120k
+1045,CR00001045,Urbonas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+1046,CR00001046,Kairys Construction UAB,Construction,Siauliai,100_499,over_120k,over_120k
+1047,CR00001047,Banys Healthcare UAB,Healthcare,Utena,100_499,over_120k,over_120k
+1048,CR00001048,Mockus Education UAB,Education,Siauliai,1000_plus,over_120k,over_120k
+1049,CR00001049,Urbonas Retail UAB,Retail,Utena,100_499,over_120k,over_120k
+1050,CR00001050,Navickas Education UAB,Education,Klaipeda,1000_plus,over_120k,over_120k
+1051,CR00001051,Navickas Logistics UAB,Logistics,Klaipeda,1000_plus,over_120k,over_120k
+1052,CR00001052,Sakalauskas Healthcare UAB,Healthcare,Vilnius,1000_plus,over_120k,under_25k
+1053,CR00001053,Vasiliauskas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+1054,CR00001054,Zukauskas Education UAB,Education,Alytus,1000_plus,over_120k,under_25k
+1055,CR00001055,Vasiliauskas Healthcare UAB,Healthcare,Klaipeda,500_999,over_120k,over_120k
+1056,CR00001056,Kavaliauskas Finance UAB,Finance,Kaunas,100_499,over_120k,over_120k
+1057,CR00001057,Jankauskas Finance UAB,Finance,Marijampole,500_999,over_120k,under_25k
+1058,CR00001058,Kazlauskas Construction UAB,Construction,Alytus,1000_plus,over_120k,over_120k
+1059,CR00001059,Petrauskas Construction UAB,Construction,Kaunas,1000_plus,over_120k,over_120k
+1060,CR00001060,Banys Retail UAB,Retail,Vilnius,1_19,over_120k,over_120k
+1061,CR00001061,Navickas Education UAB,Education,Panevezys,500_999,over_120k,over_120k
+1062,CR00001062,Banys Education UAB,Education,Alytus,500_999,over_120k,over_120k
+1063,CR00001063,Kazlauskas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+1064,CR00001064,Navickas Education UAB,Education,Alytus,100_499,over_120k,over_120k
+1065,CR00001065,Daukantas Professional Services UAB,Professional Services,Marijampole,1000_plus,over_120k,over_120k
+1066,CR00001066,Kavaliauskas Technology UAB,Technology,Klaipeda,20_99,over_120k,over_120k
+1067,CR00001067,Mockus Construction UAB,Construction,Utena,20_99,over_120k,over_120k
+1068,CR00001068,Kairys Finance UAB,Finance,Marijampole,100_499,over_120k,under_25k
+1069,CR00001069,Balciunas Healthcare UAB,Healthcare,Marijampole,100_499,over_120k,under_25k
+1070,CR00001070,Daukantas Finance UAB,Finance,Siauliai,1000_plus,over_120k,over_120k
+1071,CR00001071,Navickas Energy UAB,Energy,Marijampole,1000_plus,over_120k,over_120k
+1072,CR00001072,Urbonas Technology UAB,Technology,Utena,500_999,over_120k,under_25k
+1073,CR00001073,Kavaliauskas Retail UAB,Retail,Siauliai,1000_plus,over_120k,over_120k
+1074,CR00001074,Balciunas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+1075,CR00001075,Mikalauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+1076,CR00001076,Navickas Logistics UAB,Logistics,Alytus,100_499,over_120k,over_120k
+1077,CR00001077,Petrauskas Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+1078,CR00001078,Kazlauskas Healthcare UAB,Healthcare,Alytus,1_19,over_120k,over_120k
+1079,CR00001079,Vasiliauskas Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+1080,CR00001080,Kairys Healthcare UAB,Healthcare,Siauliai,1000_plus,over_120k,over_120k
+1081,CR00001081,Kairys Construction UAB,Construction,Alytus,1000_plus,over_120k,over_120k
+1082,CR00001082,Vasiliauskas Manufacturing UAB,Manufacturing,Klaipeda,1000_plus,over_120k,under_25k
+1083,CR00001083,Kavaliauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+1084,CR00001084,Navickas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+1085,CR00001085,Mikalauskas Finance UAB,Finance,Utena,1000_plus,over_120k,over_120k
+1086,CR00001086,Kairys Finance UAB,Finance,Vilnius,1000_plus,over_120k,over_120k
+1087,CR00001087,Mikalauskas Energy UAB,Energy,Utena,1000_plus,over_120k,under_25k
+1088,CR00001088,Balciunas Logistics UAB,Logistics,Vilnius,100_499,over_120k,under_25k
+1089,CR00001089,Jankauskas Technology UAB,Technology,Utena,1000_plus,over_120k,over_120k
+1090,CR00001090,Balciunas Healthcare UAB,Healthcare,Panevezys,1000_plus,over_120k,over_120k
+1091,CR00001091,Jankauskas Construction UAB,Construction,Alytus,1000_plus,over_120k,over_120k
+1092,CR00001092,Balciunas Finance UAB,Finance,Marijampole,100_499,over_120k,over_120k
+1093,CR00001093,Kairys Retail UAB,Retail,Vilnius,500_999,over_120k,under_25k
+1094,CR00001094,Kavaliauskas Manufacturing UAB,Manufacturing,Kaunas,500_999,over_120k,over_120k
+1095,CR00001095,Vasiliauskas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+1096,CR00001096,Kairys Finance UAB,Finance,Marijampole,1000_plus,over_120k,over_120k
+1097,CR00001097,Kairys Finance UAB,Finance,Kaunas,500_999,over_120k,over_120k
+1098,CR00001098,Kairys Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+1099,CR00001099,Stankevicius Manufacturing UAB,Manufacturing,Alytus,100_499,over_120k,over_120k
+1100,CR00001100,Daukantas Construction UAB,Construction,Klaipeda,1000_plus,over_120k,over_120k
+1101,CR00001101,Kavaliauskas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,over_120k
+1102,CR00001102,Urbonas Healthcare UAB,Healthcare,Klaipeda,1000_plus,over_120k,under_25k
+1103,CR00001103,Petrauskas Energy UAB,Energy,Siauliai,100_499,over_120k,over_120k
+1104,CR00001104,Petrauskas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,over_120k
+1105,CR00001105,Petrauskas Technology UAB,Technology,Siauliai,500_999,over_120k,over_120k
+1106,CR00001106,Banys Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,over_120k
+1107,CR00001107,Kavaliauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+1108,CR00001108,Daukantas Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+1109,CR00001109,Jankauskas Professional Services UAB,Professional Services,Utena,100_499,over_120k,over_120k
+1110,CR00001110,Navickas Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+1111,CR00001111,Petrauskas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,over_120k
+1112,CR00001112,Paulauskas Manufacturing UAB,Manufacturing,Siauliai,500_999,over_120k,over_120k
+1113,CR00001113,Balciunas Construction UAB,Construction,Panevezys,1000_plus,over_120k,over_120k
+1114,CR00001114,Vasiliauskas Finance UAB,Finance,Siauliai,500_999,over_120k,over_120k
+1115,CR00001115,Zukauskas Education UAB,Education,Panevezys,500_999,over_120k,under_25k
+1116,CR00001116,Daukantas Energy UAB,Energy,Kaunas,1000_plus,over_120k,over_120k
+1117,CR00001117,Stankevicius Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,over_120k
+1118,CR00001118,Navickas Manufacturing UAB,Manufacturing,Marijampole,1000_plus,over_120k,over_120k
+1119,CR00001119,Jankauskas Logistics UAB,Logistics,Kaunas,100_499,over_120k,over_120k
+1120,CR00001120,Navickas Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+1121,CR00001121,Butkus Retail UAB,Retail,Kaunas,1000_plus,over_120k,under_25k
+1122,CR00001122,Zukauskas Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,under_25k
+1123,CR00001123,Butkus Manufacturing UAB,Manufacturing,Kaunas,500_999,over_120k,over_120k
+1124,CR00001124,Paulauskas Education UAB,Education,Marijampole,1000_plus,over_120k,over_120k
+1125,CR00001125,Navickas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+1126,CR00001126,Vasiliauskas Manufacturing UAB,Manufacturing,Marijampole,500_999,over_120k,over_120k
+1127,CR00001127,Petrauskas Logistics UAB,Logistics,Utena,1000_plus,over_120k,under_25k
+1128,CR00001128,Daukantas Finance UAB,Finance,Vilnius,1000_plus,over_120k,under_25k
+1129,CR00001129,Mikalauskas Technology UAB,Technology,Marijampole,1000_plus,over_120k,over_120k
+1130,CR00001130,Banys Energy UAB,Energy,Vilnius,500_999,over_120k,under_25k
+1131,CR00001131,Jankauskas Technology UAB,Technology,Klaipeda,500_999,over_120k,over_120k
+1132,CR00001132,Petrauskas Retail UAB,Retail,Alytus,500_999,over_120k,over_120k
+1133,CR00001133,Mockus Finance UAB,Finance,Klaipeda,500_999,over_120k,over_120k
+1134,CR00001134,Banys Logistics UAB,Logistics,Siauliai,1000_plus,over_120k,over_120k
+1135,CR00001135,Mikalauskas Healthcare UAB,Healthcare,Utena,500_999,over_120k,over_120k
+1136,CR00001136,Sakalauskas Energy UAB,Energy,Alytus,1000_plus,over_120k,under_25k
+1137,CR00001137,Balciunas Energy UAB,Energy,Siauliai,1000_plus,over_120k,over_120k
+1138,CR00001138,Navickas Finance UAB,Finance,Utena,1000_plus,over_120k,under_25k
+1139,CR00001139,Paulauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+1140,CR00001140,Petrauskas Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+1141,CR00001141,Banys Construction UAB,Construction,Vilnius,1000_plus,over_120k,over_120k
+1142,CR00001142,Petrauskas Technology UAB,Technology,Panevezys,100_499,over_120k,over_120k
+1143,CR00001143,Mikalauskas Education UAB,Education,Utena,500_999,over_120k,under_25k
+1144,CR00001144,Balciunas Retail UAB,Retail,Siauliai,500_999,over_120k,over_120k
+1145,CR00001145,Daukantas Finance UAB,Finance,Alytus,1000_plus,over_120k,over_120k
+1146,CR00001146,Mikalauskas Healthcare UAB,Healthcare,Kaunas,1000_plus,over_120k,over_120k
+1147,CR00001147,Kairys Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+1148,CR00001148,Kairys Technology UAB,Technology,Vilnius,100_499,over_120k,over_120k
+1149,CR00001149,Kairys Retail UAB,Retail,Marijampole,20_99,over_120k,over_120k
+1150,CR00001150,Mockus Energy UAB,Energy,Utena,1000_plus,over_120k,under_25k
+1151,CR00001151,Urbonas Education UAB,Education,Klaipeda,1000_plus,over_120k,over_120k
+1152,CR00001152,Butkus Logistics UAB,Logistics,Alytus,1000_plus,over_120k,over_120k
+1153,CR00001153,Kazlauskas Technology UAB,Technology,Utena,1000_plus,over_120k,under_25k
+1154,CR00001154,Butkus Education UAB,Education,Marijampole,1000_plus,over_120k,over_120k
+1155,CR00001155,Kavaliauskas Technology UAB,Technology,Panevezys,500_999,over_120k,over_120k
+1156,CR00001156,Balciunas Finance UAB,Finance,Kaunas,100_499,over_120k,over_120k
+1157,CR00001157,Vasiliauskas Finance UAB,Finance,Panevezys,500_999,over_120k,under_25k
+1158,CR00001158,Banys Manufacturing UAB,Manufacturing,Vilnius,1000_plus,over_120k,over_120k
+1159,CR00001159,Mikalauskas Manufacturing UAB,Manufacturing,Utena,100_499,over_120k,over_120k
+1160,CR00001160,Banys Finance UAB,Finance,Kaunas,1000_plus,over_120k,over_120k
+1161,CR00001161,Sakalauskas Manufacturing UAB,Manufacturing,Panevezys,1000_plus,over_120k,over_120k
+1162,CR00001162,Petrauskas Finance UAB,Finance,Siauliai,100_499,over_120k,over_120k
+1163,CR00001163,Mikalauskas Professional Services UAB,Professional Services,Vilnius,1000_plus,over_120k,over_120k
+1164,CR00001164,Balciunas Education UAB,Education,Marijampole,500_999,over_120k,under_25k
+1165,CR00001165,Butkus Construction UAB,Construction,Utena,100_499,over_120k,over_120k
+1166,CR00001166,Zukauskas Education UAB,Education,Alytus,1000_plus,over_120k,over_120k
+1167,CR00001167,Zukauskas Technology UAB,Technology,Klaipeda,100_499,over_120k,over_120k
+1168,CR00001168,Vasiliauskas Technology UAB,Technology,Klaipeda,1000_plus,over_120k,under_25k
+1169,CR00001169,Kavaliauskas Retail UAB,Retail,Vilnius,1000_plus,over_120k,over_120k
+1170,CR00001170,Kairys Healthcare UAB,Healthcare,Utena,1000_plus,over_120k,over_120k
+1171,CR00001171,Daukantas Technology UAB,Technology,Alytus,1000_plus,over_120k,under_25k
+1172,CR00001172,Banys Energy UAB,Energy,Marijampole,500_999,over_120k,over_120k
+1173,CR00001173,Daukantas Healthcare UAB,Healthcare,Kaunas,500_999,over_120k,over_120k
+1174,CR00001174,Kairys Manufacturing UAB,Manufacturing,Siauliai,100_499,over_120k,over_120k
+1175,CR00001175,Mikalauskas Education UAB,Education,Panevezys,500_999,over_120k,over_120k
+1176,CR00001176,Banys Technology UAB,Technology,Siauliai,100_499,over_120k,over_120k
+1177,CR00001177,Kavaliauskas Retail UAB,Retail,Alytus,1000_plus,over_120k,over_120k
+1178,CR00001178,Stankevicius Professional Services UAB,Professional Services,Alytus,1000_plus,over_120k,under_25k
+1179,CR00001179,Urbonas Construction UAB,Construction,Utena,1000_plus,over_120k,over_120k
+1180,CR00001180,Kairys Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+1181,CR00001181,Jankauskas Construction UAB,Construction,Marijampole,1000_plus,over_120k,over_120k
+1182,CR00001182,Kavaliauskas Retail UAB,Retail,Utena,1000_plus,over_120k,under_25k
+1183,CR00001183,Sakalauskas Energy UAB,Energy,Kaunas,1000_plus,over_120k,under_25k
+1184,CR00001184,Sakalauskas Healthcare UAB,Healthcare,Utena,500_999,over_120k,over_120k
+1185,CR00001185,Kazlauskas Retail UAB,Retail,Kaunas,1000_plus,over_120k,under_25k
+1186,CR00001186,Navickas Finance UAB,Finance,Kaunas,100_499,over_120k,over_120k
+1187,CR00001187,Urbonas Healthcare UAB,Healthcare,Alytus,1000_plus,over_120k,under_25k
+1188,CR00001188,Mockus Retail UAB,Retail,Kaunas,1000_plus,over_120k,over_120k
+1189,CR00001189,Butkus Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,over_120k
+1190,CR00001190,Kavaliauskas Education UAB,Education,Vilnius,1000_plus,over_120k,over_120k
+1191,CR00001191,Petrauskas Technology UAB,Technology,Utena,20_99,over_120k,under_25k
+1192,CR00001192,Vasiliauskas Manufacturing UAB,Manufacturing,Kaunas,1000_plus,over_120k,under_25k
+1193,CR00001193,Balciunas Retail UAB,Retail,Utena,1000_plus,over_120k,over_120k
+1194,CR00001194,Stankevicius Manufacturing UAB,Manufacturing,Utena,1000_plus,over_120k,over_120k
+1195,CR00001195,Zukauskas Logistics UAB,Logistics,Vilnius,1000_plus,over_120k,under_25k
+1196,CR00001196,Kazlauskas Logistics UAB,Logistics,Panevezys,500_999,over_120k,over_120k
+1197,CR00001197,Jankauskas Energy UAB,Energy,Vilnius,1000_plus,over_120k,over_120k
+1198,CR00001198,Butkus Logistics UAB,Logistics,Kaunas,1000_plus,over_120k,under_25k
+1199,CR00001199,Paulauskas Construction UAB,Construction,Kaunas,1000_plus,over_120k,over_120k
+1200,CR00001200,Mockus Retail UAB,Retail,Marijampole,1000_plus,over_120k,over_120k

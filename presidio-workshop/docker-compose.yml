@@ -1,0 +1,10 @@
+name: devdays-presidio-workshop
+
+services:
+  presidio:
+    profiles: ["logs"]
+    image: devdays-data-privacy-workshop-presidio
+    build:
+      context: .
+    volumes:
+      - .:/app

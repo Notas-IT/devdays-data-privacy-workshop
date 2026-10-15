@@ -1,0 +1,19 @@
+2026-10-14T09:00:00Z INFO Prisijungimas: asmens_kodas=39001010011; būsena=gerai
+2026-10-14T09:00:00Z INFO Patikra: asmens kodas: 49602020022; būsena=baigta
+2026-10-14T09:00:00Z INFO Sesija: darbuotojas=Ąžuolas Žukauskas; veiksmas=prisijungė
+2026-10-14T09:00:00Z INFO Registracija: pacientas=Ūla Šimkutė; būsena=priimta
+2026-10-14T09:00:00Z INFO Užklausa: klientas=Živilė Kazlauskaitė-Žukienė; būsena=gerai
+2026-10-14T09:00:00Z INFO Pristatymas: adresas=Žalgirio g. 18-7, Vilnius; būsena=paruošta
+2026-10-14T09:00:00Z INFO Siunta: gyvenamoji_vieta: Ąžuolų g. 5, Šiauliai; būsena=išsiųsta
+2026-10-14T09:00:00Z INFO Anketa: gimimo_data=1990-01-01; būsena=atnaujinta
+2026-10-14T09:00:00Z INFO Pranešimas: telefonas=0612 34 567; būsena=eilėje
+2026-10-14T09:00:00Z INFO Pranešimas: tel: 069876543; būsena=eilėje
+2026-10-14T09:00:00Z INFO Kontaktas: el_pastas=zivile (eta) example (taskas) invalid; būsena=patikrinta
+2026-10-14T09:00:00Z INFO Algų eksportas: darbuotojas=Ąžuolas Žukauskas; atlyginimas=4250,00 EUR; būsena=baigta
+2026-10-14T09:00:00Z INFO Anketa: klientas=Ūla Šimkutė; asmens_kodas=49602020022; adresas=Ąžuolų g. 5, Šiauliai; el_pastas=ula (eta) example (taskas) invalid; būsena=gerai
+2026-10-14T09:00:00Z INFO Pranešimas: el_pastas: workshop@example.com; būsena=eilėje
+2026-10-14T09:00:00Z INFO Užsakymas: uzsakymo_id=39001010011; būsena=baigta
+2026-10-14T09:00:00Z INFO Ataskaita: biudzetas=4250,00 EUR; darbuotoju_skaicius=12
+2026-10-14T09:00:00Z INFO Patikra: paslauga=Žalgirio Sistema; būsena=veikia
+2026-10-14T09:00:00Z INFO Patikra: paslauga=Žalgirio Sistema; darbuotojas=Ąžuolas Žukauskas; būsena=veikia
+2026-10-14T09:00:00Z INFO Patikra: asmens_kodas=12345; būsena=atmesta

@@ -1,0 +1,108 @@
+name: devdays-log-pipeline-workshop
+
+x-runtime: &runtime
+  image: devdays-log-pipeline-runtime
+  build:
+    context: ..
+    dockerfile: log-pipeline-workshop/Dockerfile
+
+services:
+  app-hr:
+    <<: *runtime
+    profiles: ["pipeline"]
+    command: ["python", "app.py"]
+    environment:
+      APP_SERVICE: hr
+    volumes:
+      - hr_raw:/raw
+    networks: [sources]
+
+  app-billing:
+    <<: *runtime
+    profiles: ["pipeline"]
+    command: ["python", "app.py"]
+    environment:
+      APP_SERVICE: billing
+    volumes:
+      - billing_raw:/raw
+    networks: [sources]
+
+  log-processor:
+    <<: *runtime
+    profiles: ["pipeline"]
+    environment:
+      POLICY_PATH: /config/active.json
+      LOKI_URL: http://log-loki:3100
+    ports:
+      - "127.0.0.1:18088:8080"
+    volumes:
+      - hr_raw:/raw/hr:ro
+      - billing_raw:/raw/billing:ro
+      - processor_state:/state
+      - ./config:/config:ro
+    networks: [sources, log_backend]
+    depends_on: [log-loki]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 6
+      start_period: 30s
+
+  log-loki:
+    image: grafana/loki:3.7.8
+    profiles: ["pipeline"]
+    command: ["-config.file=/etc/loki/local.yaml"]
+    ports:
+      - "127.0.0.1:13100:3100"
+    volumes:
+      - ./loki.yaml:/etc/loki/local.yaml:ro
+      - loki_data:/loki
+    networks: [log_backend]
+
+  log-grafana:
+    image: grafana/grafana:13.2.3
+    profiles: ["pipeline"]
+    ports:
+      - "127.0.0.1:13000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: workshop
+      GF_USERS_ALLOW_SIGN_UP: "false"
+      GF_ANALYTICS_REPORTING_ENABLED: "false"
+      GF_ANALYTICS_CHECK_FOR_UPDATES: "false"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/workshop-dashboards:ro
+      - grafana_data:/var/lib/grafana
+    networks: [log_backend]
+    depends_on: [log-loki]
+
+  pipeline-checks:
+    <<: *runtime
+    profiles: ["checks"]
+    command: ["python", "verify_pipeline.py"]
+    volumes:
+      - hr_raw:/raw/hr:ro
+      - billing_raw:/raw/billing:ro
+    networks: [log_backend]
+
+  pipeline-config:
+    <<: *runtime
+    profiles: ["checks"]
+    entrypoint: ["python", "set_policy.py"]
+    volumes:
+      - ./config:/app/config
+    networks: [log_backend]
+
+networks:
+  sources:
+    internal: true
+  log_backend:
+
+volumes:
+  hr_raw:
+  billing_raw:
+  processor_state:
+  loki_data:
+  grafana_data:

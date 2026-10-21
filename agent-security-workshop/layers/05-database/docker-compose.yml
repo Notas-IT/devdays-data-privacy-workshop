@@ -1,0 +1,101 @@
+# Cumulative reference stage 5: Database
+name: devdays-agent-layer-05
+
+services:
+  setup:
+    image: devdays-agent-layer-runtime
+    build:
+      context: ../..
+      dockerfile: layer_runtime/Dockerfile
+    profiles: [tools]
+    environment:
+      STAGE_LEVEL: "5"
+    volumes:
+      - admin_state:/state
+      - db_secret:/db-secret
+      - gateway_config:/gateway-config
+      - agent_config:/agent-config
+      - broker_config:/broker-config
+      - ./security.sql:/stage/security.sql:ro
+    networks: [db_net]
+
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: agent_lab
+      POSTGRES_USER: lab_admin
+      POSTGRES_PASSWORD_FILE: /run/db-secret/password
+    volumes:
+      - db_secret:/run/db-secret:ro
+      - postgres_data:/var/lib/postgresql/data
+    networks: [db_net]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U lab_admin -d agent_lab"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  gateway:
+    image: devdays-agent-layer-runtime
+    build:
+      context: ../..
+      dockerfile: layer_runtime/Dockerfile
+    entrypoint: [python, gateway.py]
+    user: "10002:10002"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      STAGE_LEVEL: "5"
+    volumes: ["gateway_config:/run/gateway:ro"]
+    networks: [agent_net, db_net]
+    pids_limit: 64
+    mem_limit: 256m
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/health',timeout=2)"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+  agent:
+    image: devdays-agent-layer-agent
+    build:
+      context: ../..
+      dockerfile: layer_runtime/agent.Dockerfile
+    user: "10001:10001"
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    read_only: true
+    init: true
+    environment:
+      HOME: /home/agent
+      CODEX_HOME: /home/agent/.codex
+    tmpfs:
+      - /tmp:rw,nosuid,nodev,size=128m,mode=1777
+      - /home/agent:rw,nosuid,nodev,size=128m,uid=10001,gid=10001,mode=700
+    volumes:
+      - agent_config:/run/agent:ro
+    networks: [agent_net]
+    pids_limit: 128
+    mem_limit: 768m
+    cpus: 1
+    depends_on:
+      gateway:
+        condition: service_healthy
+
+networks:
+  agent_net:
+    internal: true
+  db_net:
+    internal: true
+
+volumes:
+  admin_state:
+  db_secret:
+  gateway_config:
+  agent_config:
+  broker_config:
+  postgres_data:

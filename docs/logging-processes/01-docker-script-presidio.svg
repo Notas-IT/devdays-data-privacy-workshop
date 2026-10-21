@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1510" viewBox="0 0 2200 1510">
+  <rect width="2200" height="1510" fill="#ffffff" />
+  <rect x="45" y="155" width="2110" height="1190" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" />
+  <rect x="110" y="235" width="380" height="115" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+  <rect x="610" y="235" width="380" height="115" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+  <rect x="1110" y="235" width="380" height="115" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+  <rect x="445" y="450" width="710" height="135" rx="12" fill="#fff7ed" stroke="#d97706" stroke-width="2" />
+  <rect x="330" y="635" width="940" height="390" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2" />
+  <rect x="445" y="710" width="710" height="115" rx="12" fill="#ffffff" stroke="#8b5cf6" stroke-width="2" />
+  <rect x="445" y="875" width="710" height="115" rx="12" fill="#ffffff" stroke="#8b5cf6" stroke-width="2" />
+  <rect x="445" y="1110" width="710" height="110" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2" />
+  <rect x="1490" y="435" width="600" height="870" rx="12" fill="#fff1f2" stroke="#e87988" stroke-width="2" />
+  <rect x="1540" y="610" width="500" height="185" rx="12" fill="#ffe4e6" stroke="#e87988" stroke-width="2" />
+  <rect x="1540" y="865" width="500" height="140" rx="12" fill="#fff7f8" stroke="#e87988" stroke-width="2" />
+  <rect x="1540" y="1065" width="500" height="205" rx="12" fill="#ffffff" stroke="#fda4af" stroke-width="2" />
+  <rect x="1490" y="535" width="600" height="55" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <rect x="95" y="1375" width="2010" height="100" rx="12" fill="#fffbeb" stroke="#fbbf24" stroke-width="2" />
+  <polyline points="300.0,350 300,400 800,400 800.0,450" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="800.0,450 806.0,436.0 794.0,436.0" fill="#d97706" />
+  <polyline points="800.0,350 800,400 800,400 800.0,450" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="800.0,450 806.0,436.0 794.0,436.0" fill="#d97706" />
+  <polyline points="1300.0,350 1300,400 800,400 800.0,450" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="800.0,450 806.0,436.0 794.0,436.0" fill="#d97706" />
+  <polyline points="800.0,585 800.0,710" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="800.0,710 806.0,696.0 794.0,696.0" fill="#d97706" />
+  <polyline points="800.0,825 800.0,875" fill="none" stroke="#8b5cf6" stroke-width="3" />
+  <polygon points="800.0,875 806.0,861.0 794.0,861.0" fill="#8b5cf6" />
+  <polyline points="800.0,990 800.0,1110" fill="none" stroke="#059669" stroke-width="3" />
+  <polygon points="800.0,1110 806.0,1096.0 794.0,1096.0" fill="#059669" />
+  <polyline points="1790.0,795 1790.0,865" fill="none" stroke="#be4057" stroke-width="3" />
+  <polygon points="1790.0,865 1796.0,851.0 1784.0,851.0" fill="#be4057" />
+  <polyline points="1155,517.5 1390,517.5 1390,702.5 1540,702.5" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="1540,702.5 1526.0,696.5 1526.0,708.5" fill="#d97706" />
+  <text x="714.5" y="59.15" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="bold">1. Docker logs → script → Presidio → file</text>
+  <text x="733.0" y="112.7" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">Proposed streaming demo · redacted file + separate 28-day raw archive</text>
+  <text x="63" y="194.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">LOCAL DOCKER DEMO</text>
+  <text x="122" y="267.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">HR service</text>
+  <text x="122" y="303.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Continuously writes logs</text>
+  <text x="122" y="329.03000000000003" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">stdout / stderr or a log file</text>
+  <text x="622" y="267.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">Billing service</text>
+  <text x="622" y="303.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Continuously writes logs</text>
+  <text x="622" y="329.03000000000003" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">stdout / stderr or a log file</text>
+  <text x="1122" y="267.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">API service</text>
+  <text x="1122" y="303.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Continuously writes logs</text>
+  <text x="1122" y="329.03000000000003" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">stdout / stderr or a log file</text>
+  <text x="457" y="482.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">2. COLLECTOR SCRIPT · COPY FIRST</text>
+  <text x="457" y="518.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Keep the original for the forensic archive.</text>
+  <text x="457" y="544.03" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Send a separate working copy to Presidio.</text>
+  <text x="348" y="674.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">3. LOCAL PRESIDIO PROCESSING</text>
+  <text x="457" y="742.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">Analyzer · detect possible PII</text>
+  <text x="457" y="778.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Uses recognizers, patterns and an NLP model.</text>
+  <text x="457" y="907.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">Anonymizer · redact detected values</text>
+  <text x="457" y="943.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Replace detected spans with placeholders.</text>
+  <text x="457" y="1142.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">4. REDACTED OUTPUT FILE</text>
+  <text x="457" y="1178.4099999999999" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Append processed records to redacted-logs.jsonl.</text>
+  <text x="1508" y="474.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">FORENSIC ARCHIVE · restricted</text>
+  <text x="1552" y="642.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">FORENSIC LOKI · RAW ORIGINALS</text>
+  <text x="1552" y="678.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">All collected streams, before redaction.</text>
+  <text x="1552" y="704.03" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Retention target: 28 days (672 hours).</text>
+  <text x="1552" y="729.65" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Separate persistent storage.</text>
+  <text x="1552" y="897.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">FORENSIC GRAFANA</text>
+  <text x="1552" y="933.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Restricted investigator access.</text>
+  <text x="1552" y="959.03" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Queries the raw archive.</text>
+  <text x="1552" y="1095.7" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">RETENTION AND ACCESS</text>
+  <text x="1552" y="1130.18" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Loki retention + Compactor.</text>
+  <text x="1552" y="1154.5800000000002" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Grafana only queries the archive.</text>
+  <text x="1552" y="1178.9800000000002" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Normal users have no archive access.</text>
+  <rect x="1490" y="535" width="600" height="55" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <text x="1673.5" y="559.7" fill="#d97706" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Untouched original copy</text>
+  <text x="107" y="1407.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">Two intentional streams: raw forensics and a redacted working output.</text>
+  <text x="107" y="1444.26" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Amber = raw originals; green = redacted output. The raw archive is separate and restricted. Detectors can miss personal data.</text>
+</svg>

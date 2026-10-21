@@ -11,8 +11,13 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, default=str).encode()).hexdigest()
 
 
-def inventory(connection):
+def inventory(connection, schema="business"):
     with connection.cursor(row_factory=dict_row) as cursor:
+        table_rows = cursor.execute("""
+            SELECT c.relname AS table_name, c.relkind AS kind
+            FROM pg_class c JOIN pg_namespace n ON n.oid = c.relnamespace
+            WHERE n.nspname = %s AND c.relkind IN ('r', 'p') ORDER BY c.relname
+        """, (schema,)).fetchall()
         columns = cursor.execute("""
             SELECT c.relname AS table_name, a.attname AS column_name,
                    format_type(a.atttypid, a.atttypmod) AS type,
@@ -22,10 +27,10 @@ def inventory(connection):
             FROM pg_class c JOIN pg_namespace n ON n.oid = c.relnamespace
             JOIN pg_attribute a ON a.attrelid = c.oid
             LEFT JOIN pg_attrdef d ON d.adrelid = c.oid AND d.adnum = a.attnum
-            WHERE n.nspname = 'business' AND c.relkind = 'r'
+            WHERE n.nspname = %s AND c.relkind IN ('r', 'p')
               AND a.attnum > 0 AND NOT a.attisdropped
             ORDER BY c.relname, a.attnum
-        """).fetchall()
+        """, (schema,)).fetchall()
         constraints = cursor.execute("""
             SELECT c.relname AS table_name, co.conname AS name, co.contype AS kind,
                    pg_get_constraintdef(co.oid) AS definition,
@@ -40,9 +45,10 @@ def inventory(connection):
             JOIN pg_namespace n ON n.oid = c.relnamespace
             LEFT JOIN pg_class rc ON rc.oid = co.confrelid
             LEFT JOIN pg_namespace rn ON rn.oid = rc.relnamespace
-            WHERE n.nspname = 'business' ORDER BY c.relname, co.conname
-        """).fetchall()
-    tables = {}
+            WHERE n.nspname = %s ORDER BY c.relname, co.conname
+        """, (schema,)).fetchall()
+    tables = {row["table_name"]: {"kind": row["kind"], "columns": [], "constraints": []}
+              for row in table_rows}
     for column in columns:
         expression = column.pop("default_expression")
         column["default_hash"] = digest(expression) if expression is not None else None
@@ -60,10 +66,12 @@ def constraint_signature(table):
     return digest(table["constraints"])
 
 
-def validate_supported_schema(tables):
+def validate_supported_schema(tables, source_schema="business"):
     if not tables:
         raise ValueError("No business tables found")
     for table in tables.values():
+        if table.get("kind", "r") != "r" or not table["columns"]:
+            raise ValueError("Partitioned or zero-column tables require explicit implementation")
         for column in table["columns"]:
             if not re.fullmatch(r"text|bigint|integer|date|boolean|jsonb|numeric(?:\(\d+,\d+\))?", column["type"]):
                 raise ValueError("Unsupported PostgreSQL type requires explicit implementation")
@@ -72,7 +80,7 @@ def validate_supported_schema(tables):
         for constraint in table["constraints"]:
             if constraint["kind"] not in {"p", "u", "f", "c"}:
                 raise ValueError("Unsupported constraint")
-            if constraint["kind"] == "f" and constraint["referenced_schema"] != "business":
+            if constraint["kind"] == "f" and constraint["referenced_schema"] != source_schema:
                 raise ValueError("Cross-schema foreign key cannot be cloned")
 
 

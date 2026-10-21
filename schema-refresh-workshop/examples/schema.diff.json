@@ -1,0 +1,62 @@
+{
+  "baseline": false,
+  "changed": true,
+  "changes": [
+    {
+      "after": {
+        "column_name": "emergency_contact_email",
+        "default_hash": null,
+        "generated": "",
+        "identity": "",
+        "nullable": true,
+        "type": "text"
+      },
+      "before": null,
+      "column": "emergency_contact_email",
+      "kind": "column_added",
+      "table": "people"
+    },
+    {
+      "after": {
+        "column_name": "favorite_color",
+        "default_hash": null,
+        "generated": "",
+        "identity": "",
+        "nullable": true,
+        "type": "text"
+      },
+      "before": null,
+      "column": "favorite_color",
+      "kind": "column_added",
+      "table": "people"
+    },
+    {
+      "after": {
+        "column_name": "internal_memo",
+        "default_hash": null,
+        "generated": "",
+        "identity": "",
+        "nullable": true,
+        "type": "text"
+      },
+      "before": null,
+      "column": "internal_memo",
+      "kind": "column_added",
+      "table": "people"
+    },
+    {
+      "after": {
+        "column_name": "payload",
+        "default_hash": null,
+        "generated": "",
+        "identity": "",
+        "nullable": true,
+        "type": "jsonb"
+      },
+      "before": null,
+      "column": "payload",
+      "kind": "column_added",
+      "table": "people"
+    }
+  ]
+}

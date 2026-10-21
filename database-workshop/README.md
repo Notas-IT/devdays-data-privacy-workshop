@@ -20,6 +20,8 @@ The schema is intentionally designed for privacy training:
 
 ## Files
 
+- [Intentionally risky schema diagram](docs/intentionally-risky-schema.drawio):
+  editable draw.io diagram of the selected tables, privacy risks and linkage path.
 - `schema.sql`: Postgres schema, indexes, views, and constraints.
 - `generate_data.py`: deterministic CSV generator for 100k synthetic records.
 - `load_data.sql`: psql script that imports generated CSV files.
@@ -76,6 +78,96 @@ LIMIT 20;
    - company profit visibility only for permitted users
 3. After anonymisation, join the result against `public_db`.
 4. Discuss which fields must be generalised, bucketed, suppressed, consistently pseudonymised, or access-controlled.
+
+## Trace Records Instead Of Browsing Every Table
+
+Use the read-only tracer to start with one public person and follow the known
+links through this workshop's tables. It creates an offline HTML report with
+expandable tables and a JSON report for further analysis. It requires Python 3
+and the running Compose Postgres service; no Python packages are needed.
+
+From the repository root:
+
+```bash
+python3 database-workshop/trace_data.py trace \
+  --person 42 \
+  --output-dir database-workshop/reports/before
+```
+
+Open `database-workshop/reports/before/trace.html`. Students can inspect:
+
+- The starting public person, candidate professional profiles, public companies and awards.
+- Identity candidates matched by name/birth date/postcode, or birth date/postcode/employer/role.
+- Shared person and contract IDs, which the original data generator intentionally exposes.
+- Connected private identities, contracts, salaries, payroll/bank accounts, benefits, application accounts and company financials.
+
+`--person` selects a **public `people_directory.directory_id`**. Omit it to use
+the first available public record. `--limit 10` controls examples shown per
+table/path; counts still cover all matching records. The report uses all
+candidate paths to find related rows, including candidates beyond the display
+limit. Company registration numbers are also followed independently of person
+matches. Public employer-name matches can produce multiple companies.
+
+After students create a pseudonymised private copy, trace that schema against
+the same unchanged public data. The following assumes their copy is named
+`pseudonymised_private` and retains the original table and column layout;
+creating that copy is a separate exercise.
+
+```bash
+python3 database-workshop/trace_data.py trace \
+  --person 42 --private-schema pseudonymised_private \
+  --output-dir database-workshop/reports/after
+
+python3 database-workshop/trace_data.py compare \
+  database-workshop/reports/before/trace.json \
+  database-workshop/reports/after/trace.json \
+  --output-dir database-workshop/reports/comparison
+```
+
+Open `database-workshop/reports/comparison/comparison.html`. Students compare
+candidate counts and actual values, then explain which links survived and why.
+For example, name masking may stop the name-based path while shared IDs or
+birth date/postcode/job still produce candidates. This is a hypothesis to test
+on their copy, not a predetermined result.
+
+A candidate is **not a confirmed identity**, even when there is only one.
+Shared IDs can become misleading after remapping. Compare claimed identities
+against the instructor's original data or protected mapping after the linkage
+attempt; do not give that mapping to students during the attempt. Do not
+interpret matching row positions in before/after samples as identity proof.
+
+Zero matches do not prove anonymisation: this tool checks four known matching
+paths for one person, not every possible inference. Repeat for multiple public
+people. Investigate whether lost links reflect better privacy or broken joins,
+and check analytics separately. The original reconstruction view still points
+to `private_db`; this command explicitly queries the selected target schema.
+
+The query runs in a read-only snapshot transaction with a statement timeout.
+`--db-user` selects the SQL role and the report records its RLS bypass flags;
+results reflect that role's visibility, not an API/access-control test. Both
+public and target schemas need read access. Other connection options are listed
+by `python3 database-workshop/trace_data.py trace --help`.
+
+Reports include the actual values returned by the database. New report folders
+are private to the local user, report files have mode `0600`, and `reports/` is
+ignored by Git. Treat reports as sensitive if adapting this to real data.
+
+Run the small report tests:
+
+```bash
+python3 -m unittest discover -s database-workshop/tests -v
+```
+
+To also exercise real PostgreSQL joins, ambiguity, masking and read-only
+transactions, start the Postgres service and run:
+
+```bash
+WORKSHOP_TRACE_INTEGRATION=1 python3 -m unittest discover -s database-workshop/tests -v
+```
+
+Integration tests create and remove their own uniquely named database with
+small synthetic fixtures. They never reset the existing workshop database.
+The configured `workshop` role needs database creation rights for these tests.
 
 ## Access Protection Workshop
 

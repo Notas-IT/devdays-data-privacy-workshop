@@ -1,4 +1,4 @@
-"""Change the active policy atomically without restarting the processor."""
+"""Change Fluent Bit's Lua privacy policy atomically, without restarting it."""
 
 import argparse
 from pathlib import Path
@@ -6,16 +6,16 @@ from pathlib import Path
 
 def activate(name):
     directory = Path(__file__).parent / "config"
-    content = (directory / "policies" / f"{name}.json").read_bytes()
+    content = (directory / "policies" / f"{name}.lua").read_bytes()
     temporary = directory / "active.tmp"
     temporary.write_bytes(content)
-    temporary.replace(directory / "active.json")
-    print(f"Activated {name} policy; processor will reload within one polling cycle")
+    temporary.replace(directory / "active.lua")
+    print(f"Activated {name} policy; Fluent Bit reads it for each incoming record")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("policy", choices=["strict", "presidio", "invalid"])
+    parser.add_argument("policy", choices=["strict", "summary", "invalid"])
     args = parser.parse_args()
     activate(args.policy)
 

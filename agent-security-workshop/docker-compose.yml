@@ -1,0 +1,119 @@
+name: devdays-agent-security-workshop
+
+x-tools: &tools
+  image: devdays-agent-security-tools
+  build: ./tools
+  volumes:
+    - admin_state:/state
+    - db_secret:/db-secret
+    - gateway_config:/gateway-config
+    - agent_config:/agent-config
+    - broker_config:/broker-config
+  networks: [db_net]
+
+services:
+  setup:
+    <<: *tools
+    profiles: [tools]
+
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: agent_lab
+      POSTGRES_USER: lab_admin
+      POSTGRES_PASSWORD_FILE: /run/db-secret/password
+    volumes:
+      - db_secret:/run/db-secret:ro
+      - postgres_data:/var/lib/postgresql/data
+    networks: [db_net]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U lab_admin -d agent_lab"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  gateway:
+    image: devdays-agent-security-gateway
+    build: ./gateway
+    user: "10002:10002"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    tmpfs: ["/tmp:rw,nosuid,nodev,noexec,size=32m"]
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 1
+    volumes: ["gateway_config:/run/gateway:ro"]
+    networks: [agent_net, db_net]
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=2)"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+  agent:
+    image: devdays-agent-security-agent
+    build: ./agent
+    user: "10001:10001"
+    init: true
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    # Codex needs writable state/workspace, confined to ephemeral container RAM.
+    tmpfs:
+      - /tmp:rw,nosuid,nodev,size=256m,mode=1777
+      - /home/agent:rw,nosuid,nodev,size=128m,uid=10001,gid=10001,mode=700
+    pids_limit: 128
+    mem_limit: 768m
+    cpus: 1
+    environment:
+      HOME: /home/agent
+      CODEX_HOME: /home/agent/.codex
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes: ["agent_config:/run/agent:ro"]
+    networks: [agent_net]
+    depends_on:
+      gateway:
+        condition: service_healthy
+
+  model-broker:
+    image: devdays-agent-security-broker
+    build: ./model-broker
+    profiles: [live]
+    user: "10003:10003"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 1
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-}
+      MODEL_REQUEST_LIMIT: "60"
+    volumes: ["broker_config:/run/broker:ro"]
+    # Only this broker has an outbound route, and it has no DB-network access.
+    networks: [agent_net, model_egress]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8081/health', timeout=2)"]
+      interval: 2s
+      timeout: 3s
+      retries: 10
+
+networks:
+  agent_net:
+    internal: true
+  db_net:
+    internal: true
+  model_egress:
+
+volumes:
+  admin_state:
+  db_secret:
+  gateway_config:
+  agent_config:
+  broker_config:
+  postgres_data:

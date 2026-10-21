@@ -163,3 +163,49 @@ validation, last-admin protection, login throttling, safe audit contents,
 append-only grants and audit-failure rollback. Temporary test accounts are
 removed; synthetic audit records remain. Run tests serially, not alongside an
 `init` or a live permissions-editing demonstration.
+
+### Testing Request Context And RLS
+
+Run only the database session-context tests:
+
+```bash
+docker compose build db-security-tools
+docker compose run --rm --entrypoint pytest db-security-tools -q test_rls_session.py
+```
+
+`test_rls_session.py` creates temporary accounts for two companies from the
+loaded dataset. It calculates expected averages using the administrator, then
+runs the same aggregate query without a company filter as the restricted
+`privacy_api` role. Account IDs, company registrations, employee counts and
+expected averages come from fixtures rather than hardcoded company data.
+
+The application passes the authenticated account into each transaction:
+
+```python
+with database(account_id) as connection:
+    rows = connection.execute("""
+        SELECT company_registration_number, AVG(salary_eur)
+        FROM private_db.employment_contract
+        GROUP BY company_registration_number
+    """).fetchall()
+```
+
+`database(account_id)` binds the value using
+`SELECT set_config('app.account_id', %s, true)`. RLS resolves the account's
+current permissions and company memberships. The `true` makes this context
+transaction-local, so a commit or rollback clears it before connection reuse.
+A session-wide setting (`false`) would persist after commit and require an
+explicit reset. See PostgreSQL's [configuration settings functions](https://www.postgresql.org/docs/16/functions-admin.html#FUNCTIONS-ADMIN-SET).
+
+These are integration tests against real PostgreSQL policies. They check both
+company averages, absent/invalid context, inactive accounts, removed membership,
+denied salary permission, context isolation between connections, cleanup after
+commit/rollback, live membership changes and SQL-user impersonation attempts.
+Temporary accounts and their memberships are removed afterward.
+
+The API login is trusted to set account context after authentication; custom
+settings are not proof of identity for an untrusted SQL client. Direct SQL
+logins remain bound to `session_user`. These tests verify company isolation
+while calculating averages; the existing API role also has row-level salary
+access. An averages-only interface additionally needs a restricted aggregate
+view or function, as RLS itself does not restrict which aggregates may be run.

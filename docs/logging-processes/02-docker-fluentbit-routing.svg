@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2300" height="2040" viewBox="0 0 2300 2040">
+  <rect width="2300" height="2040" fill="#ffffff" />
+  <rect x="45" y="145" width="2210" height="1685" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" />
+  <rect x="160" y="215" width="400" height="115" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+  <rect x="660" y="215" width="400" height="115" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+  <rect x="1160" y="215" width="400" height="115" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" />
+  <rect x="130" y="405" width="1400" height="730" rx="12" fill="#fff7ed" stroke="#d97706" stroke-width="2" />
+  <rect x="260" y="480" width="1140" height="110" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="2" />
+  <rect x="510" y="680" width="640" height="130" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2" />
+  <rect x="190" y="910" width="480" height="180" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2" />
+  <rect x="1010" y="910" width="470" height="180" rx="12" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2" />
+  <rect x="970" y="1195" width="550" height="180" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2" />
+  <rect x="390" y="1475" width="660" height="120" rx="12" fill="#e0f7fa" stroke="#0891b2" stroke-width="2" />
+  <rect x="390" y="1660" width="660" height="110" rx="12" fill="#e0f7fa" stroke="#0891b2" stroke-width="2" />
+  <rect x="1630" y="405" width="600" height="1070" rx="12" fill="#fff1f2" stroke="#e87988" stroke-width="2" />
+  <rect x="1680" y="655" width="500" height="185" rx="12" fill="#ffe4e6" stroke="#e87988" stroke-width="2" />
+  <rect x="1680" y="910" width="500" height="140" rx="12" fill="#fff7f8" stroke="#e87988" stroke-width="2" />
+  <rect x="1680" y="1110" width="500" height="330" rx="12" fill="#ffffff" stroke="#fda4af" stroke-width="2" />
+  <rect x="350" y="810" width="400" height="38" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <rect x="1000" y="810" width="450" height="38" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <rect x="1620" y="545" width="600" height="70" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <rect x="85" y="1860" width="2130" height="130" rx="12" fill="#fffbeb" stroke="#fbbf24" stroke-width="2" />
+  <polyline points="1930.0,840 1930.0,910" fill="none" stroke="#be4057" stroke-width="3" />
+  <polygon points="1930.0,910 1936.0,896.0 1924.0,896.0" fill="#be4057" />
+  <polyline points="360.0,330 360,370 830,370 830.0,480" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="830.0,480 836.0,466.0 824.0,466.0" fill="#d97706" />
+  <polyline points="860.0,330 860,370 830,370 830.0,480" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="830.0,480 836.0,466.0 824.0,466.0" fill="#d97706" />
+  <polyline points="1360.0,330 1360,370 830,370 830.0,480" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="830.0,480 836.0,466.0 824.0,466.0" fill="#d97706" />
+  <polyline points="830.0,590 830.0,680" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="830.0,680 836.0,666.0 824.0,666.0" fill="#d97706" />
+  <polyline points="670.0,810 670,850 430,850 430.0,910" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="430.0,910 436.0,896.0 424.0,896.0" fill="#d97706" />
+  <polyline points="990.0,810 990,850 1245,850 1245.0,910" fill="none" stroke="#8b5cf6" stroke-width="3" />
+  <polygon points="1245.0,910 1251.0,896.0 1239.0,896.0" fill="#8b5cf6" />
+  <polyline points="1245.0,1090 1245.0,1195" fill="none" stroke="#8b5cf6" stroke-width="3" />
+  <polygon points="1245.0,1195 1251.0,1181.0 1239.0,1181.0" fill="#8b5cf6" />
+  <polyline points="430.0,1090 430,1410 720,1410 720.0,1475" fill="none" stroke="#059669" stroke-width="3" />
+  <polygon points="720.0,1475 726.0,1461.0 714.0,1461.0" fill="#059669" />
+  <polyline points="1245.0,1375 1245,1535 1050,1535.0" fill="none" stroke="#059669" stroke-width="3" />
+  <polygon points="1050,1535.0 1064.0,1541.0 1064.0,1529.0" fill="#059669" />
+  <polyline points="720.0,1595 720.0,1660" fill="none" stroke="#0891b2" stroke-width="3" />
+  <polygon points="720.0,1660 726.0,1646.0 714.0,1646.0" fill="#0891b2" />
+  <polyline points="1400,535.0 1570,535 1570,747.5 1680,747.5" fill="none" stroke="#d97706" stroke-width="3" />
+  <polygon points="1680,747.5 1666.0,741.5 1666.0,753.5" fill="#d97706" />
+  <text x="646.5" y="59.15" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="bold">2. Fluent Bit regex routing + separate forensic archive</text>
+  <text x="726.5" y="112.7" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">Proposed design · regex and Lua inside Fluent Bit; Presidio handles the NLP route</text>
+  <text x="63" y="184.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">DOCKER HOST · two separate log stores and viewers</text>
+  <text x="172" y="247.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">HR service</text>
+  <text x="172" y="283.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Continuously writes stdout / stderr.</text>
+  <text x="672" y="247.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">Billing service</text>
+  <text x="672" y="283.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Continuously writes stdout / stderr.</text>
+  <text x="1172" y="247.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">API service</text>
+  <text x="1172" y="283.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Continuously writes stdout / stderr.</text>
+  <text x="148" y="444.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">FLUENT BIT · collector, routing and Lua filters</text>
+  <text x="272" y="512.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">1. COPY THE ORIGINAL BEFORE MUTATING ANY FIELDS</text>
+  <text x="272" y="549.26" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">rewrite_tag keeps raw.* untouched and emits a work.* copy. Parse application JSON only on the working copy.</text>
+  <text x="522" y="713.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">2. REGEX CLASSIFICATION · rewrite_tag</text>
+  <text x="522" y="750.45" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Simple PII match in a supported structured format?</text>
+  <text x="522" y="777.2900000000001" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Unknown formats and non-matches go to Presidio.</text>
+  <text x="202" y="942.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">3A. LUA · FAST REDACTION</text>
+  <text x="202" y="979.26" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Mask the matched fields.</text>
+  <text x="202" y="1006.1" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Drop unknown fields and remaining free text.</text>
+  <text x="202" y="1032.94" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Export approved fields under redacted.*.</text>
+  <text x="1022" y="942.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">3B. HTTP OUTPUT · NEEDS NLP</text>
+  <text x="1022" y="979.26" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Send the working record to the Presidio</text>
+  <text x="1022" y="1006.1" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">adapter.</text>
+  <text x="1022" y="1032.94" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">A regex miss does not mean “safe”.</text>
+  <text x="982" y="1228.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">4. PRESIDIO ADAPTER · HTTP SERVICE</text>
+  <text x="982" y="1265.45" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Calls Analyzer + Anonymizer.</text>
+  <text x="982" y="1292.29" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Emits a redacted record to normal Loki.</text>
+  <text x="982" y="1319.1299999999999" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Failure: retry or drop; no raw fallback.</text>
+  <text x="402" y="1508.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">OPERATIONAL LOKI · REDACTED LOGS</text>
+  <text x="402" y="1545.45" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Receives fast-path output and Presidio output.</text>
+  <text x="402" y="1572.29" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Separate storage from the raw forensic archive.</text>
+  <text x="402" y="1693.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">NORMAL GRAFANA</text>
+  <text x="402" y="1730.45" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Normal users query redacted logs only.</text>
+  <text x="1648" y="444.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">FORENSIC ARCHIVE · restricted</text>
+  <text x="1692" y="687.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">FORENSIC LOKI · RAW ORIGINALS</text>
+  <text x="1692" y="723.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">All collected streams, before redaction.</text>
+  <text x="1692" y="749.03" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Retention target: 28 days (672 hours).</text>
+  <text x="1692" y="774.65" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Separate persistent storage.</text>
+  <text x="1692" y="942.4" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold">FORENSIC GRAFANA</text>
+  <text x="1692" y="978.41" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Restricted investigator access.</text>
+  <text x="1692" y="1004.03" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal">Queries the raw archive.</text>
+  <text x="1692" y="1140.7" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">RETENTION AND ACCESS</text>
+  <text x="1692" y="1175.18" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Loki enforces retention; Grafana only queries.</text>
+  <text x="1692" y="1199.5800000000002" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Enable the Compactor and persist its state.</text>
+  <text x="1692" y="1223.9800000000002" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Normal Grafana does not connect here.</text>
+  <text x="1692" y="1248.3800000000003" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Deletion runs asynchronously.</text>
+  <rect x="350" y="810" width="400" height="38" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <text x="401.5" y="833.0" fill="#d97706" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">Supported regex match → redact</text>
+  <rect x="1000" y="810" width="450" height="38" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <text x="1066.5" y="833.0" fill="#8b5cf6" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal">No match / unknown format → NLP</text>
+  <rect x="1620" y="545" width="600" height="70" rx="12" fill="#ffffff" stroke="none" stroke-width="2" />
+  <text x="1724.5" y="569.7" fill="#d97706" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="normal">Original copy · before parsing / redaction</text>
+  <text x="97" y="1893.25" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">No record is declared safe just because a regex did not match.</text>
+  <text x="97" y="1931.3" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal">The fast path emits only approved fields and discards other text. To retain arbitrary free text, run it through Presidio too. Raw copies go to the restricted forensic archive before redaction. Normal Grafana</text>
+  <text x="97" y="1959.36" fill="#142e50" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal">never queries that archive.</text>
+</svg>

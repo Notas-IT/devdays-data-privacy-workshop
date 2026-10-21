@@ -28,26 +28,22 @@ services:
     networks: [sources]
 
   log-processor:
-    <<: *runtime
+    image: fluent/fluent-bit:5.1.4
     profiles: ["pipeline"]
+    command: ["-c", "/fluent-bit/workshop/fluent-bit.conf"]
     environment:
-      POLICY_PATH: /config/active.json
-      LOKI_URL: http://log-loki:3100
+      POLICY_PATH: /config/active.lua
+      PRIVACY_SCRIPT: /fluent-bit/workshop/privacy.lua
     ports:
       - "127.0.0.1:18088:8080"
     volumes:
       - hr_raw:/raw/hr:ro
       - billing_raw:/raw/billing:ro
-      - processor_state:/state
+      - fluentbit_state:/state
       - ./config:/config:ro
+      - ./fluent-bit:/fluent-bit/workshop:ro
     networks: [sources, log_backend]
     depends_on: [log-loki]
-    healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/health', timeout=2)"]
-      interval: 5s
-      timeout: 3s
-      retries: 6
-      start_period: 30s
 
   log-loki:
     image: grafana/loki:3.7.8
@@ -93,7 +89,22 @@ services:
     entrypoint: ["python", "set_policy.py"]
     volumes:
       - ./config:/app/config
+      - hr_raw:/raw/hr:ro
+      - billing_raw:/raw/billing:ro
     networks: [log_backend]
+
+  fluentbit-filter-checks:
+    image: fluent/fluent-bit:5.1.4
+    profiles: ["checks"]
+    command: ["-c", "/fluent-bit/tests/native.conf"]
+    environment:
+      POLICY_PATH: /config/policies/strict.lua
+      PRIVACY_SCRIPT: /fluent-bit/workshop/privacy.lua
+    volumes:
+      - ./fluent-bit:/fluent-bit/workshop:ro
+      - ./tests:/fluent-bit/tests:ro
+      - ./config:/config:ro
+    network_mode: none
 
 networks:
   sources:
@@ -103,6 +114,6 @@ networks:
 volumes:
   hr_raw:
   billing_raw:
-  processor_state:
+  fluentbit_state:
   loki_data:
   grafana_data:

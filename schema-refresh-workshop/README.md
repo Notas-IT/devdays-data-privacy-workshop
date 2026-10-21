@@ -1,5 +1,11 @@
 # Production-To-Preprod Refresh With Schema Drift Detection
 
+For the reusable exercise with sorted schema files, file comparisons, a
+code-defined target schema and per-column transformations, start with
+[Build A Reusable Pseudonymised Database Refresh](EXERCISE.md). Its editable
+[draw.io process diagram](docs/code-defined-refresh.drawio) shows the full flow.
+The automatic discovery exercise below remains available separately.
+
 This Docker workshop models a periodic refresh from a synthetic production
 Postgres database into a separate preprod Postgres database. Known sensitive
 fields have an explicit policy. The exercise then adds columns the original

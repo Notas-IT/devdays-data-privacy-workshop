@@ -1,6 +1,0 @@
-*
-!Dockerfile
-!requirements.txt
-!manage.py
-!schema.sql
-!test_database.py

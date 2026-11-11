@@ -1,4 +1,4 @@
-name: devdays-data-privacy-workshop
+name: devdays-student-workshop
 
 include:
   - ./database-workshop/docker-compose.yml

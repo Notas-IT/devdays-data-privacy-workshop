@@ -1,0 +1,24 @@
+Run commands from the repository root. Requires Python 3 and Docker Compose.
+
+Database fixtures:
+docker compose -f database-workshop/docker-compose.yml up -d --wait postgres
+docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/schema.sql
+docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/load_data.sql
+
+Log-detection environment and acceptance tests:
+docker compose -f presidio-workshop/docker-compose.yml build presidio
+docker compose -f presidio-workshop/docker-compose.yml run --rm presidio
+
+Raw log sources:
+docker compose -f log-pipeline-workshop/docker-compose.yml --profile pipeline up -d --build
+
+Schema-refresh source and target databases:
+docker compose -f schema-refresh-workshop/docker-compose.yml --profile refresh up -d --wait
+docker compose -f schema-refresh-workshop/docker-compose.yml build refresh-runner
+docker compose -f schema-refresh-workshop/docker-compose.yml run --rm refresh-runner python seed.py
+
+Agent-security baseline:
+docker compose -f agent-security-workshop/docker-compose.yml up -d --build --wait
+
+Exercise entry points are unfinished. Custom detection tests will fail until
+implemented. Setup loads synthetic fixtures only; no exercise solutions run.

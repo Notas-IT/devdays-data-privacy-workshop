@@ -1,16 +1,7 @@
 FROM python:3.13-slim-bookworm
-
-ENV PYTHONUNBUFFERED=1 \
-    PYTHONDONTWRITEBYTECODE=1 \
-    PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    TLDEXTRACT_CACHE=/opt/presidio/tld-cache
-
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
 WORKDIR /app
-COPY presidio-workshop/requirements.txt ./
-RUN python -m pip install --no-cache-dir -r requirements.txt
-RUN python -c "import tldextract; assert tldextract.extract('example.com').suffix == 'com'"
-COPY schema-refresh-workshop/requirements.txt ./refresh-requirements.txt
-RUN python -m pip install --no-cache-dir -r refresh-requirements.txt
-COPY presidio-workshop/detector.py ./shared_detector.py
+COPY schema-refresh-workshop/requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 COPY schema-refresh-workshop/ ./
-CMD ["python", "refresh.py", "scan"]
+CMD ["python", "starter.py"]

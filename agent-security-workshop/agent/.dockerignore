@@ -1,7 +1,0 @@
-*
-!Dockerfile
-!client.py
-!run_codex.py
-!workspace/
-!workspace/README.md
-!workspace/untrusted_note.txt

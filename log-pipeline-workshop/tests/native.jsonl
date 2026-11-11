@@ -1,3 +1,0 @@
-{"message":"native-secret@example.com 39001010011","event":"salary_export","level":"INFO","email":"native-secret@example.com","salary_eur":4250,"debug":{"email":"native-secret@example.com"},"labels":{"employee":"native-secret@example.com"},"pipeline_guard":"sanitized-v1"}
-{"log":"native-secret@example.com","pipeline_guard":"sanitized-v1"}
-malformed native-secret@example.com

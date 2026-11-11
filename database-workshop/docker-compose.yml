@@ -1,9 +1,4 @@
-name: devdays-data-privacy-workshop
-
-x-security-runtime: &security-runtime
-  image: devdays-database-protection
-  build:
-    context: ./protection
+name: devdays-database-student-workshop
 
 services:
   postgres:
@@ -23,32 +18,5 @@ services:
       timeout: 3s
       retries: 10
 
-  privacy-api:
-    <<: *security-runtime
-    profiles: ["protection"]
-    ports:
-      - "127.0.0.1:18000:8000"
-    volumes:
-      - db_api_runtime:/runtime:ro
-    depends_on:
-      postgres:
-        condition: service_healthy
-    healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=2)"]
-      interval: 5s
-      timeout: 3s
-      retries: 6
-
-  db-security-tools:
-    <<: *security-runtime
-    profiles: ["protection-tools"]
-    entrypoint: ["python", "manage.py"]
-    environment:
-      ADMIN_DSN: postgresql://workshop:workshop@postgres:5432/privacy_workshop
-      API_URL: http://privacy-api:8000
-    volumes:
-      - db_api_runtime:/runtime
-
 volumes:
   postgres_data:
-  db_api_runtime:

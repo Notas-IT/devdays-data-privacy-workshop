@@ -1,10 +1,8 @@
-DROP SCHEMA IF EXISTS exercise CASCADE;
 DROP SCHEMA IF EXISTS private_db CASCADE;
 DROP SCHEMA IF EXISTS public_db CASCADE;
 
 CREATE SCHEMA private_db;
 CREATE SCHEMA public_db;
-CREATE SCHEMA exercise;
 
 CREATE TABLE private_db.person_identity (
     person_id BIGINT PRIMARY KEY,
@@ -151,57 +149,3 @@ CREATE INDEX idx_public_profile_quasi
 
 CREATE INDEX idx_public_company_registry_number
     ON public_db.company_registry (registration_number);
-
-CREATE VIEW exercise.private_salary_analysis AS
-SELECT
-    c.company_name,
-    c.industry,
-    p.home_city,
-    p.home_postcode,
-    e.role_title,
-    e.department,
-    date_part('year', age(current_date, p.date_of_birth))::INTEGER AS age_years,
-    e.salary_eur,
-    e.bonus_eur
-FROM private_db.employment_contract e
-JOIN private_db.person_identity p ON p.national_id = e.national_id
-JOIN private_db.company c ON c.registration_number = e.company_registration_number;
-
-CREATE VIEW exercise.reidentify_salary_from_public AS
-SELECT
-    pd.first_name,
-    pd.last_name,
-    pd.date_of_birth,
-    pd.city,
-    pd.postcode,
-    pp.employer_name,
-    pp.role_title,
-    pp.salary_band AS public_salary_band,
-    ec.salary_eur AS recovered_private_salary_eur,
-    c.annual_profit_eur AS recovered_private_company_profit_eur
-FROM public_db.people_directory pd
-JOIN public_db.professional_profile pp
-    ON pp.first_name = pd.first_name
-   AND pp.last_name = pd.last_name
-   AND pp.postcode = pd.postcode
-JOIN private_db.person_identity pi
-    ON pi.first_name = pd.first_name
-   AND pi.last_name = pd.last_name
-   AND pi.date_of_birth = pd.date_of_birth
-   AND pi.home_postcode = pd.postcode
-JOIN private_db.employment_contract ec
-    ON ec.national_id = pi.national_id
-   AND ec.role_title = pp.role_title
-JOIN private_db.company c
-    ON c.registration_number = ec.company_registration_number
-   AND c.company_name = pp.employer_name;
-
-COMMENT ON SCHEMA private_db IS
-    'Synthetic private data for anonymisation exercises. Several joins intentionally rely on PII.';
-
-COMMENT ON SCHEMA public_db IS
-    'Synthetic public reference data for reconstruction and linkage attacks.';
-
-COMMENT ON VIEW exercise.reidentify_salary_from_public IS
-    'Demonstrates how public quasi-identifiers can recover private salary and profit information.';
-

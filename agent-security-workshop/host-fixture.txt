@@ -1,0 +1,2 @@
+Synthetic workshop host file.
+This harmless fixture is used to test host-file access boundaries.

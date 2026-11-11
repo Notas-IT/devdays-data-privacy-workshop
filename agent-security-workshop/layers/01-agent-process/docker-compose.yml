@@ -53,7 +53,7 @@ services:
       - /home/agent:rw,nosuid,nodev,size=128m,uid=10001,gid=10001,mode=700
     volumes:
       - agent_config:/run/agent:ro
-      - ../../README.md:/host-workshop/README.md:ro
+      - ../../host-fixture.txt:/host-workshop/host-fixture.txt:ro
     networks: [agent_net]
     pids_limit: 128
     mem_limit: 768m

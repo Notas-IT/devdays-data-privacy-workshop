@@ -72,19 +72,19 @@ print(json.dumps({"uid":os.getuid(),"caps":int(s["CapEff"].strip(),16),"nnp":s["
         result = self.agent_exec('python', '-c', 'open("/tmp/file-test", "w").write("workshop")')
         self.assertEqual(result.returncode, 0)
 
-    def test_host_boundary_uses_a_real_readme_not_fake_credentials(self):
+    def test_host_boundary_uses_a_harmless_fixture(self):
         mounts = self.agent['Mounts']
         binds = [mount for mount in mounts if mount['Type'] == 'bind']
         self.assertEqual(len(binds), 1 if LEVEL < 3 else 0)
         result = self.agent_exec('python', '-c', '''from pathlib import Path
 import hashlib
-p=Path('/host-workshop/README.md')
+p=Path('/host-workshop/host-fixture.txt')
 print(hashlib.sha256(p.read_bytes()).hexdigest() if p.exists() else 'not-mounted')''')
         self.assertEqual(result.returncode, 0)
         if LEVEL < 3:
-            self.assertEqual(result.stdout.strip(), hashlib.sha256((ROOT / 'README.md').read_bytes()).hexdigest())
+            self.assertEqual(result.stdout.strip(), hashlib.sha256((ROOT / 'host-fixture.txt').read_bytes()).hexdigest())
             self.assertFalse(binds[0]['RW'])
-            self.assertEqual(Path(binds[0]['Source']).resolve(), (ROOT / 'README.md').resolve())
+            self.assertEqual(Path(binds[0]['Source']).resolve(), (ROOT / 'host-fixture.txt').resolve())
         else:
             self.assertEqual(result.stdout.strip(), 'not-mounted')
         self.assertNotEqual(self.agent['HostConfig']['PidMode'], 'host')

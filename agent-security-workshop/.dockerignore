@@ -1,0 +1,8 @@
+.env
+.env.*
+secrets/
+results/
+.practice/
+__pycache__/
+tests/__pycache__/
+.pytest_cache/

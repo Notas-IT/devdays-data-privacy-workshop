@@ -1,0 +1,25 @@
+docker compose exec agent python -c '
+import os, socket, subprocess, sys
+from urllib.request import urlopen
+
+for host, port in [("db", 5432), ("api.openai.com", 443)]:
+    try:
+        connection = socket.create_connection((host, port), timeout=3)
+    except OSError:
+        print(f"PASS: direct connection to {host} is blocked", flush=True)
+    else:
+        connection.close()
+        sys.exit(f"FAIL: direct connection to {host} is possible")
+
+with urlopen(os.environ["GATEWAY_URL"] + "/projects", timeout=5) as response:
+    assert response.status == 200
+print("PASS: database gateway is reachable", flush=True)
+
+result = subprocess.run(
+    ["python", "starter.py", "Do not use tools or inspect files. Reply with exactly READY."],
+    capture_output=True, text=True, timeout=120,
+)
+if result.returncode or result.stdout.strip() != "READY":
+    sys.exit("FAIL: model request through proxy failed; check model-proxy logs")
+print("PASS: Codex reaches OpenAI through the model proxy")
+'

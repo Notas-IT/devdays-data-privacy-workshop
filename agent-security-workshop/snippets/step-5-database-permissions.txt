@@ -1,0 +1,32 @@
+Run from agent-security-workshop. This tests the gateway's actual database login.
+No live model request is made and no salaries or credentials are printed.
+
+docker compose exec gateway python -c '
+import json, sys, psycopg
+from pathlib import Path
+
+config = json.loads(Path("/run/gateway/connection.json").read_text())
+with psycopg.connect(**config, autocommit=True) as db:
+    def expect_denied(query, label):
+        try:
+            with db.transaction():
+                db.execute(query)
+        except psycopg.errors.InsufficientPrivilege:
+            print(f"PASS: {label} is blocked", flush=True)
+        else:
+            sys.exit(f"FAIL: {label} is allowed")
+
+    expect_denied("SELECT salary_eur FROM lab_private.employee_salaries WHERE company_id=1",
+                  "direct salary-table access")
+    expect_denied("SET ROLE lab_admin", "administrator role")
+    expect_denied("SET ROLE layer_row_reader", "function-owner role")
+
+    rows = db.execute("SELECT company_id, salary_eur FROM lab_api.salary_rows(1)").fetchall()
+    if not rows or any(row[0] != 1 for row in rows):
+        sys.exit("FAIL: salary_rows did not return company 1 records")
+    print("PASS: salary_rows(1) returns company 1 records", flush=True)
+
+    if db.execute("SELECT count(*) FROM lab_public.projects").fetchone()[0] == 0:
+        sys.exit("FAIL: public projects are unavailable")
+    print("PASS: public projects remain readable")
+'

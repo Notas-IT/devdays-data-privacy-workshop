@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!gateway.py
+!write_config.py
+!apply_security.py
+!security.sql

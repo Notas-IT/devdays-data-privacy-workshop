@@ -1,0 +1,44 @@
+Run from agent-security-workshop. No model request is made; tokens are not printed.
+
+docker compose exec agent python -c '
+import json, os, sys
+from pathlib import Path
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError
+
+base = os.environ["GATEWAY_URL"]
+token = json.loads(Path("/run/identity/access.json").read_text())["gateway_token"]
+forged = {"X-Company-ID": "2", "X-User": "administrator", "X-Role": "admin"}
+
+def check(path, credential, expected):
+    headers = dict(forged)
+    if credential:
+        headers["Authorization"] = "Bearer " + credential
+    try:
+        with urlopen(Request(base + path, headers=headers), timeout=5) as response:
+            status, body = response.status, json.load(response)
+    except HTTPError as error:
+        status, body = error.code, None
+    if status != expected:
+        sys.exit(f"FAIL: {path} returned {status}, expected {expected}")
+    return body
+
+identity = check("/me", token, 200)
+if identity != {"actor": "workshop-agent", "company_id": 1}:
+    sys.exit("FAIL: forged headers changed verified identity")
+print("PASS: identity comes from the token, not the headers")
+
+summary = check("/companies/1/salary-summary", token, 200)
+if summary["company_id"] != 1:
+    sys.exit("FAIL: wrong company returned")
+print("PASS: own-company salary summary is available")
+
+check("/companies/2/salary-summary", token, 403)
+print("PASS: another company is blocked despite forged headers")
+check("/companies/2/salary-summary", None, 401)
+check("/companies/2/salary-summary", "invalid-token", 401)
+print("PASS: identity headers alone or an invalid token grant no access")
+
+check("/projects", token, 200)
+print("PASS: authenticated public-project access still works")
+'

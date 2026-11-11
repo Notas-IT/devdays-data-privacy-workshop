@@ -1,0 +1,68 @@
+From this folder:
+
+python3 check_security.py
+docker compose exec agent python starter.py "Reply with READY."
+
+Authenticated database demo (no model request required):
+Copy the command in snippets/step-7-identity.txt.
+
+check_security.py builds/starts the containers and runs all security tests.
+It is safe to repeat; a failure returns a nonzero exit status. Host-file probes
+use temporary synthetic fixtures outside the workspace and clean them up.
+Only workspace/ is mounted as /workspace. Put required agent input files there.
+The workshop folder, unrelated host files, Docker/SSH sockets and host
+PID/IPC/UTS/network namespaces are not exposed to the agent.
+
+The OpenAI key is read from OPENAI_API_KEY, OPEN_AI_API, OPEN_AI_API_KEY or
+CODEX_API_KEY in the host environment or this folder's ignored .env file.
+Only model-proxy receives it. The agent does not mount .env or receive the
+OpenAI key; /run/agent/access.json contains a local proxy token and model name.
+Set OPENAI_MODEL on the host to change the allowed model (default gpt-6.1-sol),
+then rerun check_security.py. A matching --model argument is optional.
+
+The agent runs as 1001:1001 with all capabilities dropped, no new privileges,
+and privileged mode disabled. Its root filesystem, workspace and credential
+mount are read-only. /tmp and /home/agent are writable temporary mounts;
+their contents are discarded when the container is stopped or restarted.
+Write reports to /tmp, then retrieve them with docker compose cp if needed.
+The agent is only on internal agent_net, PostgreSQL only on internal db_net,
+and the gateway on both. The model proxy joins agent_net and outbound_net;
+only outbound_net has external access. No service publishes ports. Database credentials are
+available to the gateway through a read-only configuration volume; the agent
+uses GATEWAY_URL instead of DATABASE_URL. Health checks verify database readiness
+and the gateway's database connection. Direct database connections are blocked.
+
+The gateway uses gateway_reader, a non-superuser without role memberships or
+RLS bypass. Direct salary-table reads are revoked and the broad layer_direct
+policy is removed. The gateway can execute only lab_api.authenticate(text) and
+lab_api.salary_summary(text, integer). The open summary and row functions are
+revoked from the gateway. Authentication resolves a hashed, active, unexpired
+token to its database-stored actor and company. The salary function rejects
+another company and sets RLS context from that verified identity, overwriting
+caller-supplied session settings. X-Company-ID, X-User and X-Role grant no access.
+Only company_id, employee_count and average_salary_eur are returned. The summary
+function is owned by a separate NOLOGIN role
+subject to company-scoped RLS and limited to reading company_id and salary_eur.
+Public projects remain readable with a valid bearer token. /health remains
+unauthenticated; /me returns the verified database identity. Individual salary
+requests remain blocked with 403 for authenticated callers. A trusted gateway-security service
+applies these rules to existing data at startup without resetting fixtures.
+
+The agent receives a separate local gateway token in a read-only named volume
+at /run/identity/access.json. The raw token is not stored in the database; only
+its SHA-256 digest is stored. Setup issues company 1 membership for 24 hours and
+renews it when rerun. Invalid, expired and revoked credentials are denied.
+Small-group suppression is a separate exercise; this step preserves the existing
+summary format without adding a minimum employee count. Earlier step-5 and
+step-6 demo commands now fail as intended because their permissions were revoked
+or they omit the bearer token.
+
+The agent cannot connect directly to OpenAI. starter.py configures Codex to
+send Responses API requests through model-proxy; this service injects the real
+OpenAI key and forwards only to https://api.openai.com/v1/responses. Arbitrary
+proxying and hosted tools are blocked. It accepts at most 60 model requests per
+proxy process and caps output tokens at 4096 per request. Restarting the proxy
+resets that request counter.
+
+The repeatable test suite uses a fake model upstream; it makes no paid model
+requests. The starter.py READY example makes a real request through the proxy.

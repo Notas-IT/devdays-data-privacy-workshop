@@ -166,3 +166,7 @@ print(json.dumps({'health': healthy, 'unauthorized_status': unauthorized_status}
 '''))
         self.assertEqual(result, {'health': {'status': 'ok', 'configured': True},
                                   'unauthorized_status': 401})
+
+    def test_deployed_model_broker_policy_and_rejections(self):
+        result = self.compose('exec', '-T', 'agent', 'python', 'check_model_proxy.py')
+        self.assertIn('PASS: model broker checks passed; no paid model request was sent', result)

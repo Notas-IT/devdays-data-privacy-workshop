@@ -21,7 +21,7 @@ class GatewayPermissionsTest(unittest.TestCase):
         return self.compose('exec', '-T', 'agent', 'python', '-c',
             "import json; print(json.load(open('/run/identity/access.json'))['gateway_token'])").strip()
 
-    def query(self, sql, before=None, params=None):
+    def query(self, sql, before=None, params=None, read_only=True):
         return json.loads(self.compose('exec', '-T', 'gateway', 'python', '-c', '''
 import json, sys, psycopg
 from pathlib import Path
@@ -31,7 +31,8 @@ config = json.loads(Path('/run/gateway/connection.json').read_text())
 with psycopg.connect(**config, autocommit=True, row_factory=dict_row) as connection:
     try:
         with connection.transaction():
-            connection.execute('SET TRANSACTION READ ONLY')
+            if request['read_only']:
+                connection.execute('SET TRANSACTION READ ONLY')
             if request.get('before'):
                 connection.execute(request['before'])
             cursor = connection.execute(request['sql'], request.get('params'))
@@ -41,7 +42,7 @@ with psycopg.connect(**config, autocommit=True, row_factory=dict_row) as connect
     else:
         result = {'ok': True, 'rows': rows}
 print(json.dumps(result, default=str))
-''', input=json.dumps({'sql': sql, 'before': before, 'params': params})))
+''', input=json.dumps({'sql': sql, 'before': before, 'params': params, 'read_only': read_only})))
 
     def test_gateway_login_has_no_privileged_attributes(self):
         result = self.query('''SELECT current_user AS name, rolsuper, rolbypassrls,
@@ -147,6 +148,25 @@ print(json.dumps({'individual_status': individual_status, 'summary': summary}))
         self.assertEqual(result['sqlstate'], '42501')
         grant = self.query("SELECT has_function_privilege(current_user, 'lab_api.open_salary_summary(integer)', 'EXECUTE') AS allowed")
         self.assertEqual(grant, {'ok': True, 'rows': [{'allowed': False}]})
+
+    def test_audit_permissions_allow_insert_only(self):
+        result = self.query("""SELECT
+            has_table_privilege(current_user, 'lab_audit.events', 'INSERT') AS can_insert,
+            has_table_privilege(current_user, 'lab_audit.events', 'SELECT') AS can_select,
+            has_table_privilege(current_user, 'lab_audit.events', 'UPDATE') AS can_update,
+            has_table_privilege(current_user, 'lab_audit.events', 'DELETE') AS can_delete,
+            has_table_privilege(current_user, 'lab_audit.events', 'TRUNCATE') AS can_truncate""")
+        self.assertEqual(result, {'ok': True, 'rows': [{'can_insert': True,
+            'can_select': False, 'can_update': False, 'can_delete': False, 'can_truncate': False}]})
+        for statement in (
+            'SELECT * FROM lab_audit.events LIMIT 1',
+            "UPDATE lab_audit.events SET outcome='denied' WHERE false",
+            'DELETE FROM lab_audit.events WHERE false',
+        ):
+            with self.subTest(statement=statement):
+                denied = self.query(statement, read_only=False)
+                self.assertFalse(denied['ok'])
+                self.assertEqual(denied['sqlstate'], '42501')
 
     def test_authenticate_returns_only_verified_identity(self):
         result = self.query('SELECT * FROM lab_api.authenticate(%s)', params=[self.token()])

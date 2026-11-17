@@ -5,6 +5,15 @@ docker compose -f database-workshop/docker-compose.yml up -d --wait postgres
 docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/schema.sql
 docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/load_data.sql
 
+Company salary view example (company ID 1):
+docker compose -f database-workshop/docker-compose.yml exec -T -e PGPASSWORD=salary-viewer-demo postgres psql -h 127.0.0.1 -v ON_ERROR_STOP=1 -U salary_viewer -d privacy_workshop -f /workshop/example_company_salary.sql
+
+Salary permissions tests (connect as salary_viewer, not the setup administrator):
+python3 -m unittest discover -s database-workshop/tests -p test_direct_salary_records.py -v
+
+Row-security policy checks (the administrator switches to the view-owner role):
+docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -X -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/test_salary_row_security.sql
+
 Log-detection environment and acceptance tests:
 docker compose -f presidio-workshop/docker-compose.yml build presidio
 docker compose -f presidio-workshop/docker-compose.yml run --rm presidio
@@ -18,7 +27,13 @@ docker compose -f schema-refresh-workshop/docker-compose.yml build refresh-runne
 docker compose -f schema-refresh-workshop/docker-compose.yml run --rm refresh-runner python seed.py
 
 Agent-security baseline:
-docker compose -f agent-security-workshop/docker-compose.yml up -d --build --wait
+python3 agent-security-workshop/check_security.py
+For the authenticated gateway demo, use agent-security-workshop/snippets/step-7-identity.txt.
 
-Exercise entry points are unfinished. Custom detection tests will fail until
-implemented. Setup loads synthetic fixtures only; no exercise solutions run.
+Exercise entry points marked NotImplementedError are unfinished. Custom
+detection tests will fail until implemented. Database setup loads synthetic
+fixtures, installs the company salary view and grants salary_viewer access to
+that view only. Row policies scope the view owner's company and salary reads
+to app.company_id. Trusted application code must set this value from verified
+membership; setting it yourself does not prove membership. The workshop
+administrator retains direct access for setup.

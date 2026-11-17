@@ -140,3 +140,23 @@ GRANT SELECT ON lab_public.projects TO gateway_reader;
 GRANT EXECUTE ON FUNCTION lab_api.authenticate(text) TO lab_summary;
 GRANT EXECUTE ON FUNCTION lab_api.authenticate(text),
     lab_api.salary_summary(text, integer) TO gateway_reader;
+
+CREATE SCHEMA IF NOT EXISTS lab_audit;
+REVOKE ALL ON SCHEMA lab_audit FROM PUBLIC, gateway_reader;
+CREATE TABLE IF NOT EXISTS lab_audit.events (
+    event_id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    occurred_at timestamptz NOT NULL DEFAULT clock_timestamp(),
+    request_id uuid NOT NULL UNIQUE,
+    actor text,
+    action text NOT NULL,
+    company_id integer,
+    status integer NOT NULL,
+    outcome text NOT NULL CHECK (outcome IN ('allowed', 'denied', 'failed'))
+);
+REVOKE ALL ON lab_audit.events FROM PUBLIC, gateway_reader;
+REVOKE ALL (event_id, occurred_at, request_id, actor, action, company_id, status, outcome)
+    ON lab_audit.events FROM PUBLIC, gateway_reader;
+GRANT USAGE ON SCHEMA lab_audit TO gateway_reader;
+GRANT INSERT ON lab_audit.events TO gateway_reader;
+REVOKE ALL ON SEQUENCE lab_audit.events_event_id_seq FROM PUBLIC, gateway_reader;
+GRANT USAGE ON SEQUENCE lab_audit.events_event_id_seq TO gateway_reader;

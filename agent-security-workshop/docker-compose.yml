@@ -108,6 +108,7 @@ services:
       MODEL_REQUEST_LIMIT: "60"
     volumes:
       - model_proxy_config:/run/broker:ro
+      - model_usage:/state
     networks: [agent_net, outbound_net]
     depends_on:
       model-config:
@@ -159,3 +160,4 @@ volumes:
   model_proxy_config:
   agent_config:
   agent_identity:
+  model_usage:

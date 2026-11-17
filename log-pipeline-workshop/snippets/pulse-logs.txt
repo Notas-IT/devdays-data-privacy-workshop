@@ -1,0 +1,16 @@
+Run from the repository root to print fresh logs every 2 seconds:
+
+  sh log-pipeline-workshop/snippets/pulse-logs.sh
+
+Change the interval, for example to 5 seconds:
+
+  sh log-pipeline-workshop/snippets/pulse-logs.sh 5
+
+Starts/builds the HR and billing apps, then follows their live console logs.
+Each app writes one new event per interval to its raw log file and console.
+These are the raw application logs, before any student processing.
+Ctrl+C stops watching; the apps keep producing logs in the background.
+
+Stop both apps:
+
+  docker compose -f log-pipeline-workshop/docker-compose.yml stop app-hr app-billing

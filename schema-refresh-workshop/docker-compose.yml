@@ -45,9 +45,12 @@ services:
       SOURCE_DSN: postgresql://production_reader:reader-demo@refresh-prod:5432/production
       SOURCE_ADMIN_DSN: postgresql://production_admin:production-demo@refresh-prod:5432/production
       TARGET_DSN: postgresql://preprod_admin:preprod-demo@refresh-preprod:5432/preprod
+      PSEUDO_PROD_DSN: postgresql://preprod_admin:preprod-demo@refresh-preprod:5432/pseudo-prod
     volumes:
       - .:/app
+      - pseudonym_keys:/keys
 
 volumes:
   refresh_production:
   refresh_preproduction:
+  pseudonym_keys:

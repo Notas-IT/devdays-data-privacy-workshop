@@ -15,14 +15,20 @@ PEOPLE = [
 def event(service: str, sequence: int) -> dict:
     person = PEOPLE[sequence % len(PEOPLE)]
     event_name = "salary_export" if service == "hr" else "invoice_created"
+    # Every fifth event changes format so students can see the Presidio fallback.
+    message = (
+        f"Support note: contact {person['employee_name']} at {person['email']}; "
+        f"phone {person['phone']}; delivery {person['address']}; "
+        f"national ID {person['national_id']}; amount {person['salary_eur']} EUR"
+    ) if sequence % 5 == 4 else (
+        f"Anketa: darbuotojas={person['employee_name']}; "
+        f"asmens_kodas={person['national_id']}; "
+        f"telefonas={person['phone']}; adresas={person['address']}; "
+        f"el_pastas: {person['email']}; atlyginimas={person['salary_eur']} EUR; būsena=gerai"
+    )
     return {
         "level": "INFO", "event": event_name, "sequence": sequence,
-        "message": (
-            f"Anketa: darbuotojas={person['employee_name']}; "
-            f"asmens_kodas={person['national_id']}; "
-            f"telefonas={person['phone']}; adresas={person['address']}; "
-            f"el_pastas: {person['email']}; atlyginimas={person['salary_eur']} EUR; būsena=gerai"
-        ),
+        "message": message,
         **person,
         "debug": {"customer": {"email": person["email"]}},
         "labels": {"employee": person["employee_name"]},

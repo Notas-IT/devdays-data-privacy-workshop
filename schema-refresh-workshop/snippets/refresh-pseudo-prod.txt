@@ -1,0 +1,27 @@
+Run from the repository root:
+
+  sh schema-refresh-workshop/snippets/refresh-pseudo-prod.sh
+
+Compares all non-system table names, column names and types, alphabetically.
+If different: exit 2, save artifacts/refresh/schema.diff, leave pseudo-prod unchanged.
+If equal: clone into a private staging database, apply existing HMAC identifier
+tokens and fixed name/date/salary/profit replacements, validate, then atomically
+replace pseudo-prod. Other failures exit 1; success exits 0.
+
+Requires an existing pseudo-prod and the persistent /keys/pseudo-prod.hmac key
+from the identifier-tokenisation step. Reuses that key on every refresh.
+No provider credentials or personal row values are printed.
+Active connections can prevent replacement; they are not forcibly disconnected.
+
+This compares table/column/type descriptions, not every PostgreSQL object or
+constraint. Anonymisation uses the existing workshop field rules; review those
+rules when adding sensitive columns. HMAC tokens are pseudonyms, not proof of
+irreversible anonymisation.
+
+The current added address column deliberately causes a mismatch. Review and
+align schemas separately before a refresh; this script never changes schemas
+to bypass the comparison.
+
+Repeatable tests (only disposable test databases are rebuilt):
+
+  docker compose -f schema-refresh-workshop/docker-compose.yml run --rm refresh-runner python -m unittest discover -s tests -v

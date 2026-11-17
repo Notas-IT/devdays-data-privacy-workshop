@@ -1,0 +1,1 @@
+ALTER TABLE business.people ADD COLUMN IF NOT EXISTS address TEXT;

@@ -1,0 +1,29 @@
+Run from schema-refresh-workshop after cloning production to pseudo-prod:
+
+./snippets/tokenize-identifiers.sh
+
+Verify only, without updating data:
+
+docker compose run --rm refresh-runner python tokenize_pseudo_prod.py verify
+
+Run tests:
+
+docker compose run --rm refresh-runner python -m unittest discover -s tests -p test_tokenization.py -v
+
+Email and national-ID text columns and matching fields nested in JSON are
+tokenized with HMAC-SHA256. Shared email tokens preserve the employment join.
+Nullable fields remain nullable. The method commits both sides together and
+restores the original foreign-key settings. Reruns with the same key are stable.
+
+Verification recomputes HMACs from the read-only source and compares each target
+value; a matching prefix alone does not count. It reports non_keyed_values=0
+and orphaned_employment_links=0 on success and exits nonzero on failure.
+
+The random 32-byte key is stored with mode 0600 in the separate pseudonym_keys
+Docker volume, never in source control, the database, or printed output.
+Keep this volume to preserve stable tokens. A different key is rejected when
+the existing target values no longer match the raw source or that key.
+
+The original production database is read-only to this method. Other personal
+fields (such as names and phone numbers) are unchanged; these tokens provide
+pseudonymization, not proof of anonymity.

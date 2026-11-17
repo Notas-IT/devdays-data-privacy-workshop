@@ -1,0 +1,22 @@
+Run from schema-refresh-workshop after the identifier-tokenization step:
+
+./snippets/mask-pseudo-prod.sh
+
+The mask_pseudo_prod(target) method in mask_pseudo_prod.py replaces:
+business.people.first_name: Person anonymous
+business.people.last_name: Person anonymous
+business.companies.company_name: Person anonymous
+business.people.birth_date: 2020-01-01
+business.employment.salary_eur: 3500
+business.companies.annual_profit_eur: 0
+
+All replacements commit together and only the pseudo-prod database is accepted.
+IDs, HMAC email/national-ID tokens and relationships are preserved. Reruns make
+no further updates when all values already match. Production is unchanged.
+
+Verify without updating:
+
+docker compose run --rm refresh-runner python mask_pseudo_prod.py verify
+
+Expected total_unmasked_values=0 and both orphaned-link counts=0.
+The main snippet also runs all masking and HMAC tests.

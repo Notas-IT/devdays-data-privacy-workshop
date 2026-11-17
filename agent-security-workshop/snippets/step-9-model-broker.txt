@@ -1,0 +1,27 @@
+Run from agent-security-workshop.
+
+1. Check the running service without spending model tokens:
+
+docker compose exec agent python check_model_proxy.py
+
+This checks credential separation, the fixed Responses endpoint and model,
+persistent request accounting, the 4096-token output cap, and rejection of
+missing authentication, other models/endpoints, hosted tools, malformed limits
+and background requests. These probes never reach OpenAI.
+
+2. Test rejection at the request cap with a fake upstream:
+
+python3 -m unittest discover -s tests -p test_model_proxy.py -v
+
+Includes 429 enforcement, concurrent requests, durable usage across broker
+instances, accounting failure, header ambiguity and sanitized provider errors.
+The original broker tests remain enforced. No API credentials are needed for
+these unit tests, and no paid requests are made.
+
+3. Optional real model request (consumes the persistent request budget):
+
+docker compose exec agent python starter.py "Do not use tools. Reply with exactly READY."
+
+The real OpenAI key stays in model-proxy. The agent receives only a separate
+local proxy token through a read-only volume. Restarting model-proxy no longer
+resets its 60-request budget. Failed upstream attempts consume a slot too.

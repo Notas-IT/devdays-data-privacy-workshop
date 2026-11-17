@@ -3,6 +3,15 @@ From this folder:
 python3 check_security.py
 docker compose exec agent python starter.py "Reply with READY."
 
+Live data-query and audit demo: see snippets/step-8-audit.txt.
+The agent can use python3 client.py /me and
+python3 client.py /companies/1/salary-summary without printing its token.
+
+Check broker enforcement without making a paid model request:
+docker compose exec agent python check_model_proxy.py
+Broker-only fake-upstream tests (including 429 and durable/concurrent limits):
+python3 -m unittest discover -s tests -p test_model_proxy.py -v
+
 Authenticated database demo (no model request required):
 Copy the command in snippets/step-7-identity.txt.
 
@@ -61,8 +70,29 @@ The agent cannot connect directly to OpenAI. starter.py configures Codex to
 send Responses API requests through model-proxy; this service injects the real
 OpenAI key and forwards only to https://api.openai.com/v1/responses. Arbitrary
 proxying and hosted tools are blocked. It accepts at most 60 model requests per
-proxy process and caps output tokens at 4096 per request. Restarting the proxy
-resets that request counter.
+budget volume and caps output tokens at 4096 per request. Request bodies are
+limited to 2,000,000 bytes. The atomic SQLite counter in model_usage is reserved
+before forwarding and survives restarts/recreates; upstream failures still count.
+An unreadable usage store returns 503 without forwarding; exhaustion returns 429.
+Rejected requests do not consume the budget. The agent cannot mount or reset
+this state. Only the trusted operator can change limits or replace the volume.
+These are request/output caps, not a guaranteed currency spending limit.
+
+The authenticated local /policy endpoint exposes the pinned model, destination,
+caps and usage counts without credentials. Duplicate/ambiguous headers, nonfinite
+or noninteger token limits, compressed requests, background execution, hosted
+tools and general proxying are rejected. Provider redirects are disabled and
+environment proxy settings are ignored; the key is injected only for the fixed
+OpenAI Responses endpoint. Error bodies from the provider are not forwarded.
 
 The repeatable test suite uses a fake model upstream; it makes no paid model
 requests. The starter.py READY example makes a real request through the proxy.
+
+The gateway has INSERT-only access to lab_audit.events, without SELECT, UPDATE,
+DELETE or TRUNCATE. Every business response waits for the audit transaction to
+commit; insert or commit failures replace the response with HTTP 503 and no
+protected data. Allowed requests, denied requests and failed authentication are
+audited using the database-verified actor, action, requested company and outcome.
+X-Request-ID links each response to its committed event. Health checks are not
+audited. No prompts, tokens, identity headers or salary values are stored in the
+audit rows. Use the trusted host administrator to read the audit table.

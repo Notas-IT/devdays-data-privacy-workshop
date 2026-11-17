@@ -1,0 +1,38 @@
+From the repository root:
+
+  sh log-pipeline-workshop/snippets/process-logs.sh
+
+Fluent Bit tails both raw log volumes, with persistent file offsets.
+The regex parser recognises the full known Lithuanian message format.
+Lua emits only approved operational metadata for this fast path.
+Unknown formats are sent over private HTTP to log-presidio, which uses
+Presidio's NLP/recognisers plus Lithuanian ID, phone and amount patterns.
+The fallback retains whole-message redaction and omits unknown payload fields;
+detector misses must not expose text. Detection counts/types remain visible.
+Every fifth generated event uses the unknown format to exercise this route.
+
+Sanitised output is printed by processor (regex) and log-presidio (fallback).
+No host ports are published. If Presidio is unavailable, Fluent Bit retries
+instead of printing the raw fallback. Its private state volume contains raw
+pending records; treat it as sensitive. Delivery is at least once, so retries
+can produce duplicates; storage limits can cause drops during a long outage.
+
+The processor service now runs continuously in Fluent Bit. starter.py remains
+as a Python reference implementation, but is no longer the processor command.
+
+Watch raw logs separately:
+
+  sh log-pipeline-workshop/snippets/pulse-logs.sh 2
+
+Stop the current pipeline without removing log volumes:
+
+  docker compose -f log-pipeline-workshop/docker-compose.yml --profile pipeline stop
+
+Unit tests:
+
+  docker compose -f log-pipeline-workshop/docker-compose.yml run --rm --no-deps log-presidio python -m unittest discover -s /pipeline/tests -v
+
+Repeatable integration checks (Docker required; creates and removes a separate
+test project and its own disposable log/state volumes):
+
+  python3 log-pipeline-workshop/tests/check_pipeline.py

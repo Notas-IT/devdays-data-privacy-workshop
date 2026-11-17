@@ -12,6 +12,7 @@ services:
     profiles: ["pipeline"]
     environment:
       APP_SERVICE: hr
+      LOG_INTERVAL_SECONDS: ${LOG_INTERVAL_SECONDS:-2}
     volumes:
       - hr_raw:/raw
 
@@ -20,18 +21,39 @@ services:
     profiles: ["pipeline"]
     environment:
       APP_SERVICE: billing
+      LOG_INTERVAL_SECONDS: ${LOG_INTERVAL_SECONDS:-2}
     volumes:
       - billing_raw:/raw
 
   processor:
-    <<: *runtime
-    profiles: ["exercise"]
-    command: ["python", "starter.py"]
+    image: fluent/fluent-bit:5.1.4
+    profiles: ["pipeline", "exercise"]
+    command: ["-c", "/pipeline/fluent-bit.conf"]
+    depends_on:
+      log-presidio:
+        condition: service_healthy
     volumes:
       - hr_raw:/raw/hr:ro
       - billing_raw:/raw/billing:ro
-      - .:/app
+      - ./fluentbit:/pipeline:ro
+      - processor_state:/buffers
+
+  log-presidio:
+    image: devdays-data-privacy-workshop-presidio
+    profiles: ["pipeline", "exercise"]
+    build:
+      context: ../presidio-workshop
+    command: ["python", "/pipeline/presidio_server.py"]
+    volumes:
+      - .:/pipeline:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "from urllib.request import urlopen; urlopen('http://localhost:8080/health', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 24
+      start_period: 30s
 
 volumes:
   hr_raw:
   billing_raw:
+  processor_state:

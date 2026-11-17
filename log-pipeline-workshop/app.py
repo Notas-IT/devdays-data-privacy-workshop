@@ -1,6 +1,7 @@
 """Simulated pod: append raw JSON logs to its volume and its stdout."""
 
 import json
+import math
 import os
 from pathlib import Path
 import signal
@@ -15,6 +16,9 @@ def main():
     service = os.environ.get("APP_SERVICE", "hr")
     if service not in {"hr", "billing"}:
         raise ValueError("Unknown simulated application")
+    interval = float(os.environ.get("LOG_INTERVAL_SECONDS", "2"))
+    if not math.isfinite(interval) or interval <= 0:
+        raise ValueError("LOG_INTERVAL_SECONDS must be a positive number")
     directory = Path("/raw")
     directory.mkdir(parents=True, exist_ok=True)
     sequence = 0
@@ -24,7 +28,7 @@ def main():
             output.write(line + "\n")
             print(line, flush=True)
             sequence += 1
-            stopped.wait(2)
+            stopped.wait(interval)
 
 
 if __name__ == "__main__":

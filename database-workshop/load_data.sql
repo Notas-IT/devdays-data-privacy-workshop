@@ -10,3 +10,7 @@
 \copy public_db.professional_profile FROM '/workshop/generated/public_professional_profile.csv' WITH (FORMAT csv, HEADER true);
 \copy public_db.procurement_award FROM '/workshop/generated/public_procurement_award.csv' WITH (FORMAT csv, HEADER true);
 
+\ir company_salary_view.sql
+\ir salary_view_access.sql
+\ir salary_row_security.sql
+

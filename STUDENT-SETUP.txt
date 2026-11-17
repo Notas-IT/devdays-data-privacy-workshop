@@ -1,39 +1,48 @@
-Run commands from the repository root. Requires Python 3 and Docker Compose.
+STUDENT WORKSHOP
+
+Run commands from the repository root. Requires Docker Compose and Python 3.
+The teacher branch contains the completed implementations.
 
 Database fixtures:
 docker compose -f database-workshop/docker-compose.yml up -d --wait postgres
 docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/schema.sql
 docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/load_data.sql
 
-Company salary view example (company ID 1):
-docker compose -f database-workshop/docker-compose.yml exec -T -e PGPASSWORD=salary-viewer-demo postgres psql -h 127.0.0.1 -v ON_ERROR_STOP=1 -U salary_viewer -d privacy_workshop -f /workshop/example_company_salary.sql
+The administrator is provided for setup. Students must implement restricted
+users, views, grants, row policies, and tests during the database exercises.
 
-Salary permissions tests (connect as salary_viewer, not the setup administrator):
-python3 -m unittest discover -s database-workshop/tests -p test_direct_salary_records.py -v
-
-Row-security policy checks (the administrator switches to the view-owner role):
-docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -X -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/test_salary_row_security.sql
-
-Log-detection environment and acceptance tests:
+Presidio baseline and acceptance tests:
 docker compose -f presidio-workshop/docker-compose.yml build presidio
 docker compose -f presidio-workshop/docker-compose.yml run --rm presidio
+Custom detection is intentionally unfinished; implement it to pass the tests.
 
 Raw log sources:
-docker compose -f log-pipeline-workshop/docker-compose.yml --profile pipeline up -d --build
+sh log-pipeline-workshop/snippets/pulse-logs.sh
 
-Schema-refresh source and target databases:
-docker compose -f schema-refresh-workshop/docker-compose.yml --profile refresh up -d --wait
-docker compose -f schema-refresh-workshop/docker-compose.yml build refresh-runner
+First log-processing exercise:
+docker compose -f log-pipeline-workshop/docker-compose.yml run --rm processor
+This intentionally raises NotImplementedError until starter.py is implemented.
+Implement and test batch sanitisation, then add Fluent Bit and Presidio services.
+The process-logs snippets describe the later pipeline, not the starting state.
+
+Schema-refresh databases:
+sh schema-refresh-workshop/snippets/check-startup.sh
 docker compose -f schema-refresh-workshop/docker-compose.yml run --rm refresh-runner python seed.py
+bash schema-refresh-workshop/snippets/clone-pseudo-prod.sh
+
+Implement identifier tokenisation, masking, schema description/comparison,
+linkage checks, refresh orchestration, and their tests. The preserved snippets
+show the expected commands and interfaces; exercise commands require the
+corresponding student-created files. starter.py is intentionally unfinished.
+The initial clone copies raw synthetic fixtures; it does not sanitise them.
 
 Agent-security baseline:
-python3 agent-security-workshop/check_security.py
-For the authenticated gateway demo, use agent-security-workshop/snippets/step-7-identity.txt.
+docker compose -f agent-security-workshop/docker-compose.yml up -d --build --wait
 
-Exercise entry points marked NotImplementedError are unfinished. Custom
-detection tests will fail until implemented. Database setup loads synthetic
-fixtures, installs the company salary view and grants salary_viewer access to
-that view only. Row policies scope the view owner's company and salary reads
-to app.company_id. Trusted application code must set this value from verified
-membership; setting it yourself does not prove membership. The workshop
-administrator retains direct access for setup.
+This is an intentionally unrestricted lab baseline. Students implement process,
+filesystem, host and network restrictions, a gateway, restricted database
+access, aggregates, authentication, audit logging, and a model proxy.
+The baseline agent image provides Python and a PostgreSQL driver only; install
+the selected agent CLI as part of the exercise. Use synthetic lab data only.
+
+No agent instruction files or completed security implementations are supplied.

@@ -7,6 +7,8 @@ services:
       POSTGRES_DB: agent_lab
       POSTGRES_USER: lab_admin
       POSTGRES_PASSWORD: student-demo
+    ports:
+      - "127.0.0.1:15434:5432"
     volumes:
       - student_agent_data:/var/lib/postgresql/data
       - ./schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
@@ -15,149 +17,18 @@ services:
       interval: 2s
       timeout: 3s
       retries: 15
-    networks: [db_net]
-
-  gateway-config:
-    image: devdays-agent-gateway
-    build:
-      context: ./gateway
-    command: ["python", "write_config.py"]
-    user: "0:0"
-    read_only: true
-    cap_drop: [ALL]
-    security_opt: ["no-new-privileges:true"]
-    network_mode: none
-    volumes:
-      - gateway_config:/config
-      - agent_identity:/identity-config
-
-  gateway-security:
-    image: devdays-agent-gateway
-    build:
-      context: ./gateway
-    command: ["python", "apply_security.py"]
-    user: "1002:1002"
-    read_only: true
-    cap_drop: [ALL]
-    security_opt: ["no-new-privileges:true"]
-    environment:
-      ADMIN_DSN: postgresql://lab_admin:student-demo@db:5432/agent_lab
-    volumes:
-      - gateway_config:/run/gateway:ro
-      - agent_identity:/run/identity:ro
-    networks: [db_net]
-    depends_on:
-      gateway-config:
-        condition: service_completed_successfully
-      db:
-        condition: service_healthy
-
-  gateway:
-    image: devdays-agent-gateway
-    build:
-      context: ./gateway
-    user: "1002:1002"
-    read_only: true
-    cap_drop: [ALL]
-    security_opt: ["no-new-privileges:true"]
-    privileged: false
-    volumes:
-      - gateway_config:/run/gateway:ro
-    networks: [agent_net, db_net]
-    depends_on:
-      gateway-config:
-        condition: service_completed_successfully
-      gateway-security:
-        condition: service_completed_successfully
-      db:
-        condition: service_healthy
-    healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=2)"]
-      interval: 2s
-      timeout: 3s
-      retries: 15
-
-  model-config:
-    image: devdays-agent-model-proxy
-    build:
-      context: ./model-broker
-    command: ["python", "write_config.py"]
-    user: "0:0"
-    read_only: true
-    cap_drop: [ALL]
-    security_opt: ["no-new-privileges:true"]
-    network_mode: none
-    environment:
-      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-6.1-sol}
-    volumes:
-      - model_proxy_config:/broker-config
-      - agent_config:/agent-config
-
-  model-proxy:
-    image: devdays-agent-model-proxy
-    build:
-      context: ./model-broker
-    user: "10003:10003"
-    read_only: true
-    cap_drop: [ALL]
-    security_opt: ["no-new-privileges:true"]
-    privileged: false
-    environment:
-      OPENAI_API_KEY: ${OPENAI_API_KEY:-${OPEN_AI_API:-${OPEN_AI_API_KEY:-${CODEX_API_KEY:-}}}}
-      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-6.1-sol}
-      MODEL_REQUEST_LIMIT: "60"
-    volumes:
-      - model_proxy_config:/run/broker:ro
-      - model_usage:/state
-    networks: [agent_net, outbound_net]
-    depends_on:
-      model-config:
-        condition: service_completed_successfully
-    healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8081/health', timeout=2)"]
-      interval: 2s
-      timeout: 3s
-      retries: 15
 
   agent:
     image: devdays-agent-student
     build:
       context: .
-    user: "1001:1001"
-    cap_drop: [ALL]
-    security_opt: ["no-new-privileges:true"]
-    privileged: false
-    read_only: true
-    ipc: private
-    tmpfs:
-      - /tmp:rw,nosuid,nodev,size=128m,mode=1777
-      - /home/agent:rw,nosuid,nodev,size=128m,uid=1001,gid=1001,mode=700
     environment:
-      GATEWAY_URL: http://gateway:8000
-      MODEL_PROXY_URL: http://model-proxy:8081
+      DATABASE_URL: postgresql://lab_admin:student-demo@db:5432/agent_lab
     volumes:
-      - ./workspace:/workspace:ro
-      - agent_config:/run/agent:ro
-      - agent_identity:/run/identity:ro
+      - .:/workspace
     depends_on:
-      gateway:
+      db:
         condition: service_healthy
-      model-proxy:
-        condition: service_healthy
-    networks: [agent_net]
-
-networks:
-  agent_net:
-    internal: true
-  db_net:
-    internal: true
-  outbound_net:
-    internal: false
 
 volumes:
   student_agent_data:
-  gateway_config:
-  model_proxy_config:
-  agent_config:
-  agent_identity:
-  model_usage:

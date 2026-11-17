@@ -1,7 +1,0 @@
-*
-!Dockerfile
-!gateway.py
-!write_config.py
-!apply_security.py
-!security.sql
-!test_audit_commit.py

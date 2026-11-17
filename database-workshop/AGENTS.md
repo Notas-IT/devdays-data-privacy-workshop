@@ -1,1 +1,0 @@
-I work only at Daukantas Energy UAB. Only retrieve salary information for this company.

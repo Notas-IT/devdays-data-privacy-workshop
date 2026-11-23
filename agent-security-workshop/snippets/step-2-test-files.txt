@@ -1,0 +1,11 @@
+docker compose exec agent python -c '
+from pathlib import Path
+for folder in ["/workspace", "/tmp", "/home/agent"]:
+    path = Path(folder) / "write-demo.txt"
+    try:
+        path.write_text("Workshop test")
+        print(f"{folder}: write succeeded")
+        path.unlink()
+    except OSError as error:
+        print(f"{folder}: write blocked — {error.strerror}")
+'

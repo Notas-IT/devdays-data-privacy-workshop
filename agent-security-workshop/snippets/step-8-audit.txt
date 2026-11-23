@@ -1,0 +1,34 @@
+Run from agent-security-workshop.
+
+1. Start services and run all repeatable security tests:
+
+python3 check_security.py
+
+The audit-failure test temporarily revokes gateway INSERT, checks for HTTP 503
+without data, and restores the original permission in a finally block. Separate
+handler tests verify commit ordering and withhold data on a commit failure.
+
+2. Ask the live model to query allowed data and demonstrate a denied request:
+
+docker compose exec agent python starter.py "Use only python3 client.py to call /me, /companies/1/salary-summary and /companies/2/salary-summary. The final 403 is expected; do not retry it. Report the results and request IDs. Do not inspect credential files or print tokens or environment values."
+
+3. Inspect recent database audit records as the trusted host administrator:
+
+docker compose exec db psql -X -U lab_admin -d agent_lab -c "SELECT occurred_at, actor, action, company_id, status, outcome, request_id FROM lab_audit.events ORDER BY event_id DESC LIMIT 15;"
+
+Match request_id with the client/model output. Expected model requests:
+identity for company 1: 200 allowed;
+salary_summary for company 1: 200 allowed;
+salary_summary for company 2: 403 denied.
+
+4. Inspect the gateway's append-only audit privileges:
+
+docker compose exec db psql -X -U lab_admin -d agent_lab -c "SELECT has_table_privilege('gateway_reader', 'lab_audit.events', 'INSERT') AS can_insert, has_table_privilege('gateway_reader', 'lab_audit.events', 'UPDATE') AS can_update, has_table_privilege('gateway_reader', 'lab_audit.events', 'DELETE') AS can_delete;"
+
+Expected: can_insert=t, can_update=f, can_delete=f.
+
+Audit rows record gateway access metadata, not prompts, tokens, headers or
+salary values. Health checks are excluded. Tests also generate audit events;
+use request IDs to distinguish the live model's requests. If the audit insert
+or commit fails, no protected data is sent and the gateway emits only a generic
+failure message with request_id in docker compose logs gateway.

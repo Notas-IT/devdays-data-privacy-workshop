@@ -12,11 +12,17 @@ services:
     volumes:
       - .:/workshop
       - postgres_data:/var/lib/postgresql/data
+      # Runs only when the data volume is empty (first start or after `down -v`).
+      - ./schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./load_data.sql:/docker-entrypoint-initdb.d/02-load_data.sql:ro
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U workshop -d privacy_workshop"]
+      # Check over TCP: during the initial load Postgres listens only on its
+      # local socket, so this stays unhealthy until the data is in.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U workshop -d privacy_workshop"]
       interval: 3s
       timeout: 3s
       retries: 10
+      start_period: 180s
 
 volumes:
   postgres_data:

@@ -5,8 +5,12 @@ The teacher branch contains the completed implementations.
 
 Database fixtures:
 docker compose -f database-workshop/docker-compose.yml up -d --wait postgres
-docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/schema.sql
-docker compose -f database-workshop/docker-compose.yml exec -T postgres psql -v ON_ERROR_STOP=1 -U workshop -d privacy_workshop -f /workshop/load_data.sql
+
+On first start (empty data volume) Postgres creates the schema and loads the
+fixtures automatically; --wait returns once the data is in. An existing volume
+keeps its data and is not reloaded. To start over from the fixtures:
+docker compose -f database-workshop/docker-compose.yml down -v
+docker compose -f database-workshop/docker-compose.yml up -d --wait postgres
 
 The administrator is provided for setup. Students must implement restricted
 users, views, grants, row policies, and tests during the database exercises.
